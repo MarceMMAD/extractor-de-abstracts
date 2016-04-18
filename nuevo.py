@@ -34,7 +34,7 @@ def write_csv_acm(abstracts):
 	i = 0
 	for row in reader:
   		#if row[8] == 'URL':
-		new_row = [row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7], row[8], row[9], row[9], row[10], row[11], row[12], row[13], row[14], row[15], row[16], row[17], row[18], row[19], row[20], row[21], row[22], row[23], row[24],  row[25], row[26], abstracts[i].encode("utf-8")]
+		new_row = [row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7], row[8], row[9], row[10], row[11], row[12], row[13], row[14], row[15], row[16], row[17], row[18], row[19], row[20], row[21], row[22], row[23], row[24],  row[25], row[26], abstracts[i].encode("utf-8")]
 		new_rows_list.append(new_row)
 		i = i + 1
 		if i > 4:
@@ -68,6 +68,26 @@ def get_abstract_springer(url):
 	else:
 		print ("Status Code %d") %statusCode
 
+def write_csv_springer(abstracts):
+	file1 = open("SearchResults.csv", "rb")
+	reader = csv.reader(file1)
+	new_rows_list = []
+	i = 0
+	for row in reader:
+  		#if row[8] == 'URL':
+		new_row = [row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7], row[8], row[9], abstracts[i].encode("utf-8")]
+		new_rows_list.append(new_row)
+		i = i + 1
+		if i > 4:
+			break
+	file1.close()   # <---IMPORTANT
+
+	# Do the writing
+	file2 = open("springer2.csv", "wb")
+	writer = csv.writer(file2)
+	writer.writerows(new_rows_list)
+	file2.close()
+
 # =========================================================================================
 # ACM 
 acm_abstracts = ["abstract"]
@@ -84,5 +104,19 @@ with open('acm.csv') as csvfile:
 			break
 write_csv_acm(acm_abstracts)
 
-
+# =========================================================================================
+# SPRINGER
+springer_abstract = ["Abstract"]
+with open('SearchResults.csv') as csvfile:
+	reader = csv.DictReader(csvfile)
+	i = 0
+	for row in reader:
+		# print(row['id'], row['author'])
+		abstract = get_abstract_acm(row["URL"])
+		# print row["id"] + " =" + abstract.encode("ascii") + "\n\n\n"
+		acm_abstracts.append(abstract)
+		i = i +1
+		if i > 4:
+			break
+write_csv_springer(springer_abstract)
 
