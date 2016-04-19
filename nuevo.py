@@ -118,7 +118,7 @@ with open('SearchResults.csv') as csvfile:
 		# print(row['id'], row['author'])
 		abstract = get_abstract_springer(row["URL"])
 		# print row["id"] + " =" + abstract.encode("ascii") + "\n\n\n"
-		acm_abstracts.append(abstract)
+		springer_abstract.append(abstract)
 		i = i +1
 		if i > 4:
 			break
