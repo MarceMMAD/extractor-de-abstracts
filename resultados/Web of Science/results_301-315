@@ -1,0 +1,4471 @@
+<!--   begin: base_url.jsp -->
+<!--     end: base_url.jsp -->
+<!--   begin: essential_data.jsp -->
+<!--     end: essential_data.jsp  -->
+<!-- begin: state_data -->
+<!-- end: state_data  -->
+<!--   begin: locale.jsp -->
+<!--     end: locale.jsp  -->
+<!--   begin: resource_urls.jsp -->
+<!--     end: resource_urls.jsp -->
+<!--   begin: view_data.jsp -->
+<!-- collectionViewName 02: UA-- -->
+<!-- collectionViewName 03: UA- -->
+<!-- collectionViewName 04: UA- -->
+<!-- collectionViewName 05: UA-- -->
+<!--     end: view_data.jsp -->
+<!--   begin: SCV/jsp/pcs_urls.jsp -->
+<!--     end: SCV/jsp/pcs_urls.jsp-->
+<html><head>
+	
+
+
+<!-- begin: wok_header.jsp -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+<!--   begin: base_url.jsp -->
+
+
+
+
+
+
+
+    
+        
+    
+    
+
+<!--     end: base_url.jsp -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+<!--   begin: essential_data.jsp -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+<!--     end: essential_data.jsp  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+<!-- begin: state_data -->
+
+
+	
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+<!-- end: state_data  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+<!--   begin: locale.jsp -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  	
+  	
+  	
+  
+
+
+
+
+
+
+<!--     end: locale.jsp  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+<!--   begin: resource_urls.jsp -->
+
+
+
+	
+	
+		
+		
+				
+	
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+<!--     end: resource_urls.jsp -->
+
+
+
+
+
+<!--   begin: view_data.jsp -->
+
+
+
+
+
+    
+    
+    
+        
+        
+        
+        <!-- collectionViewName 02: UA-- -->
+        
+            
+        	
+            <!-- collectionViewName 03: UA- -->
+        
+        
+            
+        	
+           <!-- collectionViewName 04: UA- -->
+        
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	    
+	
+	
+    
+
+
+
+
+    
+
+
+
+
+    
+	
+    <!-- collectionViewName 05: UA-- -->
+        
+
+<!--     end: view_data.jsp -->
+
+
+
+
+<!--   begin: SCV/jsp/pcs_urls.jsp -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+       
+	
+       
+		
+		
+		
+		
+			
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+       
+			
+		
+	
+       
+		
+		
+		
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+       
+	
+       
+		
+			
+			
+		
+		
+		
+				
+	
+       
+	
+       
+		
+		
+			
+		
+		
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+       
+	
+       
+			
+		
+		
+		
+		
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+
+
+
+
+    
+    
+        
+    
+
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+<!--     end: SCV/jsp/pcs_urls.jsp-->
+
+
+
+
+
+
+
+
+<!-- begin: SCV/jsp/header/title.jsp -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+<title>Web of Science [5.21] - Export Transfer Service</title>
+
+<!-- end: SCV/jsp/header/title.jsp -->
+ 
+
+
+
+<!-- begin: SCV/jsp/header/otherHeadersAhead.jsp -->
+<!--  This is a dummy segment of the header part 	-->
+<!--  for individual apps to prepare its own     	-->
+<!--  headers not falling into css or js groups,	-->
+<!--  such as but not limited to, meta data, etc. 	-->
+<script language="JavaScript" src="results_301-315_files/dojo.js"></script>
+
+<!-- end: SCV/jsp/header/otherHeadersAhead.jsp -->
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+<!--  localeName   -->
+
+
+
+<link rel="stylesheet" href="results_301-315_files/WoKcommon.css" type="text/css">
+<link rel="stylesheet" href="results_301-315_files/WoKcomponents.css" type="text/css">
+
+<link rel="stylesheet" href="results_301-315_files/jquery-ui.css" type="text/css">
+<link rel="stylesheet" href="results_301-315_files/jquery-ui-wok.css" type="text/css">
+<link rel="stylesheet" href="results_301-315_files/centralSignin.css" type="text/css">
+
+
+
+
+<link rel="stylesheet" href="results_301-315_files/select2.css">
+<link rel="stylesheet" href="results_301-315_files/main.css" type="text/css">
+<style>
+    
+    #help {
+        font-family: georgia;
+        font-style: italic;
+        color: #005a84;
+    }
+    #help:hover {
+        background: #f6f6f6;
+        text-decoration: underline;
+    }
+    
+</style>
+
+
+   
+
+
+
+ 
+
+<script> djConfig = { parseWidgets: false, searchIds: [] }; </script>
+
+
+	<script type="text/javascript">
+		var x = 'en_US';
+		var _url_locale = x.replace(/_/,'-');
+		djConfig.locale = _url_locale;
+		//alert("test  DJ locale : "+djConfig.locale);
+	</script>
+
+
+
+
+<script language="JavaScript" src="results_301-315_files/Ajax.js"></script>
+
+
+<script language="JavaScript" src="results_301-315_files/jquery.js"></script>
+<script language="JavaScript" src="results_301-315_files/jquery-ui.js"></script>
+<script type="text/javascript" src="results_301-315_files/jquery-migrate.js"></script>
+
+<script language="JavaScript" src="results_301-315_files/Async.js"></script>
+<script language="JavaScript" src="results_301-315_files/Common.js"></script>
+<script language="JavaScript" src="results_301-315_files/ComponentUtils.js"></script>
+
+<script type="text/javascript" src="results_301-315_files/json3.js"></script>  
+<script type="text/javascript" src="results_301-315_files/jquery_002.js"></script> 
+
+
+  <script type="text/javascript" src="results_301-315_files/csiovl.js"></script>
+
+
+
+<script language="JavaScript">
+function openHelpWindow(C){var B=parseInt(screen.width*0.85);var A=parseInt(screen.height*0.7);winprops="height="+A+",width="+B+",top=70,left=60, menubar=yes, resizable=yes, scrollbars=yes, status=no";newwindow=window.open(C,"_WOK_Help_",winprops);if(window.focus){newwindow.focus()}}
+function openWindow(D,B){var C=parseInt(screen.width*0.85);var A=parseInt(screen.height*0.7);winprops="height="+A+",width="+C+",top=70,left=60,directories=yes,location=yes,menubar=yes,resizable=yes,scrollbars=yes,status=yes,toolbar=yes";newwindow=window.open(D,B,winprops);if(window.focus){newwindow.focus()}}
+function call_caesar(rurl, c1, c2) {
+	var str = rurl.split(":");
+	if(str[0].toLowerCase() == "https") {
+	  window.location = c2;
+	}
+	else {
+	  window.location = c1;
+	}
+}
+</script>
+
+
+<!--begin: EPAM JS -->
+<script src="results_301-315_files/select2.js"></script>
+<script src="results_301-315_files/main.js"></script>
+<!--end: EPAM JS -->
+ 
+
+
+
+<!-- begin: ETS/jsp/header/others.jsp -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="results_301-315_files/WoKsummary.css" type="text/css">
+<link rel="stylesheet" href="results_301-315_files/WoKfullRecord.css" type="text/css">
+
+<!-- end: ETS/jsp/header/others.jsp -->
+
+<link rel="icon" href="http://images.webofknowledge.com/WOKRS521R5/images/wok_favicon.ico" type="image/x-icon">
+
+<!-- end: wok_header.jsp -->
+
+
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="results_301-315_files/Common.js" type="text/javascript"></script></head>
+
+
+<!-- 
+<script language="Javascript">
+function open_print() {
+   if (parent.isi_main) {
+	parent.isi_main.focus(); 
+	parent.isi_main.print();
+   } else { print();   }
+}
+</script>
+-->
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		
+	
+
+
+ 
+ 
+   
+ 
+
+
+<body class="printWhitePage" style="BGCOLOR: #FFFFFF; font-size: 14px;">
+
+<!--
+<p>
+debug: 
+First record is 1
+Pagesize is 50
+nextFirstRecord is 0
+recordCount is 15
+pageNum is 1
+</p>
+-->
+
+
+
+<form action="http://ets.webofknowledge.com/ETS/ets.do" id="printForm" method="GET" auto_save_url="http://ets.webofknowledge.com/ETS/autoSave_ETSBean.do?modelName=ETSBean">
+
+<input name="SID" value="R1Ysroq1IdCeuleI2rE" type="hidden">
+<input name="product" value="UA" type="hidden">
+<input name="qid" value="15" type="hidden">
+<input name="colName" value="" type="hidden">
+<input name="trueColName" value="" type="hidden">
+<input name="sortBy" value="PY.D;LD.D;SO.A;VL.D;PG.A;AU.A" type="hidden">
+<input name="fileOpt" value="" type="hidden">
+<input name="action" value="formatForPrint" type="hidden">
+<input name="filters" value="AUTHORSIDENTIFIERS ISSN_ISBN CITTIMES ABSTRACT SOURCE TITLE AUTHORS  " type="hidden">
+<input name="numRecords" value="15" type="hidden">
+
+<input id="pagesize" name="pagesize" value="" type="hidden">
+<input id="pagenum" name="pagenum" value="1" type="hidden">
+<input id="numPages" name="numPages" value="1" type="hidden">
+<input id="recordCount" name="recordCount" value="15" type="hidden">
+<input id="firstRecord" name="firstRecord" value="1" type="hidden">
+<input id="nextFirstRecord" name="nextFirstRecord" value="0" type="hidden">
+<input id="nextLastRecord" name="nextLastRecord" value="0" type="hidden">
+<input id="prevFirstRecord" name="prevFirstRecord" value="-49" type="hidden">
+<input id="prevLastRecord" name="prevLastRecord" value="0" type="hidden">
+<input id="subType" name="subType" value="" type="hidden">
+<input id="totalMarked" name="totalMarked" value="15" type="hidden">
+<input name="displayCitedRefs" value="true" type="hidden">
+<input name="displayTimesCited" value="true" type="hidden">
+<input name="displayUsageInfo" value="true" type="hidden">
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+    <tbody><tr> 
+      
+      	
+      	
+      	   <td width="33%"><a hasautosubmit="true" oncontextmenu="javascript:return IsAllowedRightClick(this);" href="javascript:window.close();"><img src="results_301-315_files/close.gif" alt="Close" title="Close" border="0"></a></td>
+        
+     
+      <td align="center" width="33%"> 
+      
+        <b>Web of Science™<br> Page 1 (Records 1 -- 15)</b><br>
+        <table align="center" border="0" cellpadding="0" cellspacing="0">
+          
+
+          <tbody><tr nowrap="">
+			<!-- LOGIC: paint nav based on count etc -->
+            
+             
+            <!-- bug 3778 -->
+            <td nowrap="true"><img valign="bottom" src="results_301-315_files/arrow_left_i.gif" alt="Previous Page (Inactive)" title="Previous Page (Inactive)" hspace="1" border="0"> [
+            <!-- end bug 3778 -->
+            
+			
+            
+            
+            
+            
+            
+            1
+            
+            
+            
+            
+            
+			
+			
+			
+			<!-- bug 3778 -->
+            ] <img valign="bottom" src="results_301-315_files/arrow_rgt_i.gif" alt="Next Page (Inactive)" title="Next Page (Inactive)" hspace="1" border="0"></td>
+            
+            
+          	
+          </tr>
+          
+        </tbody></table></td>
+
+      <td align="right" width="33%"><a hasautosubmit="true" oncontextmenu="javascript:return IsAllowedRightClick(this);" href="javascript:window.print();"><img src="results_301-315_files/print.gif" alt="Print this Page" title="Print this Page" border="0"></a></td>
+    </tr>
+  </tbody></table>
+  <hr>
+
+<hr xmlns:bean="http://ts.thomson.com/ua/bean" xmlns:exsl="http://exslt.org/common">
+<table>
+<tbody><tr>
+<td><b>Record 1 of 15</b></td>
+</tr>
+<tr>
+<td>
+<b>By:</b>
+Jouet, J (Jouet, Josiane)</td>
+</tr>
+
+<tr>
+<td>
+<b>Title:</b>
+
+<value lang_id="">THE INTERNET AS A NEW CIVIC FORM THE HYBRIDISATION OF POPULAR AND CIVIC WEB USES IN FRANCE</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Source:</b>
+
+<value>JAVNOST-THE PUBLIC</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Volume:</b>
+
+<value>16</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Issue:</b>
+
+<value>1</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Pages:</b>
+
+<value>59-72</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Published:</b>
+
+<value>APR 2009</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Abstract:</b>
+The article argues that, beyond the boundaries of activists and 
+concerned citizens, the massive appropriation of the Internet techniques
+ of self-publication and the social modes of interactions on the web, 
+lead to the extension of the public sphere to the rank-and-file. It 
+takes the position that civic culture is not homogeneous and that it is 
+shaped by different social practices that we examine through three sets 
+of digital public spheres. First, the rise of "free speech" in 
+professional journalistic practices on media websites expands to 
+readers' voices (in forums, online surveys, readers' comments), while 
+citizens' engagement in amateur grassroots journalism challenges both 
+the professional practices and the ethics of journalism. Second, the 
+lively political blogosphere demonstrates how personal opinions on 
+public matters find their legitimacy in the interactive dialogue in and 
+across networks and lead to the emergence of rank-and-file opinion 
+leaders, while also presenting various pitfalls, such as the redundancy 
+of a limited number of viewpoints. Third, the social and leisurely 
+Internet usage of ordinary citizens leads them to confront political and
+ public issues in a casual and random manner, which in turn leads them 
+to discuss these matters occasionally in online or face-to-face 
+settings. This trend is reinforced by the innovative creation of 
+user-generated content, mixing text, sound, and video formats that are 
+widely circulated on the web. The rise of new forms of political and 
+social critique on the Internet and the sharing of common experiences in
+ the electronic space results in novel mean of public engagement and 
+contributes to the shaping of a new civic and social form.</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in BIOSIS Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Chinese Science Citation Database:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Russian Science Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in SciELO Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Web of Science Core Collection:</b>
+
+<value>1</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Total Times Cited:</b>
+
+<value>1</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>ISSN:</b>
+
+<value>1318-3222</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Accession Number:</b>
+
+<value>WOS:000265196000005</value>
+</td>
+</tr>
+
+</tbody></table><hr><table>
+<tbody><tr>
+<td><b>Record 2 of 15</b></td>
+</tr>
+<tr>
+<td>
+<b>By:</b>
+Dunston, R (Dunston, Roger); Lee, A (Lee, Alison); Boud, D (Boud, 
+David); Brodie, P (Brodie, Pat); Chiarella, M (Chiarella, Mary)</td>
+</tr>
+
+<tr>
+<td>
+<b>Title:</b>
+
+<value lang_id="">Co-Production and Health System Reform - From Re-Imagining To Re-Making</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Source:</b>
+
+<value>AUSTRALIAN JOURNAL OF PUBLIC ADMINISTRATION</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Volume:</b>
+
+<value>68</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Issue:</b>
+
+<value>1</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Pages:</b>
+
+<value>39-52</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>DOI:</b>
+
+<value>10.1111/j.1467-8500.2008.00608.x</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Published:</b>
+
+<value>MAR 2009</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Abstract:</b>
+There is growing interest in the application of citizen participation 
+within all areas of public sector service development, where it is 
+increasingly promoted as a significant strand of post-neoliberal policy 
+concerned with re-imagining citizenship and more participatory forms of 
+citizen/consumer engagement. The application of such a perspective 
+within health services, via co-production, has both beneficial, but also
+ problematic implications for the organisation of such services, for 
+professional practice and education. Given the disappointing results in 
+increasing consumer involvement in health services via 'choice' and 
+'voice' participation strategies, the question of how the more 
+challenging approach of co-production will fare needs to be addressed. 
+The article discusses the possibilities and challenges of system-wide 
+co-production for health. It identifies the discourse and practice 
+contours of co-production, differentiating co-production from other 
+health consumer-led approaches. Finally, it identifies issues critically
+ related to the successful implementation of co-production where 
+additional theorisation and research are required.</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Chinese Science Citation Database:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Russian Science Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in SciELO Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in BIOSIS Citation Index:</b>
+
+<value>1</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Web of Science Core Collection:</b>
+
+<value>25</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Total Times Cited:</b>
+
+<value>25</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>ISSN:</b>
+
+<value>0313-6647</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Accession Number:</b>
+
+<value>WOS:000263965100003</value>
+</td>
+</tr>
+
+</tbody></table><hr><table>
+<tbody><tr>
+<td><b>Record 3 of 15</b></td>
+</tr>
+<tr>
+<td>
+<b>By:</b>
+Shim, DC (Shim, Dong Chul); Eom, TH (Eom, Tae Ho)</td>
+</tr>
+
+<tr>
+<td>
+<b>Title:</b>
+
+<value lang_id="">Anticorruption effects of information communication and technology (ICT) and social capital</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Source:</b>
+
+<value>INTERNATIONAL REVIEW OF ADMINISTRATIVE SCIENCES</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Volume:</b>
+
+<value>75</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Issue:</b>
+
+<value>1</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Pages:</b>
+
+<value>99-116</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>DOI:</b>
+
+<value>10.1177/0020852308099508</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Published:</b>
+
+<value>MAR 2009</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Abstract:</b>
+This article examines the argument that Information Communication and 
+Technology (ICT) and social capital serve as major factors to reduce 
+corruption. ICT has the potential to reduce unnecessary human 
+intervention in government work processes, thus reducing the need to 
+monitor corrupt behavior. Furthermore, citizens living in a society with
+ a high level of social capital are more likely to become actively 
+involved in the political decision-making process, increasing the 
+likelihood that public employees' corrupt behaviors will be exposed to 
+the densely connected public. We also examined the relationship between 
+social capital and ICT. Our statistical analysis, which used panels of 
+datasets obtained from various sources, revealed that (1) ICT is an 
+effective tool for reducing corruption; (2) social capital also has 
+positive effects on anti-corruption, but various dimensions of social 
+capital may have different impacts; and (3) the relationship between 
+social capital and ICT is inconclusive.</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in BIOSIS Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Chinese Science Citation Database:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Russian Science Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in SciELO Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Web of Science Core Collection:</b>
+
+<value>18</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Total Times Cited:</b>
+
+<value>18</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>ISSN:</b>
+
+<value>0020-8523</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Accession Number:</b>
+
+<value>WOS:000263986900006</value>
+</td>
+</tr>
+
+</tbody></table><hr><table>
+<tbody><tr>
+<td><b>Record 4 of 15</b></td>
+</tr>
+<tr>
+<td>
+<b>By:</b>
+Cho, J (Cho, Jaeho); Shah, DV (Shah, Dhavan V.); McLeod, JM (McLeod, 
+Jack M.); McLeod, DM (McLeod, Douglas M.); Scholl, RM (Scholl, Rosanne 
+M.); Gotlieb, MR (Gotlieb, Melissa R.)</td>
+</tr>
+
+<tr>
+<td><span class="FR_label">Author Identifiers:</span></td>
+</tr>
+<tr>
+<td><span style="display" name="show_resc_blurb" id="show_resc_blurb">
+<table class="FR_table_borders" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<th><span class="FR_label">Author</span></th><th><span class="FR_label">ResearcherID Number</span></th><th><span class="FR_label">ORCID Number</span></th>
+</tr>
+<tr class="fr_data_row">
+<td><font size="2">
+<display_name>Cho, Jaeho</display_name>&nbsp;</font></td><td><font size="2">B-4722-2009&nbsp;</font></td><td><font size="2">&nbsp;</font></td>
+</tr>
+</tbody></table>
+</span></td>
+</tr>
+<tr>
+<td>
+<b>Title:</b>
+
+<value lang_id="">Campaigns, Reflection, and Deliberation: Advancing an O-S-R-O-R Model of Communication Effects</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Source:</b>
+
+<value>COMMUNICATION THEORY</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Volume:</b>
+
+<value>19</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Issue:</b>
+
+<value>1</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Pages:</b>
+
+<value>66-+</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>DOI:</b>
+
+<value>10.1111/j.1468-2885.2008.01333.x</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Published:</b>
+
+<value>FEB 2009</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Abstract:</b>
+Recent communication research concerning participatory politics has 
+found that the effects of media, especially campaign ads, conventional 
+news, and online political resources, are largely mediated through 
+interpersonal discussion about politics. This article extends this line 
+of theorizing about the role of political conversation in citizen 
+competence by testing an O-S-R-O-R model of campaign communication 
+mediation, a modification and extension of the longstanding O-S-O-R 
+model of communication effects. This model combines insights from 
+iterations of the communication mediation model (McLeod et al., 2001; 
+Shah et al., 2007) and cognitive mediation model (Eveland, 2001; 
+Eveland, Shah, &amp; Kwak, 2003) to theorize a set of the interrelated 
+reasoning (R) processes that channel the influences of campaign exposure
+ and news consumption on political engagement. Three key mediators of 
+campaign and news influence are postulated: face-to-face political 
+conversation, online political messaging, and cognitive reflection. We 
+provide empirical evidence to test this model by merging two datasets: 
+(1) tracking of the content and placement of campaign messages in the 
+2000 and 2004 election cycles, and (2) surveys of traditional and 
+digital media consumption and levels of campaign participation during 
+these same elections. Findings reveal that political conversation, 
+political messaging, and cognitive reflection mediate the effects of 
+campaign advertising exposure and news consumption on political 
+participation and knowledge, providing considerable support for our 
+theory. This O-S-R-O-R model helps organize a large body of theorizing 
+and research on campaigns and conversation in the communication 
+sciences.</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in BIOSIS Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Chinese Science Citation Database:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Russian Science Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in SciELO Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Web of Science Core Collection:</b>
+
+<value>58</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Total Times Cited:</b>
+
+<value>58</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>ISSN:</b>
+
+<value>1050-3293</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>eISSN:</b>
+
+<value>1468-2885</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Accession Number:</b>
+
+<value>WOS:000262636900005</value>
+</td>
+</tr>
+
+</tbody></table><hr><table>
+<tbody><tr>
+<td><b>Record 5 of 15</b></td>
+</tr>
+<tr>
+<td>
+<b>By:</b>
+Freeman, J (Freeman, Julie); Hutchins, B (Hutchins, Brett)</td>
+</tr>
+
+<tr>
+<td><span class="FR_label">Author Identifiers:</span></td>
+</tr>
+<tr>
+<td><span style="display" name="show_resc_blurb" id="show_resc_blurb">
+<table class="FR_table_borders" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<th><span class="FR_label">Author</span></th><th><span class="FR_label">ResearcherID Number</span></th><th><span class="FR_label">ORCID Number</span></th>
+</tr>
+<tr class="fr_data_row">
+<td><font size="2">
+<display_name>Freeman, Julie</display_name>&nbsp;</font></td><td><font size="2">&nbsp;</font></td><td><font size="2">0000-0002-7599-4105&nbsp;</font></td>
+</tr>
+</tbody></table>
+</span></td>
+</tr>
+<tr>
+<td>
+<b>Title:</b>
+
+<value lang_id="">BALANCING THE DIGITAL DEMOCRATIC DEFICIT? E-GOVERNMENT</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Source:</b>
+
+<value>MEDIA INTERNATIONAL AUSTRALIA</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Issue:</b>
+
+<value>130</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Pages:</b>
+
+<value>17-27</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Published:</b>
+
+<value>FEB 2009</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Abstract:</b>
+This article responds to Thomas's (2004) call for investigation into how
+ the internet and World Wide Web are changing government in Australia. 
+It first discusses C-government principles and policies at the federal 
+level, and then investigates initiatives and events in One of Australia 
+most populous municipalities, the City, of Casey in Melbourne's 
+southeast. The objective of this approach is to understand the broader 
+context of e-government policy formulation in Australia, and connect 
+this to the level of local government in order to understand the 
+features and dynamics of existing e-government mechanisms. The evidence 
+generated from this approach reveals an imbalance between set-vice 
+delivery and civic engagement in c-government strategies, with the 
+emphasis oil consumer-oriented set-vice delivery far outweighing civic 
+participation and political dialogue. The analysis that follows outlines
+ actual and potential political problems following from this imbalance -
+ or 'digital democratic deficit' - and offers suggestions oil how 
+equilibrium might he restored</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in BIOSIS Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Chinese Science Citation Database:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Russian Science Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in SciELO Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Web of Science Core Collection:</b>
+
+<value>1</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Total Times Cited:</b>
+
+<value>1</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>ISSN:</b>
+
+<value>1329-878X</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Accession Number:</b>
+
+<value>WOS:000264084900003</value>
+</td>
+</tr>
+
+</tbody></table><hr><table>
+<tbody><tr>
+<td><b>Record 6 of 15</b></td>
+</tr>
+<tr>
+<td>
+<b>By:</b>
+Endre, B (Endre, Biro)</td>
+</tr>
+
+<tr>
+<td>
+<b>Title:</b>
+
+<value lang_id="">Legal environment of he civil nonprofit sector</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Source:</b>
+
+<value>CIVIL SZEMLE</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Volume:</b>
+
+<value>6</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Issue:</b>
+
+<value>1-2</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Pages:</b>
+
+<value>22-+</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Published:</b>
+
+<value>2009</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Abstract:</b>
+The study shortly looks over the four main legislation period of the 
+nonprofit sector: 19891991, 1992-1999, 2000-2006, and 2007-2008. After 
+introducing the legal history, the study overviews the main points of 
+the current legal situation. Main feature of this is that regulation of 
+civil organizations is more vigorous than the development level of the 
+regulation of contracting out public services. Third part of the study 
+formulates the future problems and challenges:
+<br>Legal conditions of the participation in the public services in 
+central and local level (regulations of the announcement, publicity, 
+notification and competition);
+<br>Creation of civil specialties of the public procurement and state 
+finance acts - especially focusing on the size, financial capacity and 
+operation of NGOs. (For example regulation for grant-making 
+responsibilities)
+<br>Modification of the regulations of using public funds, in a way 
+which does not exclude special co-management structures those are based 
+on the "concept of participation" or "nothing about us without involving
+ us";
+<br>Strategic issues and questions regarding to the operation of Nacional Civil Fund,"
+<br>Providing more space for NGOs in the financial system of public 
+services (in contradiction of to the institutional based financial 
+system); "
+<br>Creation of a "nonprofit chamber" that would allow the cooperation, 
+visibility, advocacy of NGOs in sectoral level as well as their 
+participation in the public services; "
+<br>Modification of the operation, work of the institutions those 
+distribute public funds in a way that they can assist applicants to be 
+more successful and motivated.</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in BIOSIS Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Chinese Science Citation Database:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Russian Science Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in SciELO Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Web of Science Core Collection:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Total Times Cited:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>ISSN:</b>
+
+<value>1786-3341</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Accession Number:</b>
+
+<value>WOS:000273692700004</value>
+</td>
+</tr>
+
+</tbody></table><hr><table>
+<tbody><tr>
+<td><b>Record 7 of 15</b></td>
+</tr>
+<tr>
+<td>
+<b>By:</b>
+Ranganathan, M (Ranganathan, Maya)</td>
+</tr>
+
+<tr>
+<td>
+<b>Title:</b>
+
+<value lang_id="">Understanding Eelam through the Diaspora's online engagement</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Source:</b>
+
+<value>CONTINUUM-JOURNAL OF MEDIA &amp; CULTURAL STUDIES</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Volume:</b>
+
+<value>23</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Issue:</b>
+
+<value>5</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Pages:</b>
+
+<value>709-721</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>DOI:</b>
+
+<value>10.1080/10304310903156797</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Published:</b>
+
+<value>2009</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Abstract:</b>
+This paper argues that a study of Diaspora's engagement with the media, 
+especially that of 'conflict-generated Diasporas' is imperative to 
+understand the dynamics of the conflict in the homeland in order to 
+devise ways and means for conflict resolution. In the light of arguments
+ that Diasporas often contribute to the prolonging and sustenance of a 
+conflict, the paper takes up the example of the Sri Lankan Tamil 
+Diaspora in Australia and makes a case for exploring the members' 
+engagement with media, particularly online media, to understand the 
+dynamics and the trajectory of the conflict. This is significant, 
+firstly, in the context of the Sri Lankan Diaspora's role in the 
+two-decade-long civil strife in Sri Lanka that is currently poised to 
+enter another phase, 1 and secondly in the context of websites having 
+been and continuing to be one of the most sought after sources of 
+information on the Sri Lankan Tamil issue. The paper argues that the 
+study of the reception of information on Tamil Eelam online by members 
+of the Diaspora is imperative for an understanding of the 
+'reconfiguration and remaking' of Tamil Eelam.</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in BIOSIS Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Chinese Science Citation Database:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Russian Science Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in SciELO Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Web of Science Core Collection:</b>
+
+<value>1</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Total Times Cited:</b>
+
+<value>1</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>ISSN:</b>
+
+<value>1030-4312</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Accession Number:</b>
+
+<value>WOS:000272090200010</value>
+</td>
+</tr>
+
+</tbody></table><hr><table>
+<tbody><tr>
+<td><b>Record 8 of 15</b></td>
+</tr>
+<tr>
+<td>
+<b>By:</b>
+Nassanga, GL (Nassanga, Goretti Linda)</td>
+</tr>
+
+<tr>
+<td>
+<b>Title:</b>
+
+<value lang_id="">An Assessment of the Changing Community Media Parameters in East Africa</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Source:</b>
+
+<value>ECQUID NOVI-AFRICAN JOURNALISM STUDIES</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Volume:</b>
+
+<value>30</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Issue:</b>
+
+<value>1</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Pages:</b>
+
+<value>42-57</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Published:</b>
+
+<value>2009</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Abstract:</b>
+This article assesses the changing patterns of community media in East 
+Africa, following the recognition of citizenship ideology, rather than 
+consumerism ideology, as an operational guide. Central to the discussion
+ is the concept of participation, which has led to community media 
+parameters changing from being defined in terms of geographical location
+ to citizenship-based media that act as a public sphere where 
+participants. go beyond the local community and national borders 
+extending into "imagined communities." Unlike initial community media 
+where members in the locality participated directly, people now largely 
+depend on low-cost technology by calling in and sending e-mail messages 
+to local radio stations. The article highlights issues of inclusion in 
+the public debates by grassroots communities whereby the speakers become
+ active participants in citizens' media.</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in BIOSIS Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Chinese Science Citation Database:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Russian Science Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in SciELO Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Web of Science Core Collection:</b>
+
+<value>4</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Total Times Cited:</b>
+
+<value>4</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>ISSN:</b>
+
+<value>0256-0054</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Accession Number:</b>
+
+<value>WOS:000273430100003</value>
+</td>
+</tr>
+
+</tbody></table><hr><table>
+<tbody><tr>
+<td><b>Record 9 of 15</b></td>
+</tr>
+<tr>
+<td>
+<b>By:</b>
+Kotilainen, S (Kotilainen, Sirkku); Rantala, L (Rantala, Leena)</td>
+</tr>
+
+<tr>
+<td>
+<b>Title:</b>
+
+<value lang_id="">FROM SEEKERS TO ACTIVISTS Characteristics of youth civic identities in relation to media</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Source:</b>
+
+<value>INFORMATION COMMUNICATION &amp; SOCIETY</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Volume:</b>
+
+<value>12</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Issue:</b>
+
+<value>5</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Pages:</b>
+
+<value>658-677</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>DOI:</b>
+
+<value>10.1080/13691180802345865</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Published:</b>
+
+<value>2009</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Abstract:</b>
+Media culture is a firm part of youth cultures today. Media can also be 
+seen as one empowering technology in the information society alongside 
+traditional school and government. What kind of civic identities are 
+young people constructing in contemporary media culture? This article 
+discusses media-saturated youth and audience agency, drawing on 
+Dahlgren's ideas of civic culture. Relying on empirical data from two 
+case studies in Finland, we will introduce a typology of civic 
+identities, which the young construct as members of the public in 
+relation to media. Our first case study is a youth civic website called 
+Vaikuttamo. net and the second is the Youth Voice Editorial Board, which
+ consists of a group of young people producing news for mainstream 
+media. Our research supports various earlier observations that young 
+people are firmly engaged, though to a lesser extent, in the formal 
+political realm. We particularly want to emphasize the role of the local
+ media and the expressive potential of young people. The media should be
+ noted as a public forum where cultural and political modes of 
+expression and participation can be mixed - not only in global online 
+media, but also in more traditional local media such as television and 
+newspaper. The research shows that young people are also willing to 
+enter generational public discussions about civic issues instead of 
+keeping to their own forums of media publicity.</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in BIOSIS Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Chinese Science Citation Database:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Russian Science Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in SciELO Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Web of Science Core Collection:</b>
+
+<value>1</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Total Times Cited:</b>
+
+<value>1</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>ISSN:</b>
+
+<value>1369-118X</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Accession Number:</b>
+
+<value>WOS:000207871200003</value>
+</td>
+</tr>
+
+</tbody></table><hr><table>
+<tbody><tr>
+<td><b>Record 10 of 15</b></td>
+</tr>
+<tr>
+<td>
+<b>By:</b>
+Wojcieszak, ME (Wojcieszak, Magdalena E.); Baek, YM (Baek, Young Min); Carpini, MXD (Carpini, Michael X. Delli)</td>
+</tr>
+
+<tr>
+<td>
+<b>Title:</b>
+
+<value lang_id="">WHAT IS REALLY GOING ON? Structure underlying face-to-face and online deliberation</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Source:</b>
+
+<value>INFORMATION COMMUNICATION &amp; SOCIETY</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Volume:</b>
+
+<value>12</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Issue:</b>
+
+<value>7</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Pages:</b>
+
+<value>1080-1102</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>DOI:</b>
+
+<value>10.1080/13691180902725768</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Published:</b>
+
+<value>2009</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Abstract:</b>
+Does deliberative setting, online versus face-to-face, influence 
+citizens' experiences? Are certain factors differently influential in 
+one setting than in the other? We draw on a nationally representative 
+survey and identify citizens who participated in both online and 
+face-to-face settings (n = 82). We use structural equation modeling to 
+first assess the effects that deliberation format has on the 
+interrelationship between such crucial factors as motivations to 
+deliberate, perceived diversity, elicited emotions, enhanced 
+understanding, and goal evaluation. We later employ network analysis to 
+ask which factor or which cluster of factors is more central to an 
+overall experience in which format. Relying on citizens who participated
+ in both settings and using within-subject analyses, we assure that the 
+previously unnoted findings are attributable to the format per se rather
+ than to individual characteristics. We discuss the theoretical, 
+practical and methodological implications.</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in BIOSIS Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Chinese Science Citation Database:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Russian Science Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in SciELO Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Web of Science Core Collection:</b>
+
+<value>2</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Total Times Cited:</b>
+
+<value>2</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>ISSN:</b>
+
+<value>1369-118X</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Accession Number:</b>
+
+<value>WOS:000207871600006</value>
+</td>
+</tr>
+
+</tbody></table><hr><table>
+<tbody><tr>
+<td><b>Record 11 of 15</b></td>
+</tr>
+<tr>
+<td>
+<b>By:</b>
+Banaji, S (Banaji, Shakuntala); Buckingham, D (Buckingham, David)</td>
+</tr>
+
+<tr>
+<td>
+<b>Title:</b>
+
+<value lang_id="">THE CIVIC SELL Young people, the internet, and ethical consumption</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Source:</b>
+
+<value>INFORMATION COMMUNICATION &amp; SOCIETY</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Volume:</b>
+
+<value>12</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Issue:</b>
+
+<value>8</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Pages:</b>
+
+<value>1197-1223</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>DOI:</b>
+
+<value>10.1080/13691180802687621</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Published:</b>
+
+<value>2009</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Abstract:</b>
+This article is based on newly completed research looking at the role of
+ the internet as a means of promoting civic engagement and participation
+ among young people aged 15-25. It focuses on one specific aspect of 
+this phenomenon, namely the use of websites to promote 'ethical 
+consumption' among young people. This paper begins by briefly examining 
+several intersecting works discussing not-for-profit marketing, 
+commercial marketing, youth cultures and subcultures, politics, and 
+ethical consumerism. It then moves on to examine the rhetorical 
+constructions of youth identity and ethical consumerism on a range of 
+civic websites, exploring the identifications and disavowals implicit in
+ the language, layout, and imagery, and the conceptualizations 
+civic-orientated Web producers have of their audiences and of 
+consumption per se. This is achieved by taking a case-study approach 
+involving a qualitative textual analysis of web-pages taken from UK and 
+US-based sites such as Adbusters, Oxfam's Generation Why, Ethics Girls, 
+Adili and Amnesty International, which advertise or promote the buying 
+of ethical goods by young people. It also involves an analysis of the 
+aims of the site producers, as exemplified on the sites' mission 
+statements and in in-depth interviews. By means of this analysis, the 
+article seeks to identify and assess the actually or potentially 'civic'
+ aspects of these sites and to question the notion of ethical 
+consumption in particular.</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in BIOSIS Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Chinese Science Citation Database:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Russian Science Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in SciELO Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Web of Science Core Collection:</b>
+
+<value>6</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Total Times Cited:</b>
+
+<value>6</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>ISSN:</b>
+
+<value>1369-118X</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Accession Number:</b>
+
+<value>WOS:000207871900004</value>
+</td>
+</tr>
+
+</tbody></table><hr><table>
+<tbody><tr>
+<td><b>Record 12 of 15</b></td>
+</tr>
+<tr>
+<td>
+<b>By:</b>
+Mwesige, PG (Mwesige, Peter G.)</td>
+</tr>
+
+<tr>
+<td>
+<b>Title:</b>
+
+<value lang_id="">The democratic functions and dysfunctions of political talk radio: the case of Uganda</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Source:</b>
+
+<value>JOURNAL OF AFRICAN MEDIA STUDIES</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Volume:</b>
+
+<value>1</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Issue:</b>
+
+<value>2</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Pages:</b>
+
+<value>221-245</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>DOI:</b>
+
+<value>10.1386/jams.1.2.221/1</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Published:</b>
+
+<value>2009</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Abstract:</b>
+This article explores the promise and limits of Ugandan radio political 
+talk shows as avenues of citizen participation and political 
+competition. In particular, it examines the democratic functions and 
+dysfunctions of political talk shows based on interpretive interrogation
+ of data from content analysis, in-depth interviews and focus group 
+discussions with content producers and audiences. The results appear to 
+suggest that these programmes constitute a public sphere(s) where 
+citizens seek and acquire information, carry out dialogue and debate on 
+collective public problems and policy, challenge holders of official 
+power into public accountability, send feedback upward to the political 
+system, or simply let off steam. At another level, the government, 
+political groups and other organised interests also use the talk shows 
+to gauge public opinion. These political elites also use these 
+programmes as platforms for political mobilisation, campaigning and 
+advocacy. In other words, the civic space facilitated by talk radio is 
+open to political groups and other organised interests as well as 
+private citizens. However, it is not all bliss in the electronic public 
+sphere. Political talk radio also appears to peddle misinformation and 
+distortions; to invite adulterated debate that excites and inflames 
+rather than informs; to give the public the illusion of influence; and, 
+arguably, to lead to political inertia. At the group level, talk radio 
+may have created an illusion of competition to the extent that it 
+provided voice to oppositional political groups that were otherwise not 
+fully free to participate in the political process. What we have, then, 
+is an imperfect public sphere - but a sort of public sphere nonetheless.
+ Implications of these developments for democratic transitions in Africa
+ are discussed.</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in BIOSIS Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Chinese Science Citation Database:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Russian Science Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in SciELO Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Web of Science Core Collection:</b>
+
+<value>9</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Total Times Cited:</b>
+
+<value>9</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>ISSN:</b>
+
+<value>2040-199X</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Accession Number:</b>
+
+<value>WOS:000207935500003</value>
+</td>
+</tr>
+
+</tbody></table><hr><table>
+<tbody><tr>
+<td><b>Record 13 of 15</b></td>
+</tr>
+<tr>
+<td>
+<b>By:</b>
+Hoffman, LH (Hoffman, Lindsay H.); Thomson, TL (Thomson, Tiffany L.)</td>
+</tr>
+
+<tr>
+<td>
+<b>Title:</b>
+
+<value lang_id="">The Effect of Television Viewing on Adolescents' Civic Participation: Political Efficacy as a Mediating Mechanism</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Source:</b>
+
+<value>JOURNAL OF BROADCASTING &amp; ELECTRONIC MEDIA</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Volume:</b>
+
+<value>53</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Issue:</b>
+
+<value>1</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Pages:</b>
+
+<value>3-21</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Article Number:</b>
+
+<value>PII 909491675</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>DOI:</b>
+
+<value>10.1080/08838150802643415</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Published:</b>
+
+<value>2009</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Abstract:</b>
+Pundits, parents, and scholars express concern about youth attention to 
+late-night political comedy shows, such as The Daily Show, suggesting 
+that such viewing is deleterious for an active, efficacious citizenry. 
+Yet as civic participation declines among adults, it appears to be 
+growing among adolescents. This study assessed the effects of television
+ viewing on high school students' civic participation. Results 
+demonstrate that viewing late-night TV and local TV news had a positive,
+ significant effect on civic participation, and this relationship was 
+mediated by political efficacy. Implications for the study of late-night
+ TV and applications to research on political socialization are 
+discussed.</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Chinese Science Citation Database:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Russian Science Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in SciELO Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in BIOSIS Citation Index:</b>
+
+<value>1</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Web of Science Core Collection:</b>
+
+<value>32</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Total Times Cited:</b>
+
+<value>32</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>ISSN:</b>
+
+<value>0883-8151</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Accession Number:</b>
+
+<value>WOS:000264134800002</value>
+</td>
+</tr>
+
+</tbody></table><hr><table>
+<tbody><tr>
+<td><b>Record 14 of 15</b></td>
+</tr>
+<tr>
+<td>
+<b>By:</b>
+Meristo, T (Meristo, Tarja); Tuohimaa, H (Tuohimaa, Hanna); Leppimaki, S (Leppimaki, Sami); Laitinen, J (Laitinen, Jukka)</td>
+</tr>
+
+<tr>
+<td>
+<b>Edited by:</b>
+Saranto, K (Saranto, K); Brennan, PF (Brennan, PF); Park, HA (Park, HA); Tallberg, M (Tallberg, M); Ensio, A (Ensio, A)</td>
+</tr>
+
+<tr>
+<td>
+<b>Title:</b>
+
+<value lang_id="">Alternative Futures of Proactive Tools for a Citizen's Own Wellbeing</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Source:</b>
+
+<value>CONNECTING HEALTH AND HUMANS</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Book Series Title:</b>
+
+<value>Studies in Health Technology and Informatics</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Volume:</b>
+
+<value>146</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Pages:</b>
+
+<value>144-148</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>DOI:</b>
+
+<value>10.3233/978-1-60750-024-7-144</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Published:</b>
+
+<value>2009</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Abstract:</b>
+The aim of this paper is to create the basis for a vision of an 
+empowered citizen who can control his/her life, especially in relation 
+to health and personal wellbeing with the use of new ICT-tools. The 
+methods used in the study are based on futures studies, especially on 
+scenario methodology. Alternative future paths, i.e. scenarios are 
+constructed using the scenario filter model that we have developed, with
+ market, technology and society perspectives. Scenarios not resulting in
+ the vision are described in what if analysis as well. The scenarios are
+ combined with Vihera's model on citizen's skills, access and motivation
+ to use new ICT-tools. The concept COPER is targeted to different user 
+groups with an adaptable user interface and its development is user 
+centered. We will consider the effects and the appropriate elements of 
+COPER in every scenario, as well as the possibilities and challenges 
+nursing will confront. As a result we will gain information of the 
+characteristic of COPER that advance the vision. For the future 
+development of COPER the alternative scenarios give the basis for 
+flexibility planning, too.</td>
+</tr>
+
+<tr>
+<td>
+<b>Conference Title:</b>
+
+<value>10th International Congress on Nursing Informatics</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Conference Date:</b>
+
+<value>JUN 28-JUL 01, 2009</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Conference Location:</b>
+
+<value>Helsinki, FINLAND</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Sponsor(s):</b>
+Finnish Nurses Assoc</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in BIOSIS Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Chinese Science Citation Database:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Russian Science Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in SciELO Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Web of Science Core Collection:</b>
+
+<value>1</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Total Times Cited:</b>
+
+<value>1</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>ISSN:</b>
+
+<value>0926-9630</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>ISBN:</b>
+978-1-60750-024-7</td>
+</tr>
+
+<tr>
+<td>
+<b>Accession Number:</b>
+
+<value>WOS:000273498700025</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>PubMed ID:</b>
+
+<value>19592824</value>
+</td>
+</tr>
+
+</tbody></table><hr><table>
+<tbody><tr>
+<td><b>Record 15 of 15</b></td>
+</tr>
+<tr>
+<td>
+<b>By:</b>
+Hirzalla, F (Hirzalla, Fadi); van Zoonen, L (van Zoonen, Liesbet)</td>
+</tr>
+
+<tr>
+<td><span class="FR_label">Author Identifiers:</span></td>
+</tr>
+<tr>
+<td><span style="display" name="show_resc_blurb" id="show_resc_blurb">
+<table class="FR_table_borders" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<th><span class="FR_label">Author</span></th><th><span class="FR_label">ResearcherID Number</span></th><th><span class="FR_label">ORCID Number</span></th>
+</tr>
+<tr class="fr_data_row">
+<td><font size="2">
+<display_name>van Zoonen, Liesbet</display_name>&nbsp;</font></td><td><font size="2">D-2312-2013&nbsp;</font></td><td><font size="2">0000-0001-7913-8552&nbsp;</font></td>
+</tr>
+</tbody></table>
+</span></td>
+</tr>
+<tr>
+<td>
+<b>Title:</b>
+
+<value lang_id="">Beyond the online/offline divide: Convergences of online and offline civic activities among youth</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Source:</b>
+
+<value>TIJDSCHRIFT VOOR COMMUNICATIEWETENSCHAP</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Volume:</b>
+
+<value>37</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Issue:</b>
+
+<value>3</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Pages:</b>
+
+<value>215-237</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Published:</b>
+
+<value>2009</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Abstract:</b>
+Based on a survey (n=808), we discuss how online and offline forms of 
+civic participation among Dutch youth converge in modes of 
+participation. With confirmatory factor analysis, we demonstrate that 
+four modes of participation can be distinguished: Politics, Activism, 
+Discussion and Consumption. The first three modes correlate strongly 
+with each other, while Consumption proves to be a separate mode. 
+Participants in Politics and Discussion generally score high on 
+political participation and political efficacy, but participation in 
+Activism and Consumption appears to be stimulated by other factors.</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in BIOSIS Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Chinese Science Citation Database:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Russian Science Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in SciELO Citation Index:</b>
+
+<value>0</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Times Cited in Web of Science Core Collection:</b>
+
+<value>1</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Total Times Cited:</b>
+
+<value>1</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>ISSN:</b>
+
+<value>1384-6930</value>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Accession Number:</b>
+
+<value>WOS:000269738600004</value>
+</td>
+</tr>
+
+</tbody></table><hr>
+
+
+   <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+    <tbody><tr> 
+      
+      	
+      	
+      	   <td width="33%"><a hasautosubmit="true" oncontextmenu="javascript:return IsAllowedRightClick(this);" href="javascript:window.close();"><img src="results_301-315_files/close.gif" alt="Close" title="Close" border="0"></a></td>
+        
+     
+     <td align="center" width="33%"> 
+        <b>Web of Science™<br>Page 1 (Records 1 -- 15)</b><br>
+        <table align="center" border="0" cellpadding="0" cellspacing="0">
+          
+          <tbody><tr nowrap="">
+			<!-- LOGIC: paint nav based on count etc -->
+            
+             
+            
+            <td nowrap="true"><img valign="bottom" src="results_301-315_files/arrow_left_i.gif" title="Previous Page (Inactive)" alt="Previous Page (Inactive)" hspace="1" border="0"> [
+			
+			
+            
+            
+            
+            
+            
+            1
+            
+            
+            
+            
+            
+			
+			
+			
+             ] <img valign="bottom" src="results_301-315_files/arrow_rgt_i.gif" alt="=" next="" page(inactive)"="" title="Next Page (Inactive)" hspace="1" border="0"></td>
+            
+            
+          	
+          </tr>
+          
+        </tbody></table></td>
+
+      <td align="right" width="33%"><a hasautosubmit="true" oncontextmenu="javascript:return IsAllowedRightClick(this);" href="javascript:window.print();"><img src="results_301-315_files/print.gif" alt="Print this Page" title="Print this Page" border="0"></a></td>
+    </tr>
+  </tbody></table>
+
+</form>
+
+
+
+
+<!-- begin: default_footer.jsp -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+<!--   begin: base_url.jsp -->
+
+
+
+
+
+
+
+    
+        
+    
+    
+
+<!--     end: base_url.jsp -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+<!--   begin: essential_data.jsp -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+<!--     end: essential_data.jsp  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+<!-- begin: state_data -->
+
+
+	
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+<!-- end: state_data  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+<!--   begin: locale.jsp -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  	
+  	
+  	
+  
+
+
+
+
+
+
+<!--     end: locale.jsp  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+<!--   begin: resource_urls.jsp -->
+
+
+
+	
+	
+		
+		
+				
+	
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+<!--     end: resource_urls.jsp -->
+
+
+
+
+
+<!--   begin: view_data.jsp -->
+
+
+
+
+
+    
+    
+    
+        
+        
+        
+        <!-- collectionViewName 02: UA-- -->
+        
+            
+        	
+            <!-- collectionViewName 03: UA- -->
+        
+        
+            
+        	
+           <!-- collectionViewName 04: UA- -->
+        
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	    
+	
+	
+    
+
+
+
+
+    
+
+
+
+
+    
+	
+    <!-- collectionViewName 05: UA-- -->
+        
+
+<!--     end: view_data.jsp -->
+
+
+
+
+<!--   begin: SCV/jsp/pcs_urls.jsp -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+       
+	
+       
+		
+		
+		
+		
+			
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+       
+			
+		
+	
+       
+		
+		
+		
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+       
+	
+       
+		
+			
+			
+		
+		
+		
+				
+	
+       
+	
+       
+		
+		
+			
+		
+		
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+       
+	
+       
+			
+		
+		
+		
+		
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+       
+	
+       
+		
+		
+		
+				
+	
+
+
+
+
+    
+    
+        
+    
+
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+<!--     end: SCV/jsp/pcs_urls.jsp-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	    
+
+
+    
+
+
+    
+      
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+    
+
+
+
+
+
+
+
+<div id="skip-to-footer" class="footer">
+    <div class="footerContent">
+        
+        <ul>
+            <li><span>© 2016</span>&nbsp;<a hasautosubmit="true" oncontextmenu="javascript:return IsAllowedRightClick(this);" id="TRcopyright" title="Thomson Reuters" href="javascript:%20void(0)" onclick="javascript:open_location('http://www.thomsonreuters.com/products_services/science/','Thomson');"> Thomson Reuters</a></li>
+            <li><a hasautosubmit="true" oncontextmenu="javascript:return IsAllowedRightClick(this);" id="TRpolicy" title="Terms of Use" href="javascript:%20void(0)" onclick="javascript:open_location('http://wokinfo.com/terms','Terms_of_Use');"> Terms of Use</a></li>
+            <li><a hasautosubmit="true" oncontextmenu="javascript:return IsAllowedRightClick(this);" id="TRprivacy" title="Privacy Policy" href="javascript:%20void(0)" onclick="javascript:open_location('http://ip-science.thomsonreuters.com/privacy','Privacy');"> Privacy Policy</a></li>       
+            
+            <li><a hasautosubmit="true" oncontextmenu="javascript:return IsAllowedRightClick(this);" id="TRfeedback" title="Feedback" href="javascript:%20void(0)" onclick="javascript:open_location('http://science.thomsonreuters.com/info/wokfeedback/','Feedback');">Feedback</a></li>
+        </ul>
+    </div>
+</div>
+
+
+
+
+<!-- end: default_footer.jsp -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+</body></html>

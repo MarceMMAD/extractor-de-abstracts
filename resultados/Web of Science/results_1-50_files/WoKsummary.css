@@ -1,0 +1,1707 @@
+/* JJN added this to force results listing to be as wide as it can to fill the column in case each record is narrow (so the refine sidebar doesn't expand) */
+.summaryResultsColumn {
+	width: 100%;
+}
+
+.NEWsummaryPage .NEWouterShell, .NEWrelatedRecordsPage .NEWouterShell  {
+	padding-left: 29px;
+}
+
+
+.NEWsummaryNote {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #4B4B4B;
+	font-style: italic;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 2px;
+	margin-left: 0px;
+}
+
+.Cit_Report_Break_Box .NEWsummaryNote {
+	text-align: center;
+}
+
+.NEWsummaryPage .NEWleftOuterEdge, .NEWrelatedRecordsPage .NEWleftOuterEdge  {
+	width: 29px;
+	text-align: right;
+	vertical-align: top;
+	height: 1px;
+}
+
+/* Used when Refine is collapsed */
+.summary_pagecntnavNoPanel {
+    PADDING-RIGHT: 25px;
+    /* PADDING-LEFT: 20px; JJN removed this as no need when page uses new structure */
+    /* PADDING-BOTTOM: 8px;  CRC removed for same reason as above */
+    /* JJN remove to fix summary results too wide -- width: 100%; */
+    background-color: #F8F8F8;
+}
+
+
+/* Summary Page  o160AD (new color 355oCA) (aqua color oo709F) Record Links *************************/
+
+.summary_data A:link, .summary_data A:active, .summary_data A:visited, .summary_data A:hover {
+	COLOR: #005a84; TEXT-DECORATION: none; font-weight: bold; PADDING-RIGHT: 4px; PADDING-LEFT: 4px;
+}
+.summary_data A:hover {
+	TEXT-DECORATION: underline; 
+}
+
+
+/* Summary Page "view abstract" Links *************************/
+
+
+.viewAbs A:hover, .viewAbs A:link, .viewAbs A:active, .viewAbs A:visited {
+	font-weight: normal;
+}
+
+.formBoxesAbstract {
+	font-style: normal;
+	font-weight: normal;
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+/* Bug# 1195 Fix: Replaced width size from 112% to 98%*/
+	width: 98%;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 4px;
+/*JJN	padding-left: 8px; */
+	margin-top: 6px;
+/*JJN	border: 1px solid #CCCCCC; */
+/*JJN	height: 10em; */
+/*JJN	overflow: auto; */
+}
+
+.formBoxesAbstract div {
+	margin-top: 1em;
+}
+
+.formBoxesAbstract a:hover,
+.formBoxesAbstract a:link,
+.formBoxesAbstract a:active,
+.formBoxesAbstract a:visited {
+	color: rgb(51, 51, 51);
+	font-weight: normal;
+	text-decoration: none;
+}
+
+
+
+/* ********************* BEGIN : Summary Page ************************* */
+/* Parent & Query Area ******************* */
+.NEWsummaryPage .NEWpageTitle, .NEWcitedReferencesPage .NEWpageTitle, .NEWrelatedRecordsPage .NEWpageTitle   {
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.TCAsmallHead {
+	font-size: 14px;
+	padding-left: 1px;
+}
+.NEWsecondaryInfo {
+	color: #4B4B4B;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-bottom: 11px;
+}
+.NEWsecondaryInfo .summary_data {
+	color: #4B4B4B;
+	font-weight: bold;
+}
+.NEWsecondaryInfo .summary_data .label {
+	color: #4B4B4B;
+	font-weight: normal;
+}
+.SummQuery {
+	color: #3B3B3B;
+	font-size: 15px;
+	padding-top: 6px;
+	padding-left: 10px;
+}
+#spelling_suggestions .SummQuery { padding-left: 0px; } /* JJN added */
+.DAISsetsPage .SummQuery {
+	padding-left: 30px;
+}/*ggetz*/
+
+.AFfeedback {
+	text-align: left;
+	vertical-align: bottom;
+	white-space: nowrap;
+	font-size: 12px;
+	color: #3B3B3B;
+	padding-left: 11px;
+	padding-bottom: 2px;
+}
+
+.SSSlink {
+	font-size: 12px;
+	text-align: left;
+	vertical-align: bottom;
+	white-space: nowrap;
+	padding-bottom: 10px;
+	padding-left: 1px;
+}
+.RefineString {
+	color: #298929;
+	font-size: 12px;
+	padding-left: 1px;
+}
+.SummLimits {
+	color: #4B4B4B;
+	font-size: 12px;
+	padding-left: 11px;
+	padding-bottom: 2px;
+}
+
+.SummRefine {
+	color: #298929;
+	font-size: 12px;
+	padding-left: 1px;
+	padding-bottom: 2px;
+}
+
+
+/* Lemmatization Note  ******************* */
+.SummLemmatize {
+	background-color: #E2E8F1;
+	margin-bottom: 7px;
+	padding-top: 4px;
+	padding-right: 6px;
+	padding-bottom: 4px;
+	padding-left: 6px;
+	border: 1px dashed #333333;
+	font-size: 13px;
+	color: #333333;
+}
+
+
+
+/* ***************** BEGIN : Launch External Search ***************** */
+.CWC_button {
+	text-align: right;
+	padding-right: 6px;
+	font-size: 13px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+.CWC_button A {
+	padding-top: 4px;
+}
+.IBM_button {
+	text-align: right;
+	padding-right: 6px;
+	font-size: 13px;
+	padding-top: 2px;
+	padding-bottom: 6px;
+}
+.IBM_button .RegMark {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	vertical-align: top !important;
+	padding-left: 2px;
+}
+.IBM_button A {
+	padding-left: 2px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+}
+/* ***************** END : Launch External Search ***************** */
+
+/* ***************** BEGIN : DAIS Stripe ***************** */
+.queryTopBoxQueryDAIS {
+	margin-bottom: 7px;
+	padding-top: 10px;
+	padding-bottom: 4px;
+	font-size: 13px;
+}
+.queryTopBoxQueryDAIStext {
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.DAISlinks {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.DAISname {
+	font-weight: bold;
+	padding-top: 2px;
+/*	font-size: 13px;   removed to fix wokvx-5299*/
+	padding-bottom: 2px;
+}
+
+.DAISYname {
+	font-weight: bold;
+	padding-top: 2px;
+/*	font-size: 13px;   removed to fix wokvx-5299*/
+	padding-bottom: 2px;
+	word-wrap: break-word;
+}
+.DAISwhy {
+	font-size: 12px;
+}
+/* ***************** END : DAIS Stripe ***************** */
+
+/* NEEDED for DAIS Results Summary timespan string */
+.DAISLimits {
+	font-size: 12px;
+	font-weight: normal;
+	color: #4B4B4B;
+	padding-left: 10px;
+}
+
+/* ***************** BEGIN : Lemmatization Stripe ***************** */
+.queryTopBoxQueryLemm {
+	background-color: #E6E6E6;
+	margin-bottom: 7px;
+	padding-top: 4px;
+	padding-right: 6px;
+	padding-bottom: 4px;
+	padding-left: 6px;
+	border: 1px dashed #333333;
+}
+.queryTopBoxQueryLemmtext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.Lemmlinks {
+	padding-top: 2px;
+	font-size: 13px;
+	padding-bottom: 2px;
+}
+/* ***************** END : Lemmatization Stripe ***************** */
+
+
+
+
+
+/* ***************** BEGIN : Summary Main Table ***************** */
+
+.summary_pagecntnavMore {
+	PADDING-RIGHT: 10px;
+	PADDING-LEFT: 10px;
+	PADDING-BOTTOM: 10px;
+	width: 100%;
+	background-color: #eaf5ea;
+	margin: 10px;
+	padding-top: 10px;
+} 
+.summary_pagecntnav {
+	PADDING-RIGHT: 25px;
+	PADDING-LEFT: 2px;
+	PADDING-BOTTOM: 8px;
+	width: 100%; 
+	background-color: #F8F8F8; 
+	/* JJN: fix bg color behind refine More panel */
+}
+#RAmoreDisplayTable .summary_pagecntnav { /* JJN added this to fix missig top and left borders on Refine More */
+	border-top: 1px solid #CCCCCC; /* JJN: fix missing top border */
+}
+#RAmoreDisplayTable .refineSideBarCol { /* JJN added this to fix missig top and left borders on Refine More */
+	border-right: 1px solid #CCCCCC; /* JJN: fix missing right border */
+}
+
+
+.summary_TopBox {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 2px; PADDING-TOP: 0px
+} 
+.summary_quickTop {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	vertical-align: bottom;
+}
+.summary_AR {
+	font-size: 12px;
+	text-align: right;
+	color: #000000;
+	padding-top: 4px;
+	padding-bottom: 3px;
+	padding-right: 6px;
+}
+.summary_CitCount {
+	font-size: 12px;
+	text-align: right;
+	color: #000000;
+	padding-top: 4px;
+	padding-bottom: 3px;
+	padding-right: 20px;
+}
+.markedListPage .summary_CitCount {padding-right: 30px;} /* JUN added to fix uml */
+.CitCountError {
+	font-size: 12px;
+	color: #666666;
+	text-align: right;
+	/* JJN: removed this for overlap fix: padding-right: 20px; */
+}
+.errorMedlineRR {
+	PADDING: 5px;
+	BACKGROUND-COLOR: #FFFFCC;
+	TEXT-ALIGN: left;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 1px dashed #666666;
+	margin-top: 12px;
+	margin-right: 1px;
+	margin-bottom: 12px;
+	margin-left: 1px;
+	color: #4B4B4B;
+}
+
+
+/* ***************** END : Summary Main Table ***************** */
+
+
+/* ***************** BEGIN : Refine styles ***************** */
+.rghtpanelhdblue {
+	COLOR: #333333;
+	padding-bottom: 1px;
+	font-weight: bold;
+	padding-top: 11px;
+}
+.whiteshadow {
+	BACKGROUND-IMAGE: url(../images/shadow_white.gif);
+	BACKGROUND-REPEAT: repeat-y;
+	width: 17px;
+}
+.refineSideBarCol{
+<<<<<<< .mine
+	width: 10px;
+}
+.refineSideBarCol .rightbggreen {
+	PADDING-RIGHT: 15px;
+	PADDING-LEFT: 15px;
+	PADDING-BOTTOM: 0px;
+	PADDING-TOP: 1px;
+	BACKGROUND-COLOR: #E6E6E6;
+	/* width: 100%; */
+	vertical-align: top;
+}
+.refinePadTop {
+	padding-top: 4px;
+}
+.working {
+	font-size: 12px;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 6px;
+}
+.refineNone {
+	font-size: 12px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 20px;
+	color: #606060;
+}
+.refineSearchText {
+	font-size: 12px;
+	color: #333333;
+	font-family: Arial, Helvetica, sans-serif;
+	/* fix fat horizontal rule in refine panel */
+	border-top: 1px solid #cccccc;
+	padding-top: 3px;
+}
+.refineRAtext {
+	font-size: 12px;
+	color: #4B4B4B;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 5px;
+	padding-bottom: 1px;
+	text-align: center;
+}
+.refineHd {
+	font-size: 13px;
+	font-weight: bold;
+	white-space: nowrap;
+	padding-right: 3px;
+	padding-left: 1px;
+	color: #333333;
+	/* fix fat horizontal rule in refine panel */
+	border-top: 1px solid #cccccc;
+	margin-top: 4px;
+	padding-top: 4px;
+}
+.refineAnalyzeHd {
+	font-size: 13px;
+	font-weight: normal;
+}
+.refineItem {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	padding: 0 9px 10px 5px;
+}
+#raMore table tr TD.dothorz {
+	background-color: transparent;
+	border-top: solid 1px #CCCCCC;
+	padding-bottom: 10px;
+}
+#raMore table tr TD.dotvert {
+	background-color: transparent;
+	border-left: solid 1px #CCCCCC;
+	padding-right: 5px;
+}
+
+.refineMore {
+	font-size: 12px;
+	margin-left: 6px;
+	text-align: left;
+	margin-bottom: 2px;
+}
+.refine_closed_spacer {
+	width: 10px;
+}
+.refine_button {
+	padding-top: 5px;
+	padding-bottom: 3px;
+}
+.MoreSortby{
+	PADDING-LEFT: 10px;
+	COLOR: #000000;
+	white-space: nowrap;
+	text-align: right;
+	font-weight: normal;
+	padding-top: 6px;
+	padding-bottom: 2px;
+}
+
+.MoreSortbyText{
+	font-size: 13px;
+	color: #4B4B4B;
+}
+
+.refineByString {
+	font-size: 13px;
+	color: #298929;
+	padding-bottom: 8px;
+	padding-left: 18px;
+	margin-top: -4px;
+}
+
+.refineByStringDAISY {
+	font-size: 13px;
+	color: #298929;
+	padding-bottom: 8px;
+	margin-top: -4px;
+}
+
+/* ***************** END : Refine styles ***************** */
+
+
+/* ***************** BEGIN : Summary Data Rows ***************** */
+
+.summary_recnum {
+	FONT-WEIGHT: bold;
+	VERTICAL-ALIGN: top;
+	white-space: nowrap;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	font-size: 13px;
+	color: #333333;
+}
+
+.en_summary_recnum {
+/* JJN: removed FONT-WEIGHT: bold; also added padding right  */
+	VERTICAL-ALIGN: top;
+	white-space: nowrap;
+	padding-right: 15px;
+	padding-left: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	font-size: 13px;
+	color: #333333;
+}
+/* JJN: Added to get more space between checkbox and numbers on summary page */
+.en_summary_recnum > input {
+	margin-right: 10px;
+}
+
+.summary_recnumBlue {
+	FONT-WEIGHT: bold;
+	VERTICAL-ALIGN: top;
+	padding-right: 4px;
+	white-space: nowrap;
+	font-size: 13px;
+	color: #333333;
+	background-color: #FFFFFF;
+	border-top-width: 2px;
+	border-bottom-width: 0-px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #FFF;
+	border-bottom-color: #FFF;
+	padding-left: 4px;
+	text-align: center;
+	padding-top: 1px;
+	
+}
+
+.summary_recCheckBoxCol {
+                VERTICAL-ALIGN: top;
+                font-size: 13px;
+                color: #333333;
+                background-color: #F2F2F2;
+                border-top-width: 2px;
+                border-right-width: 2px;
+                border-bottom-width: 2px;
+                border-left-width: 2px;
+                border-top-style: solid;
+                border-right-style: solid;
+                border-bottom-style: solid;
+                border-left-style: none;
+                border-top-color: #FFF;
+                border-right-color: #FFF;
+                border-bottom-color: #FFF;
+                border-left-color: #FFF;
+                text-align: center;
+}
+
+.summary_data {
+	font-size: 13px;
+	PADDING-BOTTOM: 10px;
+	PADDING-TOP: 8px;
+	Padding-right: 5px;
+	color: #333333;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.asc_summary_data {
+	font-size: 13px;
+	PADDING-BOTTOM: 2px;
+	PADDING-TOP: 2px;
+	color: #333333;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.asc_summary_display_data {
+	font-size: 13px;
+	PADDING-BOTTOM: 2px;
+	PADDING-TOP: 2px;
+	PADDING-LEFT: 30px;
+	color: #333333;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.dii_summary_data {
+	width: 100%;
+}
+
+.eFIRST { font-weight: bold;         /* Format for eFIRST indicator */
+	color: #003399;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	background-color: #FFFFCC; }
+
+.CWCsummary_data {
+	font-size: 13px;
+	PADDING-BOTTOM: 6px;
+	PADDING-TOP: 10px;
+	padding-left: 2px;
+}
+
+.CWC_pagecntnav {
+	PADDING-RIGHT: 10px;
+	PADDING-LEFT: 10px;
+	PADDING-BOTTOM: 10px;
+	PADDING-TOP: 8px;
+	vertical-align: top;
+} 
+.NEWitemTitle {
+	font-size: 14px;
+}
+
+/* Summary yellow hilite and bold Source tags */
+.hitHilite {
+	background-color: #FF6;
+}
+
+.data_bold {
+	/* JJN Summary source fields not bold -- font-weight: bold; */
+}
+
+.en_data_bold {
+	font-weight: bold;
+	PADDING-RIGHT: 5px;
+	PADDING-LEFT: 5px;
+}
+
+.fromCollection {
+    font: italic 12px Georgia;
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 3px;
+}
+
+/* Summary Editions box */
+.summEditHd {
+	PADDING-RIGHT: 10px;
+	PADDING-LEFT: 10px;
+	TEXT-ALIGN: left;
+	font-size: 12px;
+}
+
+.summEditItem {
+	PADDING-RIGHT: 10px;
+	PADDING-LEFT: 10px;
+	TEXT-ALIGN: left;
+	font-size: 12px;
+	color: #666666;
+}
+
+.summEditItemSelected {
+	font-weight: bold;
+	color: #000000;
+}
+
+
+.contnavtext2 {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; TEXT-ALIGN: left
+}
+/* Summary Misc */
+
+.refineBoxMore {
+	margin-top: 4px;
+	padding-left: 2px;
+	width: 100%;
+}
+.more_title {
+	padding-top: 6px;
+	padding-right: 4px;
+	padding-bottom: 6px;
+	padding-left: 4px;
+	color: #4B4B4B;
+}
+.refineBoxMore .rightbggreen {
+	padding: 1px 15px 8px;
+	/* JJN removed this from the refine more panel: BACKGROUND-COLOR: #E6E6E6; */
+	width: 100%;
+	vertical-align: top;
+}
+
+.refineBoxMore .whiteshadow {
+	background-image: none
+}
+
+.moreHD {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #000000;
+	padding-right: 15px;
+}
+
+.view_all_ref_link {
+	margin-top: -16px;
+	margin-left: 16px;
+}
+.summary_results_text {
+	font-size: 13px;
+	color: #4B4B4B;
+	font-weight: normal;
+}
+.summary_hit_count {
+	font-size: 14px;
+	font-weight: bold;
+	color: #4B4B4B;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+.en_summary_hit_count {
+	font-size: 14px;
+	font-weight: bold;
+	color: #4B4B4B;
+}
+.refine_more_instr {
+	font-weight: normal;
+	font-size: 12px;
+	color: #606060;
+	padding: 4px 4px 6px;
+}
+.refine_rule {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+.TCfrom {
+	color: #606060;
+	padding-right: 4px;
+	padding-left: 4px;
+}
+.viewAbs {
+	color: #606060;
+	padding-right: 4px;
+	padding-left: 4px;
+}
+
+
+
+/* Summary Data Page Header *********************** */
+.summaryInfoHead {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+}
+.SummTitle {
+	vertical-align: top;
+}
+/* "Secondary" Summary Data Page Header *********************** */
+.recordInfoHead {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+}
+
+
+.source_data_label {
+	color: #666666;
+}
+
+.secondary_record_info {
+}
+
+.secondary_record_info_label {
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #4B4B4B;
+}
+
+.secondary_record_info_data {
+	font-size: 13px;
+	color: #4B4B4B;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+
+/* All Citation Counts =================================================*/
+
+.All_Cit_record_row {
+	padding-top: 8px;
+}
+
+.above_record {
+	font-size: 14px;
+	padding-bottom: 6px;
+	padding-top: 6px;
+}
+
+.All_Cit_head {
+	font-size: 14px;
+	COLOR: #000000;
+	PADDING-TOP: 18px;
+	font-weight: bold;
+	padding-bottom: 4px;
+}
+
+.All_Cit_data_WoS {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color: #EEEEDD;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-right: 11px;
+	padding-left: 11px;
+	font-weight: bold;
+}
+
+.All_Cit_data {
+	font-size: 14px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-right: 11px;
+	padding-left: 11px;
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+.All_Cit_hint {
+	font-size: 13px;
+	color: #5D5D5D;
+	background-color: #FFFFFF;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+
+.Alt_current {
+	font-weight: bold;
+	color: #515151;
+}
+
+.Alt_currentNonBold {
+	color: #515151;
+}
+
+/* ********************* END : Summary Page ************************* */
+
+
+
+
+
+/* Cited References Page ================================================= */
+.citedRefTableRow1 {
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+	
+.citedRefTableRow2 {
+	background-color: #f2f2f2;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+.DIIDWcitedRefTableRow1 {
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+.DIIDWcitedRefTableRow2 {
+	background-color: #f2f2f2;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	
+}
+/* Updated selectCheckbox style for removal of Related Records checkboxes from Cited Refs page*/
+	
+.selectCheckbox {
+	vertical-align: top;
+	padding-top: 4px;
+	font-weight: bold;
+	white-space: nowrap;
+	color: #333333;
+}	
+/*.selectCheckbox {
+	vertical-align: top;
+	padding-right: 5px;
+	padding-left: 3px;
+	font-weight: bold;
+	white-space: nowrap;
+	width: 5%;
+}*/
+
+.CitedRef_recnum {
+	FONT-WEIGHT: bold;
+	VERTICAL-ALIGN: top;
+	white-space: nowrap;
+	padding-right: 6px;
+	text-align: right;
+	padding-left: 2px;
+}
+.citedRef {
+	text-indent: -20px;
+	padding-left: 20px;
+	padding-top: 4px;
+	padding-bottom: 12px;
+}
+
+/* Related Records option on Cited Ref page ========================================== */
+.NEWcitedReferencesPage .summary_recnum {
+	FONT-WEIGHT: bold;
+	VERTICAL-ALIGN: top;
+	white-space: nowrap;
+	padding-right: 4px;
+	font-size: 13px;
+	color: #333333;
+	padding-left: 4px;
+	padding-top: 4px;
+}
+.relrecbutton_col {
+	VERTICAL-ALIGN: top;
+	color: #333333;
+	background-color: #E6E6E6;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #FFF;
+	border-bottom-color: #FFF;
+}
+.relrec_col {
+	FONT-WEIGHT: bold;
+	VERTICAL-ALIGN: top;
+	white-space: nowrap;
+	padding-right: 4px;
+	font-size: 13px;
+	color: #333333;
+	background-color: #E6E6E6;
+	border-top-width: 1px;
+	border-bottom-width: 3px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #FFF;
+	border-bottom-color: #FFF;
+	padding-left: 4px;
+	text-align: center;
+	padding-top: 1px;
+}
+
+.relrec_output_row {
+	background-color: #FFF;
+}
+.relrec_button_row {
+	padding-right: 2px;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+}
+.relrec_buttons, .relrec_table {
+	border-bottom: 2px solid #FFFFFF;
+        background-color: #E6E6E6;
+}
+.relrec_buttons {
+	padding: 6px 3px 4px 3px;
+}
+.relrec_text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #4B4B4B;
+	padding-bottom: 4px;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+.relrec_arrow {
+	padding-left: 9px;
+	vertical-align: bottom;
+	text-align: left;
+	border-top-width: 0px;
+	border-bottom-width: 2px;
+        border-left: 2px solid #FFF;
+}
+.summary_relrecTop {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	vertical-align: bottom;
+	padding-left: 8px;
+}
+.relrec_col2 {
+	FONT-WEIGHT: bold;
+	VERTICAL-ALIGN: top;
+	white-space: nowrap;
+	padding-right: 4px;
+	font-size: 13px;
+	color: #333333;
+	border-top-width: 1px;
+	border-bottom-width: 3px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #FFF;
+	border-bottom-color: #FFF;
+	padding-left: 4px;
+	text-align: center;
+}
+.relrec_arrow2 {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	vertical-align: bottom;
+	padding-left: 9px;
+	background-color: #F2F2F2;
+}
+.summary_relrecTop2 {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	vertical-align: bottom;
+	padding-left: 8px;
+	background-color: #F2F2F2;
+}
+
+/* Shared References extras ========================================== */
+
+.sharedRef_sub {
+	color: #666666;
+	font-size: 13px;
+	font-weight:bold;
+	padding-left: 2px;
+	padding-top: 6px;
+}
+/* We don’t use these next 2 css because the shared ref pages show the entire parent record info, not just 1st author and title */
+.sharedRef_parent {
+	padding-left: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #666;
+}
+
+.sharedRef_recnum {
+	vertical-align: top;
+	padding-right: 4px;
+	padding-left: 5px;
+	font-weight: bold;
+	white-space: nowrap;
+	padding-top: 4px;
+}
+
+
+/* Related Records Page ================================================= */
+
+.relatedCounts {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+
+.relatedHeading {
+	font-weight: bold;
+	color: #666666;
+	background: #F2F2F2;
+	vertical-align:text-top;
+	text-align: center;
+	font-size: 13px;
+}
+
+.relatedColumn {
+	text-align: center;
+	color: #666666;
+	vertical-align: text-top;
+	background-color: #F2F2F2;
+	font-size: 13px;
+}
+
+
+.subTitleString {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000000;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.relRec_refs {
+	background-color: #F2F2F2;
+	margin: 2px;
+	font-size: 13px;
+	text-align: center;
+	vertical-align: top;
+	padding-right: 4px;
+	padding-left: 4px;
+	border-top-width: 2px;
+	border-right-width: 0px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+
+.relRec_refs_head {
+	background-color: #F2F2F2;
+	margin: 2px;
+	font-size: 13px;
+	text-align: center;
+	vertical-align: top;
+	padding-right: 4px;
+	padding-left: 4px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	font-weight: bold;
+	color: #666666;
+}
+
+.relRecs_pagecntnav {
+	PADDING-RIGHT: 10px;
+	PADDING-LEFT: 2px;
+	PADDING-BOTTOM: 8px;
+	width: 100%;
+} 
+
+
+
+
+/* ***************** BEGIN : Citation Reports styles ***************** */
+
+.CitReport_pageContent {
+	PADDING-RIGHT: 10px;
+	PADDING-LEFT: 10px;
+	PADDING-BOTTOM: 8px;
+	PADDING-TOP: 8px;
+	vertical-align: top;
+	width: 100%;
+}
+
+/* added by R.Joshi to address dotted line problem */
+.CitReport_contnav_lower {
+      PADDING-RIGHT: 10px;
+      PADDING-LEFT: 10px;
+      BACKGROUND-COLOR: #ffffff
+}
+
+.citReportInst {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding-right: 3px;
+	padding-left: 10px; /* JJN changed from 3 */
+	/* JJN removed: padding-top: 6px; */
+	padding-bottom: 8px;
+	color: #4B4B4B;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	border-bottom: 0px;
+}
+
+.navTopBox_CR { font-family: Arial, Helvetica, sans-serif; 
+    background-color: #F9F9F2; 
+    border: 2px #EEEEDD solid; 
+    margin-bottom: 4px; 
+    font-size: 12px; 
+    padding-left: 4px; 
+    white-space: normal; }
+
+.print_save_email  { font-family: Arial, Helvetica, sans-serif; 
+    background-color: #F9F9F2; 
+    padding: 10px 0px 5px 0px;
+    border-bottom: 2px solid #EEEEDD;
+    text-align: center;
+    font-size: 12px; 
+    white-space: normal;
+    font-weight: bold; 
+    color: #333333;
+    white-space: nowrap }
+
+.stats  {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-top: 30px;
+     }
+    
+.graphData  {
+	text-align: right;
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	vertical-align: bottom;
+     }
+    
+.selfCite  {
+	padding-left: 0px;
+	font-weight: normal;
+	text-align: right;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	font-size: 12px;
+	color: #666666;
+     }
+    
+.graphData_data  {
+	text-align: left;
+	font-size: 12px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+	vertical-align: bottom;
+    }
+	
+.citrep_thead { font-family: Arial, Helvetica, sans-serif;
+    background-color: #F9F9F2;
+    }
+    
+.totalRow {
+	/* JJN Added next 3 to fix Cit Report */
+	display: table-cell;
+	width: 40px;
+	min-width: 40px;
+	background-color: #E6E6E6;
+	color:#333333;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 3px;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.totalCol {
+	/* JJN Added next to to get CitReport "columns" to be divs */
+	display: table-cell;
+	width: 50px;
+	min-width: 50px;
+	background-color: #E6E6E6;
+	font-size: 13px;
+	padding: 3px;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+}
+.CitReportTotalRow2 {
+	padding-bottom: 0px;
+}
+.peryearTotal {
+	/* JJN Added next to to get CitReport "columns" to be divs */
+	display: table-cell;
+	width: 76px;
+	min-width: 76px;
+	background-color: #E5E5E5;
+	font-size: 13px;
+	padding: 3px;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+	color: #333333;
+}
+
+.tcPerYear {
+	/* JJN Added next to to get CitReport "columns" to be divs */
+	display: table-cell;
+	width: 40px;
+	min-width: 40px;
+	background-color: #F2F2F2;
+	font-size: 13px;
+	padding: 3px;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+	color: #333333;
+}
+#GRAND_TOTAL_TC2, #AVG_CITATIONS_PER_YEAR {
+	/* JJN Added next 3 to fix Cit Report */
+	display: table-cell;
+	width: 50px;
+	min-width: 50px;
+}
+
+
+.hrow { border-bottom: 2px #EF8A01 solid}
+
+.bigChartLink { font-size: 12px; }
+.citRep_charts {
+	padding-top: 30px; /* JJN changed from 8 */
+	padding-bottom: 8px;
+}
+
+
+.CRpt_Remove {
+	/* JJN Added this next display to fix Related Records display */
+	display: table-cell;
+	width: 100%;
+	background-color: #F2F2F2;
+	text-align: left;
+	vertical-align: bottom;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 0px;
+}
+.CRpt_RemoveInstr {
+	font-size: 13px;
+	font-weight: normal;
+	color: #333333;
+}
+
+.signInError {
+	BACKGROUND-COLOR: #FFFFCC;
+	TEXT-ALIGN: center;
+	border: 1px solid #990000;
+	width: 98%;
+	margin-top: 12px;
+	margin-right: 1px;
+	margin-bottom: 12px;
+	margin-left: 1px;
+	padding: 3px;
+	color: #990000;
+}
+
+.signedIn {
+	font-weight: bold;
+	color: #007E1B;
+}
+
+.logOutMessHead {
+	color: #007E1B;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 16px;
+}
+
+.logOutMessText {
+	color: #000000;
+	text-align: center;
+	padding-bottom: 8px;
+}
+
+
+.Cit_Report_Break_Box {
+	padding-top: 0px;
+	padding-right: 6px;
+	padding-bottom: 12px;
+	padding-left: 30px;
+	margin-top: 4px;
+	margin-right: 0px;
+	margin-bottom: 3px;
+	margin-left: 0px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+}
+.Cit_Report_Break_Table {
+	border-right-width: 2px;
+	border-right-style: solid;
+	border-right-color: #FFFFFF;
+}
+.Cit_Report_Break_Table TH {
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+}
+.Cit_Report_Open {
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-left: 50px;
+}
+.Cit_Report_Close {
+	font-weight: bold;
+	font-size: 12px;
+	text-align: right;
+}
+.Cit_Report_Break_Box .tcPerYear {
+	background-color: #F2F2F2;
+	font-size: 13px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	text-align: center;
+	color: #333333;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	font-weight: bold;
+}    
+.Cit_Report_Break_Box .graphData  {
+	text-align: right;
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 0px;
+	padding-bottom: 4px;
+	padding-left: 0px;
+	vertical-align: bottom;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	padding-right: 3px;
+     }
+.Cit_Report_Break_Box .graphData_data  {
+	text-align: center;
+	font-size: 12px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 4px;
+	padding-left: 8px;
+	vertical-align: bottom;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+    }
+.Cit_Report_GoButton {
+	padding: 5px 10px;
+}
+
+
+
+/* ***************** END : Citation Reports styles ***************** */
+
+.citRef {
+	padding-bottom: 6px;
+}
+
+
+/* ********** ABSTRACT HOVER TEST ***************** */
+div#links a span {display: none;}
+
+
+div#links a:hover span {display: block;
+   position: absolute; top: 10px; left: 10px; width: 125px;
+   padding: 5px; margin: 10px; z-index: 100;
+   color: black; background: white;
+   font: 10px Verdana, sans-serif; text-align: left;}
+   
+/* ******************* BEGIN : Citing Articles Scorecard ***************** */
+/* All Citation Counts */
+.AllCitationCountsBox {
+	background-color: #F2F2F2;
+	padding-top: 4px;
+	padding-right: 6px;
+	padding-bottom: 4px;
+	padding-left: 6px;
+	border: 1px solid #999999;
+	margin-top: 4px;
+	margin-right: 0px;
+	margin-bottom: 3px;
+	margin-left: 0px;
+}
+.All_Cit_Level1 {
+	margin-top: 1px;
+	
+}
+.All_Cit_Level2 {
+	margin-top: 1px;
+}
+.All_Cit_Level3 {
+	margin-top: 4px;
+	margin-left: 50px;
+}
+.All_Cit_Level4 {
+	padding-left: 25px;
+	font-size: 13px;
+	font-weight: bold;
+}
+.All_Cit_Num {
+	font-size: 13px;
+	padding-top: 2px;
+	padding-right: 6px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	text-align: right;
+	font-weight: bold;
+	vertical-align: top;
+}
+.All_Cit_Text {
+	font-size: 13px;
+	padding-top: 2px;
+	padding-right: 4px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+	text-align: left;
+	font-style: italic;
+	vertical-align: top;
+	width: 98%;
+}
+
+.All_Cit_From {
+	font-style: normal;
+	font-weight: normal;
+}
+.All_Cit_Current {
+	/* JJN remove color - background-color: #B3D9EC; */
+}
+.All_Cit_Current .All_Cit_Text, .All_Cit_Current .All_Cit_From {
+	font-weight: bold;
+	vertical-align: top;
+}
+.outputText3 {
+	font-size: 12px;
+	color: #333;
+	margin-top: 6px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.smallV110 {
+	font-size: 110%;
+}
+
+/* Chem Summary */
+.CHEMnavtext {
+	PADDING-RIGHT: 14px;
+	PADDING-LEFT: 14px;
+	font-size: 14px;
+	TEXT-ALIGN: left;
+	font-weight: bold;
+}
+.CHEMcompName {
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 3px;
+}
+.CHEMsummDesc {
+	font-size: 14px;
+	text-align: left;
+	padding-left: 23px;
+}
+.CHEMdothorz {
+	margin-top: 8px;
+	margin-bottom: 8px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCC;
+	/* JJN removed: margin-left: 20px; */
+}
+.CHEMmlButtons {
+	margin-left: 24px;
+}
+.CHEMsummLinks {
+	padding-right: 3px;
+	padding-left: 20px;
+}
+.CHEMresultsLink {font-size: 11px;
+	font-weight: bold; }
+.CHEMsummImg {
+	padding-top: 4px;
+	padding-right: 7px;
+	padding-bottom: 7px;
+	padding-left: 23px;
+}
+.CHEMsummImg applet { border: 1px #333333 solid; }
+.NEWcitRptHead {
+	font-size: 16px;
+	font-weight: bold;
+	color: #3B3B3B;
+	text-align: center;
+}
+
+.reference-title {
+	font-weight: bold;
+}
+
+divAbs {	position: relative;
+	top: 11px;
+	left: -90px;
+	padding: none;
+	margin: none:}
+
+@-moz-document url-prefix() {
+	.divAbs {	top: 12px;
+	}
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.divAbs {	top: 13px;
+	}
+}
+
+.parent_biblio span, .parent_biblio div, .parent_biblio * span, .parent_biblio b {
+	background-color: #FFF;
+}
+
+/* for ALUM */
+
+div.alum {position:relative; white-space:nowrap;}
+.alum_head{font-weight:bold;}
+.alum_chev {
+	background:url(../images/icons.png) no-repeat -33px -390px;
+	height:10px;
+	width:14px;
+	display:inline-block;
+	cursor:pointer;
+}
+.alum_chev_up {
+	background:url(../images/icons.png) no-repeat -50px -390px;
+	height:10px;
+	width:14px;
+	display:inline-block;
+	cursor:pointer;
+	margin-left:6px;
+}
+div.alumPop {
+--------color: #fff;
+-------line-height: 20px;
+background: none repeat scroll 0 0 #f8f8f8 !important;
+border: 1px solid #ccc !important;
+border-radius: 0;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+font-family: Arial,Helvetica,sans-serif;
+font-size: 12px;
+font-weight: normal;
+height: 60px;
+left: 0;
+padding: 10px;
+position: absolute;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+top: 0;
+visibility: hidden;
+min-width: 150px;
+z-index: 10001;
+}
+div.alumPop a {color:#005a84;margin-top:5px !important}
+.alumHelp_link {padding-top:10px; text-align:right; display:none;}
+.tip_close a {padding-left:10px;}
+.alum_text {clear:both;padding-top:5px;padding-left:10px; line-height:125%;}
+.alum_label {clear:both;padding-top:5px;padding-left:0px; line-height:125%;}
+
+.x_close {color:#FFF;
+      width: 10px;
+      height: 10px;
+      SSSSborder-width: 2px solid #fff;
+	  left:150px;
+	  padding:0px 5px 10px 3px;
+	  text-align:right;
+	  float:right;
+	  font-weight:normal;
+}
+.x_close a {color:#FFF;}

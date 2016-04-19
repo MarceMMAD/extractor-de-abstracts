@@ -1,0 +1,1223 @@
+
+
+
+
+
+
+
+TY  - JOUR
+T1  - Technology-Enabled Participatory Platforms for Civic Engagement: The Case of U.S. Cities
+AU  - Desouza, Kevin C.
+AU  - Bhagwatwar, Akshay
+Y1  - 2014/10/02
+PY  - 2014
+DA  - 2014/10/02
+N1  - doi: 10.1080/10630732.2014.954898
+DO  - 10.1080/10630732.2014.954898
+T2  - Journal of Urban Technology
+JF  - Journal of Urban Technology
+JO  - Journal of Urban Technology
+SP  - 25
+EP  - 50
+VL  - 21
+IS  - 4
+PB  - Routledge
+N2  - AbstractTechnology-enabled participatory platforms are proving to be valuable canvases for engaging citizens in solving public-good challenges. Citizens are playing a more active role by either designing platforms themselves or participating on platforms created by public agencies. Unfortunately, our theoretical knowledge about the nature of these platforms is limited. In this paper, we take the first steps towards understanding technology-enabled participatory platforms. Through an exploratory analysis, following the spirit of a grounded theoretic methodology, we examined technology-enabled participatory platforms in the 25 most populated cities in the United States. We deduce four main archetypes?citizen centric and citizen data, citizen centric and government data, government centric and citizen data, and government centric and citizen-developed solutions of technology-enabled participatory platforms. We describe the intricacies of how collective intelligence is leveraged on these platforms. Implications for local government managers and urban planners are discussed. We hypothesize how the future of these platforms might evolve in the not so distant future.
+AB  - AbstractTechnology-enabled participatory platforms are proving to be valuable canvases for engaging citizens in solving public-good challenges. Citizens are playing a more active role by either designing platforms themselves or participating on platforms created by public agencies. Unfortunately, our theoretical knowledge about the nature of these platforms is limited. In this paper, we take the first steps towards understanding technology-enabled participatory platforms. Through an exploratory analysis, following the spirit of a grounded theoretic methodology, we examined technology-enabled participatory platforms in the 25 most populated cities in the United States. We deduce four main archetypes?citizen centric and citizen data, citizen centric and government data, government centric and citizen data, and government centric and citizen-developed solutions of technology-enabled participatory platforms. We describe the intricacies of how collective intelligence is leveraged on these platforms. Implications for local government managers and urban planners are discussed. We hypothesize how the future of these platforms might evolve in the not so distant future.
+SN  - 1063-0732
+M3  - doi: 10.1080/10630732.2014.954898
+UR  - http://dx.doi.org/10.1080/10630732.2014.954898
+ER  - 
+
+TY  - JOUR
+T1  - A service-oriented architecture to enable participatory planning: an e-planning platform
+AU  - Poorazizi, M. Ebrahim
+AU  - Steiniger, Stefan
+AU  - Hunter, Andrew J.S.
+Y1  - 2015/07/03
+PY  - 2015
+DA  - 2015/07/03
+N1  - doi: 10.1080/13658816.2015.1008492
+DO  - 10.1080/13658816.2015.1008492
+T2  - International Journal of Geographical Information Science
+JF  - International Journal of Geographical Information Science
+JO  - International Journal of Geographical Information Science
+SP  - 1081
+EP  - 1110
+VL  - 29
+IS  - 7
+PB  - Taylor & Francis
+N2  - Recent advances in Web technologies have opened avenues to create socio-technical platforms that can empower citizens in urban planning processes. The rise of the GeoWeb and the popularity of Web 2.0 collaborative tools can facilitate the development of a new generation of bottom-up Public Participatory GIS (PPGIS) platforms that can incorporate user-generated content into Spatial Data Infrastructures (SDIs). New service-based delivery mechanisms can provide architectural flexibility and adaptability, and enable the public to benefit from ubiquitous information access. From an e-participation perspective, Web 2.0 social networking functions support interactive communication among various PPGIS stakeholders, e.g., citizens, planners, and decision makers. The main contribution of this article is to present a reference architecture for e-planning platforms that (1) facilitates effective e-participation by allowing multidirectional map-based communication among various land development stakeholders (e.g., planners, decision makers, citizens, etc.), and (2) enables incorporation of visualization, evaluation, and discussion capabilities to support community planning processes. To achieve this, we developed a service-oriented architecture (SOA) that exploits SDI principles and Web 2.0 technologies. The platform architecture allows heterogeneous data sources, analytical functionality and tools, and presentation frameworks to be plugged into a coherent system to provide a planning and decision support platform. We present two real-world implementations of the proposed architecture that have been developed to support community engagement in the City of Calgary, Canada.
+AB  - Recent advances in Web technologies have opened avenues to create socio-technical platforms that can empower citizens in urban planning processes. The rise of the GeoWeb and the popularity of Web 2.0 collaborative tools can facilitate the development of a new generation of bottom-up Public Participatory GIS (PPGIS) platforms that can incorporate user-generated content into Spatial Data Infrastructures (SDIs). New service-based delivery mechanisms can provide architectural flexibility and adaptability, and enable the public to benefit from ubiquitous information access. From an e-participation perspective, Web 2.0 social networking functions support interactive communication among various PPGIS stakeholders, e.g., citizens, planners, and decision makers. The main contribution of this article is to present a reference architecture for e-planning platforms that (1) facilitates effective e-participation by allowing multidirectional map-based communication among various land development stakeholders (e.g., planners, decision makers, citizens, etc.), and (2) enables incorporation of visualization, evaluation, and discussion capabilities to support community planning processes. To achieve this, we developed a service-oriented architecture (SOA) that exploits SDI principles and Web 2.0 technologies. The platform architecture allows heterogeneous data sources, analytical functionality and tools, and presentation frameworks to be plugged into a coherent system to provide a planning and decision support platform. We present two real-world implementations of the proposed architecture that have been developed to support community engagement in the City of Calgary, Canada.
+SN  - 1365-8816
+M3  - doi: 10.1080/13658816.2015.1008492
+UR  - http://dx.doi.org/10.1080/13658816.2015.1008492
+ER  - 
+
+TY  - JOUR
+T1  - Explaining the Failure of an Online Citizen Engagement Initiative: The Role of Internal Institutional Variables
+AU  - Chadwick, Andrew
+Y1  - 2011/02/25
+PY  - 2011
+DA  - 2011/02/25
+N1  - doi: 10.1080/19331681.2010.507999
+DO  - 10.1080/19331681.2010.507999
+T2  - Journal of Information Technology & Politics
+JF  - Journal of Information Technology & Politics
+JO  - Journal of Information Technology & Politics
+SP  - 21
+EP  - 40
+VL  - 8
+IS  - 1
+PB  - Routledge
+N2  - This article presents an exploratory case study based on fieldwork consisting of in-depth, semistructured interviews and group discussions with administrative, legal, political, and technology staff involved in an online citizen engagement initiative in ?TechCounty,? a pseudonymous U.S. local government authority operating in one of the most favorable sociodemographic and technological contexts imaginable. In contrast with many of the dominant approaches in the literature, the article reveals how a rich, complex, and sometimes surprising array of internal institutional variables explains the initiative's failure. The article highlights the fragile and uncertain adoption of online engagement by public organizations and the significance of this study's method for building theory and guiding future research.
+AB  - This article presents an exploratory case study based on fieldwork consisting of in-depth, semistructured interviews and group discussions with administrative, legal, political, and technology staff involved in an online citizen engagement initiative in ?TechCounty,? a pseudonymous U.S. local government authority operating in one of the most favorable sociodemographic and technological contexts imaginable. In contrast with many of the dominant approaches in the literature, the article reveals how a rich, complex, and sometimes surprising array of internal institutional variables explains the initiative's failure. The article highlights the fragile and uncertain adoption of online engagement by public organizations and the significance of this study's method for building theory and guiding future research.
+SN  - 1933-1681
+M3  - doi: 10.1080/19331681.2010.507999
+UR  - http://dx.doi.org/10.1080/19331681.2010.507999
+ER  - 
+
+TY  - JOUR
+T1  - Media representation of the Middle East: constructive student engagement in an online environment
+AU  - Somdahl-Sands, Katrinka
+AU  - Belbas, Brad
+Y1  - 2012/09/01
+PY  - 2012
+DA  - 2012/09/01
+N1  - doi: 10.1080/17439884.2011.567990
+DO  - 10.1080/17439884.2011.567990
+T2  - Learning, Media and Technology
+JF  - Learning, Media and Technology
+JO  - Learning, Media and Technology
+SP  - 289
+EP  - 302
+VL  - 37
+IS  - 3
+PB  - Routledge
+N2  - As educators interested in pedagogical uses of technology, we utilize the internet to improve students' knowledge and awareness of the world beyond our own national borders. Web-based technologies offer us resources for our courses and can play an important role in promoting a more active style of learning from our students. Yet when teaching about politically sensitive topics, or regions of the world that are less well known, we inevitably access information that is unfiltered, out-of-context, inaccurate, or biased. This paper will be an exploration of how we taught students to critically engage with each other and with online media sources through a class blog discussing the violence in Gaza during January of 2009. During the two-week project, the students investigated this new media landscape (from blogs to YouTube) increasing their levels of techno-literacy by searching beyond their ?normal? sources and by recognizing the political bias present in all online venues. Evidence will show how the students went from passive consumers of networked information to active citizen participants as they expressed their opinions, countered each other's sources, and worked out how to fundamentally disagree without losing civility. The paper will detail the pedagogical practices and challenges to creating online spaces for constructive argumentation about highly volatile issues.
+AB  - As educators interested in pedagogical uses of technology, we utilize the internet to improve students' knowledge and awareness of the world beyond our own national borders. Web-based technologies offer us resources for our courses and can play an important role in promoting a more active style of learning from our students. Yet when teaching about politically sensitive topics, or regions of the world that are less well known, we inevitably access information that is unfiltered, out-of-context, inaccurate, or biased. This paper will be an exploration of how we taught students to critically engage with each other and with online media sources through a class blog discussing the violence in Gaza during January of 2009. During the two-week project, the students investigated this new media landscape (from blogs to YouTube) increasing their levels of techno-literacy by searching beyond their ?normal? sources and by recognizing the political bias present in all online venues. Evidence will show how the students went from passive consumers of networked information to active citizen participants as they expressed their opinions, countered each other's sources, and worked out how to fundamentally disagree without losing civility. The paper will detail the pedagogical practices and challenges to creating online spaces for constructive argumentation about highly volatile issues.
+SN  - 1743-9884
+M3  - doi: 10.1080/17439884.2011.567990
+UR  - http://dx.doi.org/10.1080/17439884.2011.567990
+ER  - 
+
+TY  - JOUR
+T1  - Using Social Media and Mobile Technologies to Foster Engagement and Self-Organization in Participatory Urban Planning and Neighbourhood Governance
+AU  - Kleinhans, Reinout
+AU  - Van Ham, Maarten
+AU  - Evans-Cowley, Jennifer
+Y1  - 2015/05/27
+PY  - 2015
+DA  - 2015/05/27
+N1  - doi: 10.1080/02697459.2015.1051320
+DO  - 10.1080/02697459.2015.1051320
+T2  - Planning Practice & Research
+JF  - Planning Practice & Research
+JO  - Planning Practice & Research
+SP  - 237
+EP  - 247
+VL  - 30
+IS  - 3
+PB  - Routledge
+N2  - This editorial explores the potential of social media and mobile technologies to foster citizen engagement and participation in urban planning. We argue that there is a lot of wishful thinking, but little empirically validated knowledge in this emerging field of study. We outline key developments and pay attention to larger societal and political trends. The aim of this special issue is: 1) To offer a critical state-of-the-art overview of empirical research; and 2) to explore whether social media and mobile technologies have measurable effects on citizens' engagement beyond traditional mobilization and participation tools. We find that wider engagement only ?materializes? if virtual connections also manifest themselves in real space through concrete actions, by using both online and offline engagement tools. Another requirement is that planners do not seek to marginalize dissenting voices in order to promote the interests of powerful developers.
+AB  - This editorial explores the potential of social media and mobile technologies to foster citizen engagement and participation in urban planning. We argue that there is a lot of wishful thinking, but little empirically validated knowledge in this emerging field of study. We outline key developments and pay attention to larger societal and political trends. The aim of this special issue is: 1) To offer a critical state-of-the-art overview of empirical research; and 2) to explore whether social media and mobile technologies have measurable effects on citizens' engagement beyond traditional mobilization and participation tools. We find that wider engagement only ?materializes? if virtual connections also manifest themselves in real space through concrete actions, by using both online and offline engagement tools. Another requirement is that planners do not seek to marginalize dissenting voices in order to promote the interests of powerful developers.
+SN  - 0269-7459
+M3  - doi: 10.1080/02697459.2015.1051320
+UR  - http://dx.doi.org/10.1080/02697459.2015.1051320
+ER  - 
+
+TY  - JOUR
+T1  - Taking stock, moving forward: the Internet, social networks and civic engagement in Chinese societies
+AU  - Chen, Wenhong
+Y1  - 2014/01/02
+PY  - 2014
+DA  - 2014/01/02
+N1  - doi: 10.1080/1369118X.2013.857425
+DO  - 10.1080/1369118X.2013.857425
+T2  - Information, Communication & Society
+JF  - Information, Communication & Society
+JO  - Information, Communication & Society
+SP  - 1
+EP  - 6
+VL  - 17
+IS  - 1
+PB  - Routledge
+N2  - The Internet in China reflects many contradictions and complexities of the society in which it is embedded. Despite the growing significance of digital media and technologies, research on their contingent, nonlinear, and sometimes paradoxical impact on Chinese citizens' civic engagement remains theoretically underdeveloped and empirically understudied. As importantly, many studies on the Internet implications in the Chinese societies have centered on China. This essay introduces seven articles that draw on a variety of theoretical and methodological approaches to advance a balanced and context-rich understanding of the implications of digital media and technologies in China, Taiwan, and the global Chinese diaspora. It further discusses venues for future research, especially studies that take into account the evolving Chinese media landscape and the rise of the mobile Internet, civic and political participation across multiple platforms and their interactions, as well as organizational and interpersonal networks as the state and an emerging civil society inform, empower, and engage one another via digital media.
+AB  - The Internet in China reflects many contradictions and complexities of the society in which it is embedded. Despite the growing significance of digital media and technologies, research on their contingent, nonlinear, and sometimes paradoxical impact on Chinese citizens' civic engagement remains theoretically underdeveloped and empirically understudied. As importantly, many studies on the Internet implications in the Chinese societies have centered on China. This essay introduces seven articles that draw on a variety of theoretical and methodological approaches to advance a balanced and context-rich understanding of the implications of digital media and technologies in China, Taiwan, and the global Chinese diaspora. It further discusses venues for future research, especially studies that take into account the evolving Chinese media landscape and the rise of the mobile Internet, civic and political participation across multiple platforms and their interactions, as well as organizational and interpersonal networks as the state and an emerging civil society inform, empower, and engage one another via digital media.
+SN  - 1369-118X
+M3  - doi: 10.1080/1369118X.2013.857425
+UR  - http://dx.doi.org/10.1080/1369118X.2013.857425
+ER  - 
+
+TY  - JOUR
+T1  - The Second Life of urban planning? Using NeoGeography tools for community engagement
+AU  - Foth, Marcus
+AU  - Bajracharya, Bhishna
+AU  - Brown, Ross
+AU  - Hearn, Greg
+Y1  - 2009/06/01
+PY  - 2009
+DA  - 2009/06/01
+N1  - doi: 10.1080/17489720903150016
+DO  - 10.1080/17489720903150016
+T2  - Journal of Location Based Services
+JF  - Journal of Location Based Services
+JO  - Journal of Location Based Services
+SP  - 97
+EP  - 117
+VL  - 3
+IS  - 2
+PB  - Taylor & Francis
+N2  - The majority of the world's citizens now live in cities. Although urban planning can thus be thought of as a field with significant ramifications on the human condition, many practitioners feel that it has reached the crossroads in thought leadership between traditional practice and a new, more participatory and open approach. Conventional ways to engage people in participatory planning exercises are limited in reach and scope. At the same time, socio-cultural trends and technology innovation offer opportunities to re-think the status quo in urban planning. NeoGeography introduces tools and services that allow non-geographers to use advanced geographical information systems. Similarly, is there a potential for the emergence of a neo-planning paradigm in which urban planning is carried out through active civic engagement aided by Web 2.0 and new media technologies thus redefining the role of practicing planners? This paper traces a number of evolving links between urban planning, NeoGeography and information and communication technology. Two significant trends ? participation and visualisation ? with direct implications for urban planning are discussed. Combining advanced participation and visualisation features, the popular virtual reality environment Second Life is then introduced as a test bed to explore a planning workshop and an integrated software event framework to assist narrative generation. We discuss an approach to harness and analyse narratives using virtual reality logging to make transparent how users understand and interpret proposed urban designs.
+AB  - The majority of the world's citizens now live in cities. Although urban planning can thus be thought of as a field with significant ramifications on the human condition, many practitioners feel that it has reached the crossroads in thought leadership between traditional practice and a new, more participatory and open approach. Conventional ways to engage people in participatory planning exercises are limited in reach and scope. At the same time, socio-cultural trends and technology innovation offer opportunities to re-think the status quo in urban planning. NeoGeography introduces tools and services that allow non-geographers to use advanced geographical information systems. Similarly, is there a potential for the emergence of a neo-planning paradigm in which urban planning is carried out through active civic engagement aided by Web 2.0 and new media technologies thus redefining the role of practicing planners? This paper traces a number of evolving links between urban planning, NeoGeography and information and communication technology. Two significant trends ? participation and visualisation ? with direct implications for urban planning are discussed. Combining advanced participation and visualisation features, the popular virtual reality environment Second Life is then introduced as a test bed to explore a planning workshop and an integrated software event framework to assist narrative generation. We discuss an approach to harness and analyse narratives using virtual reality logging to make transparent how users understand and interpret proposed urban designs.
+SN  - 1748-9725
+M3  - doi: 10.1080/17489720903150016
+UR  - http://dx.doi.org/10.1080/17489720903150016
+ER  - 
+
+TY  - JOUR
+T1  - Online political participation, civic talk, and media multiplexity: how Taiwanese citizens express political opinions on the Web
+AU  - Hsieh, Yuli Patrick
+AU  - Li, Meng-Hao
+Y1  - 2014/01/02
+PY  - 2014
+DA  - 2014/01/02
+N1  - doi: 10.1080/1369118X.2013.833278
+DO  - 10.1080/1369118X.2013.833278
+T2  - Information, Communication & Society
+JF  - Information, Communication & Society
+JO  - Information, Communication & Society
+SP  - 26
+EP  - 44
+VL  - 17
+IS  - 1
+PB  - Routledge
+N2  - This study seeks to assess the implications of the social use of information and communication technologies (ICTs) for online political participation. Past research investigating the link between ICTs and political participation has emphasized the informational use of ICTs, overlooking their communication-enabling potentials for facilitating political talk in interpersonal spaces and subsequently, political participation in public domains. To understand further how ICTs as a means of communication may relate to political participation, we use data from the 2008 Taiwan Social Change Survey (N?=?1076) to examine the relationship between the Internet and online political participation by looking at online media use for social interaction and engagement in civic talk online. Our findings suggest that interpersonal factors such as online civic talk and media multiplexity are positively associated with online political participation. Individuals who discuss politics with their friends via the Internet and those who use more types of online media for social interaction are more likely to contact legislators and elected officials directly via the Web and articulate their political thoughts in online public spaces such as forums, blogs, and websites of news media. We further offer an assessment of the findings' implications for political participation, political communication, and digital inequality.
+AB  - This study seeks to assess the implications of the social use of information and communication technologies (ICTs) for online political participation. Past research investigating the link between ICTs and political participation has emphasized the informational use of ICTs, overlooking their communication-enabling potentials for facilitating political talk in interpersonal spaces and subsequently, political participation in public domains. To understand further how ICTs as a means of communication may relate to political participation, we use data from the 2008 Taiwan Social Change Survey (N?=?1076) to examine the relationship between the Internet and online political participation by looking at online media use for social interaction and engagement in civic talk online. Our findings suggest that interpersonal factors such as online civic talk and media multiplexity are positively associated with online political participation. Individuals who discuss politics with their friends via the Internet and those who use more types of online media for social interaction are more likely to contact legislators and elected officials directly via the Web and articulate their political thoughts in online public spaces such as forums, blogs, and websites of news media. We further offer an assessment of the findings' implications for political participation, political communication, and digital inequality.
+SN  - 1369-118X
+M3  - doi: 10.1080/1369118X.2013.833278
+UR  - http://dx.doi.org/10.1080/1369118X.2013.833278
+ER  - 
+
+TY  - JOUR
+T1  - E-electoral Engagement: How Governments Use Social Media to Engage Voters
+AU  - Macnamara, Jim
+AU  - Sakinofsky, Phyllis
+AU  - Beattie, Jenni
+Y1  - 2012/12/01
+PY  - 2012
+DA  - 2012/12/01
+N1  - doi: 10.1080/10361146.2012.731491
+DO  - 10.1080/10361146.2012.731491
+T2  - Australian Journal of Political Science
+JF  - Australian Journal of Political Science
+JO  - Australian Journal of Political Science
+SP  - 623
+EP  - 639
+VL  - 47
+IS  - 4
+PB  - Routledge
+N2  - Governments worldwide are increasingly attempting to use the internet to engage citizens. After an initial focus on delivery of information and services via what technologists call Web 1.0, strategies referred to as ?Government 2.0? and e-democracy have turned attention to the use of interactive Web 2.0-based ?social media? to engage citizens in consultation and participation to redress a concerning ?democratic deficit? and reinvigorate the public sphere. Even in countries with compulsory voting, such as Australia, electoral enrolment, voter turnout and formal voting are declining. Much focus has been given to expedient political use of social media during election campaigns, but an understudied area is how disengaged citizens and youth can be encouraged to engage or re-engage in democratic participation on an ongoing basis. This article reports analysis of initiatives by national, state and territory electoral commissions in Australia and New Zealand to use social media to engage citizens in political participation.
+AB  - Governments worldwide are increasingly attempting to use the internet to engage citizens. After an initial focus on delivery of information and services via what technologists call Web 1.0, strategies referred to as ?Government 2.0? and e-democracy have turned attention to the use of interactive Web 2.0-based ?social media? to engage citizens in consultation and participation to redress a concerning ?democratic deficit? and reinvigorate the public sphere. Even in countries with compulsory voting, such as Australia, electoral enrolment, voter turnout and formal voting are declining. Much focus has been given to expedient political use of social media during election campaigns, but an understudied area is how disengaged citizens and youth can be encouraged to engage or re-engage in democratic participation on an ongoing basis. This article reports analysis of initiatives by national, state and territory electoral commissions in Australia and New Zealand to use social media to engage citizens in political participation.
+SN  - 1036-1146
+M3  - doi: 10.1080/10361146.2012.731491
+UR  - http://dx.doi.org/10.1080/10361146.2012.731491
+ER  - 
+
+TY  - JOUR
+T1  - News consumption and political and civic engagement among young people
+AU  - Hao, Xiaoming
+AU  - Wen, Nainan
+AU  - George, Cherian
+Y1  - 2014/10/21
+PY  - 2014
+DA  - 2014/10/21
+N1  - doi: 10.1080/13676261.2014.901490
+DO  - 10.1080/13676261.2014.901490
+T2  - Journal of Youth Studies
+JF  - Journal of Youth Studies
+JO  - Journal of Youth Studies
+SP  - 1221
+EP  - 1238
+VL  - 17
+IS  - 9
+PB  - Routledge
+N2  - This study examined whether the use of various types of media for news consumption would influence young people's political and civic engagement through a survey of university students in Singapore. The findings showed that news consumption through different platforms related to the respondents' political and civic participation in different ways. Consumption of news through the traditional media was not significantly associated with either offline or online political participation. Instead, news consumption through the Internet and social network sites was significantly associated with both offline and online political and civic engagement and political knowledge. In addition, print and Internet news consumption was found to be significantly associated with political knowledge. Implications of the findings were also discussed.
+AB  - This study examined whether the use of various types of media for news consumption would influence young people's political and civic engagement through a survey of university students in Singapore. The findings showed that news consumption through different platforms related to the respondents' political and civic participation in different ways. Consumption of news through the traditional media was not significantly associated with either offline or online political participation. Instead, news consumption through the Internet and social network sites was significantly associated with both offline and online political and civic engagement and political knowledge. In addition, print and Internet news consumption was found to be significantly associated with political knowledge. Implications of the findings were also discussed.
+SN  - 1367-6261
+M3  - doi: 10.1080/13676261.2014.901490
+UR  - http://dx.doi.org/10.1080/13676261.2014.901490
+ER  - 
+
+TY  - JOUR
+T1  - CITIZENSHIP AND COMMUNICATION IN ONLINE YOUTH CIVIC ENGAGEMENT PROJECTS
+AU  - Wells, Chris
+Y1  - 2010/04/01
+PY  - 2010
+DA  - 2010/04/01
+N1  - doi: 10.1080/13691180902833208
+DO  - 10.1080/13691180902833208
+T2  - Information, Communication & Society
+JF  - Information, Communication & Society
+JO  - Information, Communication & Society
+SP  - 419
+EP  - 441
+VL  - 13
+IS  - 3
+PB  - Routledge
+N2  - This study analyses 36 online civic engagement websites for youth to understand the civic skills and communication opportunities offered to youth in different online environments. The research design draws on recent theoretical work on citizen identity and the design features of online communities to develop a picture of online engagement projects in two dimensions: the model of citizenship encouraged and the style of communication available to users. Results suggest that the citizenship styles inscribed in sites are correlated with the styles of communication the sites offer. In particular, sites that present more conventional civic skills, such as appealing to government for solutions to problems, tend to heavily control how users use the sites; in contrast, those that present citizenship as a broader, expressive engagement with issues and culture are less inclined to define the terms of users? interactions. This article discusses the implications of the findings for understanding how online civic projects succeed or fail to connect with young people, the possibility of creating sites that both appeal to young people and offer important civic skills, and directions for future study and practice.
+AB  - This study analyses 36 online civic engagement websites for youth to understand the civic skills and communication opportunities offered to youth in different online environments. The research design draws on recent theoretical work on citizen identity and the design features of online communities to develop a picture of online engagement projects in two dimensions: the model of citizenship encouraged and the style of communication available to users. Results suggest that the citizenship styles inscribed in sites are correlated with the styles of communication the sites offer. In particular, sites that present more conventional civic skills, such as appealing to government for solutions to problems, tend to heavily control how users use the sites; in contrast, those that present citizenship as a broader, expressive engagement with issues and culture are less inclined to define the terms of users? interactions. This article discusses the implications of the findings for understanding how online civic projects succeed or fail to connect with young people, the possibility of creating sites that both appeal to young people and offer important civic skills, and directions for future study and practice.
+SN  - 1369-118X
+M3  - doi: 10.1080/13691180902833208
+UR  - http://dx.doi.org/10.1080/13691180902833208
+ER  - 
+
+TY  - JOUR
+T1  - The Quadrivium of Online Public Consultation: Policy, Culture, Resources, Technology
+AU  - Macnamara, Jim
+Y1  - 2010/06/01
+PY  - 2010
+DA  - 2010/06/01
+N1  - doi: 10.1080/10361141003736141
+DO  - 10.1080/10361141003736141
+T2  - Australian Journal of Political Science
+JF  - Australian Journal of Political Science
+JO  - Australian Journal of Political Science
+SP  - 227
+EP  - 244
+VL  - 45
+IS  - 2
+PB  - Routledge
+N2  - Concerned by declining interest, trust, and participation by citizens in democratic politics, governments and political institutions worldwide are turning to the internet in attempts to revitalise democracy through online public consultation and citizen participation, referred to as e-democracy or ?government 2.0?. This paper reports research into the planning and conduct of a series of online public consultation trials launched by the Australian federal government in late 2008, and it compares and contrasts Australian experiences with international e-democracy developments, including the Obama presidential campaign and findings of the Digital Dialogues review of online technologies to enhance citizen engagement in the UK, the UK Power of Information Task Force review, and experiments conducted as part of the MIT Deliberatorium. This paper presents qualitative analysis of findings in 10 areas, which it argues can be further grouped into four main areas of management focus of which technology, often the major topic of discussion, is important but less significant than policy, culture and resources.
+AB  - Concerned by declining interest, trust, and participation by citizens in democratic politics, governments and political institutions worldwide are turning to the internet in attempts to revitalise democracy through online public consultation and citizen participation, referred to as e-democracy or ?government 2.0?. This paper reports research into the planning and conduct of a series of online public consultation trials launched by the Australian federal government in late 2008, and it compares and contrasts Australian experiences with international e-democracy developments, including the Obama presidential campaign and findings of the Digital Dialogues review of online technologies to enhance citizen engagement in the UK, the UK Power of Information Task Force review, and experiments conducted as part of the MIT Deliberatorium. This paper presents qualitative analysis of findings in 10 areas, which it argues can be further grouped into four main areas of management focus of which technology, often the major topic of discussion, is important but less significant than policy, culture and resources.
+SN  - 1036-1146
+M3  - doi: 10.1080/10361141003736141
+UR  - http://www.tandfonline.com/doi/abs/10.1080/10361141003736141
+ER  - 
+
+TY  - JOUR
+T1  - Expanding civic engagement in China: Super Girl and entertainment-based online community
+AU  - Wu, Jingsi Christina
+Y1  - 2014/01/02
+PY  - 2014
+DA  - 2014/01/02
+N1  - doi: 10.1080/1369118X.2013.833276
+DO  - 10.1080/1369118X.2013.833276
+T2  - Information, Communication & Society
+JF  - Information, Communication & Society
+JO  - Information, Communication & Society
+SP  - 105
+EP  - 120
+VL  - 17
+IS  - 1
+PB  - Routledge
+N2  - This article pursues a context-rich understanding of how digital media offer unique opportunities for citizens residing in mainland China to participate in civic engagement and organize their civic values. While the Chinese state authority keeps a heavy hand in any form of media, old or new, for use of overt political expressions, I provide empirical demonstration of the link between entertainment media experiences and the exchange on more serious civic topics. In doing so, I argue for a more expanded notion of civic engagement for political environments such as China and develop an empirical scheme that incorporates ordinary citizens' interactions with more leisure-oriented media texts. Such theoretical and empirical moves, as I point out, can contribute to a more thoughtful discussion of the Internet and civic engagement in China. Furthermore, this article pays particular attention to how the Internet provides a valuable channel for community formation among ordinary Chinese citizens outside the mainstream media, which are mostly occupied by state elites. My examination suggests that the Internet helps online discussants reach further depth in their extension from entertainment discussion to constructing serious discourses on important social issues, more so than the mainstream newspapers.
+AB  - This article pursues a context-rich understanding of how digital media offer unique opportunities for citizens residing in mainland China to participate in civic engagement and organize their civic values. While the Chinese state authority keeps a heavy hand in any form of media, old or new, for use of overt political expressions, I provide empirical demonstration of the link between entertainment media experiences and the exchange on more serious civic topics. In doing so, I argue for a more expanded notion of civic engagement for political environments such as China and develop an empirical scheme that incorporates ordinary citizens' interactions with more leisure-oriented media texts. Such theoretical and empirical moves, as I point out, can contribute to a more thoughtful discussion of the Internet and civic engagement in China. Furthermore, this article pays particular attention to how the Internet provides a valuable channel for community formation among ordinary Chinese citizens outside the mainstream media, which are mostly occupied by state elites. My examination suggests that the Internet helps online discussants reach further depth in their extension from entertainment discussion to constructing serious discourses on important social issues, more so than the mainstream newspapers.
+SN  - 1369-118X
+M3  - doi: 10.1080/1369118X.2013.833276
+UR  - http://dx.doi.org/10.1080/1369118X.2013.833276
+ER  - 
+
+TY  - JOUR
+T1  - (Re)assembling Natures, Cultures, and (Nano)technologies in Public Engagement
+AU  - Felt, Ulrike
+AU  - Schumann, Simone
+AU  - Schwarz, Claudia G.
+Y1  - 2015/10/02
+PY  - 2015
+DA  - 2015/10/02
+N1  - doi: 10.1080/09505431.2015.1055720
+DO  - 10.1080/09505431.2015.1055720
+T2  - Science as Culture
+JF  - Science as Culture
+JO  - Science as Culture
+SP  - 458
+EP  - 483
+VL  - 24
+IS  - 4
+PB  - Routledge
+N2  - AbstractPractices of ordering are powerful means of giving structure to people's lives and providing a sense of control. The analysis of three episodes from discussion groups on nanotechnology in Austria shows that citizens evaluate new technologies with regard to how they intersect with, support, or disturb existing orders. The concept of discursive assemblages serves as a lens for recognising the non-fixed character of the discursive process, while still allowing the analyst to identify how specific elements, such as conceptions of nature, culture, and technology, are (re)assembled at particular moments. Each of the three episodes represents a specific way of creating and negotiating assemblages: the first case demonstrates how discussants collectively discuss a nature?technology hybrid (nano-bamboo socks) against the backdrop of a highly valued ideal of keeping ?the natural? and ?the technological? separate; the second episode exemplifies a clash of two assemblages as participants argued for or against the application of nanotechnology in food products; and the third example illustrates the process of collective experimentation with different assemblages to make sense of a highly futuristic nanochip for brain enhancement. Together the episodes demonstrate that participants in public engagement settings do not address nanotechnology as a simple question of choice between acceptance and rejection but rather engage in processes of care regarding how a society might develop when technological innovations such as nanotechnology threaten to blur existing boundaries and orders, such as the distinction between nature and culture.
+AB  - AbstractPractices of ordering are powerful means of giving structure to people's lives and providing a sense of control. The analysis of three episodes from discussion groups on nanotechnology in Austria shows that citizens evaluate new technologies with regard to how they intersect with, support, or disturb existing orders. The concept of discursive assemblages serves as a lens for recognising the non-fixed character of the discursive process, while still allowing the analyst to identify how specific elements, such as conceptions of nature, culture, and technology, are (re)assembled at particular moments. Each of the three episodes represents a specific way of creating and negotiating assemblages: the first case demonstrates how discussants collectively discuss a nature?technology hybrid (nano-bamboo socks) against the backdrop of a highly valued ideal of keeping ?the natural? and ?the technological? separate; the second episode exemplifies a clash of two assemblages as participants argued for or against the application of nanotechnology in food products; and the third example illustrates the process of collective experimentation with different assemblages to make sense of a highly futuristic nanochip for brain enhancement. Together the episodes demonstrate that participants in public engagement settings do not address nanotechnology as a simple question of choice between acceptance and rejection but rather engage in processes of care regarding how a society might develop when technological innovations such as nanotechnology threaten to blur existing boundaries and orders, such as the distinction between nature and culture.
+SN  - 0950-5431
+M3  - doi: 10.1080/09505431.2015.1055720
+UR  - http://dx.doi.org/10.1080/09505431.2015.1055720
+ER  - 
+
+TY  - JOUR
+T1  - Augmenting public participation: enhancing planning outcomes through the use of social media and web 2.0
+AU  - Fredericks, Joel
+AU  - Foth, Marcus
+Y1  - 2013/09/01
+PY  - 2013
+DA  - 2013/09/01
+N1  - doi: 10.1080/07293682.2012.748083
+DO  - 10.1080/07293682.2012.748083
+T2  - Australian Planner
+JF  - Australian Planner
+JO  - Australian Planner
+SP  - 244
+EP  - 256
+VL  - 50
+IS  - 3
+PB  - Routledge
+N2  - Abstract Social media and web 2.0 tools offer opportunities to devise novel participation strategies that can engage previously difficult to reach, as well as new, segments of society in urban planning. This paper examines participatory planning in the four local government areas of Brisbane City Council, Gold Coast City Council, Redland City Council and Toowoomba Regional Council, all situated in South East Queensland, Australia. The paper discusses how social media and web 2.0 tools can deliver a more engaging planning experience to citizens and investigates local government's current use and receptiveness to social media tools for plan-making and community engagement. The study's research informed the development of criteria to assess the level of participation reached through the current use of social media and web 2.0 in the four local government areas. This resulted in an adaptation of the International Association for Public Participation (IAP2) Toolbox to integrate these new tools, which is being presented to encourage further discussion and evaluation by planning professionals.
+AB  - Abstract Social media and web 2.0 tools offer opportunities to devise novel participation strategies that can engage previously difficult to reach, as well as new, segments of society in urban planning. This paper examines participatory planning in the four local government areas of Brisbane City Council, Gold Coast City Council, Redland City Council and Toowoomba Regional Council, all situated in South East Queensland, Australia. The paper discusses how social media and web 2.0 tools can deliver a more engaging planning experience to citizens and investigates local government's current use and receptiveness to social media tools for plan-making and community engagement. The study's research informed the development of criteria to assess the level of participation reached through the current use of social media and web 2.0 in the four local government areas. This resulted in an adaptation of the International Association for Public Participation (IAP2) Toolbox to integrate these new tools, which is being presented to encourage further discussion and evaluation by planning professionals.
+SN  - 0729-3682
+M3  - doi: 10.1080/07293682.2012.748083
+UR  - http://dx.doi.org/10.1080/07293682.2012.748083
+ER  - 
+
+TY  - JOUR
+T1  - Productive Usability: Fostering Civic Engagement and Creating More Useful Online Spaces for Public Deliberation
+AU  - Simmons, W.   Michele
+AU  - Zoetewey, Meredith W.
+Y1  - 2012/07/01
+PY  - 2012
+DA  - 2012/07/01
+N1  - doi: 10.1080/10572252.2012.673953
+DO  - 10.1080/10572252.2012.673953
+T2  - Technical Communication Quarterly
+JF  - Technical Communication Quarterly
+JO  - Technical Communication Quarterly
+SP  - 251
+EP  - 276
+VL  - 21
+IS  - 3
+PB  - Routledge
+N2  - This article offers productive usability as a usability approach that focuses on the usefulness of civic Web sites. Although some sites meet traditional usability standards, civic sites might fail to support technical literacy, productive inquiry, collaboration, and a multidimensional perspective?all essential ingredients for citizen-initiated change online. In this article, we map productive usability onto broader philosophies of usability and offer a framework for rethinking usability in civic settings and for teaching productive usability.
+AB  - This article offers productive usability as a usability approach that focuses on the usefulness of civic Web sites. Although some sites meet traditional usability standards, civic sites might fail to support technical literacy, productive inquiry, collaboration, and a multidimensional perspective?all essential ingredients for citizen-initiated change online. In this article, we map productive usability onto broader philosophies of usability and offer a framework for rethinking usability in civic settings and for teaching productive usability.
+SN  - 1057-2252
+M3  - doi: 10.1080/10572252.2012.673953
+UR  - http://dx.doi.org/10.1080/10572252.2012.673953
+ER  - 
+
+TY  - JOUR
+T1  - Examining civil servants’ decisions to use Web 2.0 tools for learning, based on the decomposed theory of planned behavior
+AU  - Lai, Horng-Ji
+Y1  - 2016/01/08
+PY  - 2016
+N1  - doi: 10.1080/10494820.2015.1121879
+DO  - 10.1080/10494820.2015.1121879
+T2  - Interactive Learning Environments
+JF  - Interactive Learning Environments
+JO  - Interactive Learning Environments
+SP  - 1
+EP  - 11
+PB  - Routledge
+N2  - ABSTRACTThe purpose of this study was to investigate the decisions of civil servants to use Web 2.0 applications while engaging in online learning. The participants were 439 civil servants enrolled in asynchronous online learning programs, using an e-learning portal provided by Taiwan's Regional Civil Service Development Institute. The participants completed a questionnaire which measured their responses to 12 constructs (perceived usefulness, perceived ease of use, compatibility, peer influence, superior influence, self-efficacy, facilitating conditions, attitude, subjective norm, perceived behavior control, behavior intention, and behavior) based on the decomposed theory of planned behavior. The research results revealed that the participants? perceived usefulness of online learning was the strongest predictor affecting their attitude. Peer influence was also the primary factor influencing their subjective norm. The construct of self-efficacy appeared to be the most important element determining their perceived behavioral control. Also, the results of the path analysis showed that the participants? attitude was the strongest indicator of their behavior intention to use Web 2.0 applications, followed by the perceived behavior control and subjective norm. Theoretical and practical implications and recommendations are provided based on the results of the study.
+AB  - ABSTRACTThe purpose of this study was to investigate the decisions of civil servants to use Web 2.0 applications while engaging in online learning. The participants were 439 civil servants enrolled in asynchronous online learning programs, using an e-learning portal provided by Taiwan's Regional Civil Service Development Institute. The participants completed a questionnaire which measured their responses to 12 constructs (perceived usefulness, perceived ease of use, compatibility, peer influence, superior influence, self-efficacy, facilitating conditions, attitude, subjective norm, perceived behavior control, behavior intention, and behavior) based on the decomposed theory of planned behavior. The research results revealed that the participants? perceived usefulness of online learning was the strongest predictor affecting their attitude. Peer influence was also the primary factor influencing their subjective norm. The construct of self-efficacy appeared to be the most important element determining their perceived behavioral control. Also, the results of the path analysis showed that the participants? attitude was the strongest indicator of their behavior intention to use Web 2.0 applications, followed by the perceived behavior control and subjective norm. Theoretical and practical implications and recommendations are provided based on the results of the study.
+SN  - 1049-4820
+M3  - doi: 10.1080/10494820.2015.1121879
+UR  - http://dx.doi.org/10.1080/10494820.2015.1121879
+ER  - 
+
+TY  - JOUR
+T1  - Applying the Theory of Planned Behavior and Media Dependency Theory: Predictors of Public Pro-environmental Behavioral Intentions in Singapore
+AU  - Ho, Shirley S.
+AU  - Liao, Youqing
+AU  - Rosenthal, Sonny
+Y1  - 2015/01/02
+PY  - 2015
+DA  - 2015/01/02
+N1  - doi: 10.1080/17524032.2014.932819
+DO  - 10.1080/17524032.2014.932819
+T2  - Environmental Communication
+JF  - Environmental Communication
+JO  - Environmental Communication
+SP  - 77
+EP  - 99
+VL  - 9
+IS  - 1
+PB  - Routledge
+N2  - Applying the theory of planned behavior and media dependency theory, this study examines the effects of attitude, subjective norms, perceived behavioral control (PBC), media dependency, traditional media attention, Internet attention, and interpersonal communication on two types of pro-environmental behaviors (PEBs)?green-buying and environmental civic engagement. Regression analysis of a nationally representative survey of adult Singaporeans (N = 1168) indicated that attitude, PBC, media dependency, traditional media attention, and interpersonal communication were positively associated with green-buying. Notably, traditional media attention, as well as interpersonal communication, moderated the influence of media dependency on green-buying behavior. In addition, attitude, descriptive norms, media dependency, Internet attention, and interpersonal communication positively predicted environmental civic engagement. Findings suggest the importance of communication factors in the adoption of the two PEBs.
+AB  - Applying the theory of planned behavior and media dependency theory, this study examines the effects of attitude, subjective norms, perceived behavioral control (PBC), media dependency, traditional media attention, Internet attention, and interpersonal communication on two types of pro-environmental behaviors (PEBs)?green-buying and environmental civic engagement. Regression analysis of a nationally representative survey of adult Singaporeans (N = 1168) indicated that attitude, PBC, media dependency, traditional media attention, and interpersonal communication were positively associated with green-buying. Notably, traditional media attention, as well as interpersonal communication, moderated the influence of media dependency on green-buying behavior. In addition, attitude, descriptive norms, media dependency, Internet attention, and interpersonal communication positively predicted environmental civic engagement. Findings suggest the importance of communication factors in the adoption of the two PEBs.
+SN  - 1752-4032
+M3  - doi: 10.1080/17524032.2014.932819
+UR  - http://dx.doi.org/10.1080/17524032.2014.932819
+ER  - 
+
+TY  - JOUR
+T1  - Integrating ICT into the planning process: impacts, opportunities and challenges
+AU  - Houghton, Kirralie
+AU  - Miller, Evonne
+AU  - Foth, Marcus
+Y1  - 2014/01/02
+PY  - 2014
+DA  - 2014/01/02
+N1  - doi: 10.1080/07293682.2013.770771
+DO  - 10.1080/07293682.2013.770771
+T2  - Australian Planner
+JF  - Australian Planner
+JO  - Australian Planner
+SP  - 24
+EP  - 33
+VL  - 51
+IS  - 1
+PB  - Routledge
+N2  - One of the most significant lifestyle and technological trends of the twenty-first century is the emergence and increased ubiquity of mobile information and communication technologies (mICT). The potential of mICT raises critical questions for planners, potentially enabling citizen engagement and enhancing the urban planning process through facilitating communication, interaction and collaboration between planning professionals and the public. To date, although technology has become integral to all functions within our urban environment, little is known about how urban planners perceive mICT and its current and potential future role in the planning process. This research explores this knowledge gap, via empirical data gathered from town planners of various sectors based in Queensland. The findings illustrate that these planners believed ICT offered strong potential to share information, creatively build community, connect with users of public spaces and adapt places in swift and temporary ways. This paper explores the issues of integrating mICT into planning practice and the affordances that these technologies offer for community consultation and placemaking. The paper aims to spark a discussion to find the best ways to overcome key barriers to making ICT part of the daily practice of planning professionals, including knowledge, skill, agency and time constraints.
+AB  - One of the most significant lifestyle and technological trends of the twenty-first century is the emergence and increased ubiquity of mobile information and communication technologies (mICT). The potential of mICT raises critical questions for planners, potentially enabling citizen engagement and enhancing the urban planning process through facilitating communication, interaction and collaboration between planning professionals and the public. To date, although technology has become integral to all functions within our urban environment, little is known about how urban planners perceive mICT and its current and potential future role in the planning process. This research explores this knowledge gap, via empirical data gathered from town planners of various sectors based in Queensland. The findings illustrate that these planners believed ICT offered strong potential to share information, creatively build community, connect with users of public spaces and adapt places in swift and temporary ways. This paper explores the issues of integrating mICT into planning practice and the affordances that these technologies offer for community consultation and placemaking. The paper aims to spark a discussion to find the best ways to overcome key barriers to making ICT part of the daily practice of planning professionals, including knowledge, skill, agency and time constraints.
+SN  - 0729-3682
+M3  - doi: 10.1080/07293682.2013.770771
+UR  - http://dx.doi.org/10.1080/07293682.2013.770771
+ER  - 
+
+TY  - JOUR
+T1  - The Internet as a New Civic Form
+AU  - Jöuet, Josiane
+Y1  - 2009/01/01
+PY  - 2009
+DA  - 2009/01/01
+N1  - doi: 10.1080/13183222.2009.11008998
+DO  - 10.1080/13183222.2009.11008998
+T2  - Javnost - The Public
+JF  - Javnost - The Public
+JO  - Javnost - The Public
+SP  - 59
+EP  - 72
+VL  - 16
+IS  - 1
+PB  - Routledge
+N2  - AbstractThe article argues that, beyond the boundaries of activists and concerned citizens, the massive appropriation of the Internet techniques of self-publication and the social modes of interactions on the web, lead to the extension of the public sphere to the rank-and-file. It takes the position that civic culture is not homogeneous and that it is shaped by different social practices that we examine through three sets of digital public spheres. First, the rise of ?free speech? in professional journalistic practices on media websites expands to readers? voices (in forums, online surveys, readers? comments), while citizens? engagement in amateur grassroots journalism challenges both the professional practices and the ethics of journalism. Second, the lively political blogosphere demonstrates how personal opinions on public matters find their legitimacy in the interactive dialogue in and across networks and lead to the emergence of rank-and-fi le opinion leaders, while also presenting various pitfalls, such as the redundancy of a limited number of viewpoints. Third, the social and leisurely Internet usage of ordinary citizens leads them to confront political and public issues in a casual and random manner, which in turn leads them to discuss these matters occasionally in online or face-to-face settings. This trend is reinforced by the innovative creation of user-generated content, mixing text, sound, and video formats that are widely circulated on the web. The rise of new forms of political and social critique on the Internet and the sharing of common experiences in the electronic space results in novel mean of public engagement and contributes to the shaping of a new civic and social form.
+AB  - AbstractThe article argues that, beyond the boundaries of activists and concerned citizens, the massive appropriation of the Internet techniques of self-publication and the social modes of interactions on the web, lead to the extension of the public sphere to the rank-and-file. It takes the position that civic culture is not homogeneous and that it is shaped by different social practices that we examine through three sets of digital public spheres. First, the rise of ?free speech? in professional journalistic practices on media websites expands to readers? voices (in forums, online surveys, readers? comments), while citizens? engagement in amateur grassroots journalism challenges both the professional practices and the ethics of journalism. Second, the lively political blogosphere demonstrates how personal opinions on public matters find their legitimacy in the interactive dialogue in and across networks and lead to the emergence of rank-and-fi le opinion leaders, while also presenting various pitfalls, such as the redundancy of a limited number of viewpoints. Third, the social and leisurely Internet usage of ordinary citizens leads them to confront political and public issues in a casual and random manner, which in turn leads them to discuss these matters occasionally in online or face-to-face settings. This trend is reinforced by the innovative creation of user-generated content, mixing text, sound, and video formats that are widely circulated on the web. The rise of new forms of political and social critique on the Internet and the sharing of common experiences in the electronic space results in novel mean of public engagement and contributes to the shaping of a new civic and social form.
+SN  - 1318-3222
+M3  - doi: 10.1080/13183222.2009.11008998
+UR  - http://dx.doi.org/10.1080/13183222.2009.11008998
+ER  - 
+
+TY  - JOUR
+T1  - Secretly Political: Civic Engagement in Online Publics in Kazakhstan
+AU  - Shklovski, Irina
+AU  - Valtysson, Bjarki
+Y1  - 2012/07/01
+PY  - 2012
+DA  - 2012/07/01
+N1  - doi: 10.1080/08838151.2012.705196
+DO  - 10.1080/08838151.2012.705196
+T2  - Journal of Broadcasting & Electronic Media
+JF  - Journal of Broadcasting & Electronic Media
+JO  - Journal of Broadcasting & Electronic Media
+SP  - 417
+EP  - 433
+VL  - 56
+IS  - 3
+PB  - Routledge
+N2  - The proliferation of networked forms of communication has captured the attention of media and scholars alike. We have never had quite as many resources for communication as we have today, and such communicative potential has implications for social change. In this article we consider public spheres that emerge through communication in the digital realm, paying attention to how networked publics operate within such spheres. We present results from a study of a popular local online discussion forum in Kazakhstan. Steeped in Habermas's idea of the public sphere, this study focuses on cultural public spheres defined through engagement and participation of diverse publics. We consider a range of publics that might emerge, such as mundane-publics, issue-publics, and counter-publics and how these differ in their content and purpose. While the majority of work on networked publics has been situated in states with democratic forms of governance, we consider whether similar constructions are possible in an authoritarian state. We find that networked publics are not only present in an environment rife with online blocking and censorship, but take on a range of forms, generating participation that can at times result in substantial social change, despite the inability to hold open political discussions online.
+AB  - The proliferation of networked forms of communication has captured the attention of media and scholars alike. We have never had quite as many resources for communication as we have today, and such communicative potential has implications for social change. In this article we consider public spheres that emerge through communication in the digital realm, paying attention to how networked publics operate within such spheres. We present results from a study of a popular local online discussion forum in Kazakhstan. Steeped in Habermas's idea of the public sphere, this study focuses on cultural public spheres defined through engagement and participation of diverse publics. We consider a range of publics that might emerge, such as mundane-publics, issue-publics, and counter-publics and how these differ in their content and purpose. While the majority of work on networked publics has been situated in states with democratic forms of governance, we consider whether similar constructions are possible in an authoritarian state. We find that networked publics are not only present in an environment rife with online blocking and censorship, but take on a range of forms, generating participation that can at times result in substantial social change, despite the inability to hold open political discussions online.
+SN  - 0883-8151
+M3  - doi: 10.1080/08838151.2012.705196
+UR  - http://dx.doi.org/10.1080/08838151.2012.705196
+ER  - 
+
+TY  - JOUR
+T1  - Explaining offline and online civic engagement intentions between Italian and migrant youth / Análisis de las intenciones de participación cívica virtual y presencial entre jóvenes italianos y emigrantes
+AU  - Cicognani, Elvira
+AU  - Albanesi, Cinzia
+AU  - Mazzoni, Davide
+AU  - Prati, Gabriele
+AU  - Zani, Bruna
+Y1  - 2016/02/29
+PY  - 2016
+N1  - doi: 10.1080/02134748.2016.1143177
+DO  - 10.1080/02134748.2016.1143177
+T2  - Revista de Psicología Social
+JF  - Revista de Psicología Social
+JO  - Revista de Psicología Social
+SP  - 1
+EP  - 35
+PB  - Routledge
+N2  - AbstractThe aim of the study was to assess the role of some psychosocial factors in explaining offline and online civic engagement intentions in a sample of Italian and second generation migrant (Albanian and Moroccan) adolescents and young adults living in Italy. The theoretical model was an extended version of the Theory of Planned Behaviour including past experience. The sample included 598 adolescents and young adults (M = 19.32, SD = 3.17). Two hundred were Italian (88 males, 44.0%), 197 migrants of Albanian origin (130 males, 66%) and 201 migrants of Moroccan origin (116 males, 57.7%). Moroccan youth reported higher levels of both past civic engagement and future intentions than Albanian and Italian peers. Perceived effectiveness of civic engagement and past experience are consistently associated with stronger intentions to engage in the future (offline and online) in all groups. Internal efficacy plays a limited role, whereas the role of subjective norms differs according to the group and the source of normative influence (parents, peers).
+AB  - AbstractThe aim of the study was to assess the role of some psychosocial factors in explaining offline and online civic engagement intentions in a sample of Italian and second generation migrant (Albanian and Moroccan) adolescents and young adults living in Italy. The theoretical model was an extended version of the Theory of Planned Behaviour including past experience. The sample included 598 adolescents and young adults (M = 19.32, SD = 3.17). Two hundred were Italian (88 males, 44.0%), 197 migrants of Albanian origin (130 males, 66%) and 201 migrants of Moroccan origin (116 males, 57.7%). Moroccan youth reported higher levels of both past civic engagement and future intentions than Albanian and Italian peers. Perceived effectiveness of civic engagement and past experience are consistently associated with stronger intentions to engage in the future (offline and online) in all groups. Internal efficacy plays a limited role, whereas the role of subjective norms differs according to the group and the source of normative influence (parents, peers).
+SN  - 0213-4748
+M3  - doi: 10.1080/02134748.2016.1143177
+UR  - http://dx.doi.org/10.1080/02134748.2016.1143177
+ER  - 
+
+TY  - JOUR
+T1  - Does Online News Reading and Sharing Shape Perceptions of the Internet as a Place for Public Deliberations?
+AU  - Kang, Hyunjin
+AU  - Lee, Jeong   Kyu
+AU  - You, Kyung   Han
+AU  - Lee, Seoyeon
+Y1  - 2013/07/01
+PY  - 2013
+DA  - 2013/07/01
+N1  - doi: 10.1080/15205436.2012.746711
+DO  - 10.1080/15205436.2012.746711
+T2  - Mass Communication and Society
+JF  - Mass Communication and Society
+JO  - Mass Communication and Society
+SP  - 533
+EP  - 556
+VL  - 16
+IS  - 4
+PB  - Routledge
+N2  - With the rapid development of interactive communication technology, the Internet is a major source of news and also plays an important role in connecting individual members of society. However, Internet users may have different perspectives on whether the Internet positively functions as a medium for public deliberation. Based on the assumption that being exposed to information on public affairs is a crucial step for one's civic engagement, this study explores how individuals? motives related to news consumption, elaborative online news reading, and online news sharing influence their perceptions of online deliberation using structural equation modeling method (N = 998). The study finds significant relationships between news consumption motives and elaborative news reading and sharing behaviors, but only elaborative reading behavior had a significant effect on one's perceptions of online deliberation. The implications of these findings are discussed.
+AB  - With the rapid development of interactive communication technology, the Internet is a major source of news and also plays an important role in connecting individual members of society. However, Internet users may have different perspectives on whether the Internet positively functions as a medium for public deliberation. Based on the assumption that being exposed to information on public affairs is a crucial step for one's civic engagement, this study explores how individuals? motives related to news consumption, elaborative online news reading, and online news sharing influence their perceptions of online deliberation using structural equation modeling method (N = 998). The study finds significant relationships between news consumption motives and elaborative news reading and sharing behaviors, but only elaborative reading behavior had a significant effect on one's perceptions of online deliberation. The implications of these findings are discussed.
+SN  - 1520-5436
+M3  - doi: 10.1080/15205436.2012.746711
+UR  - http://dx.doi.org/10.1080/15205436.2012.746711
+ER  - 
+
+TY  - JOUR
+T1  - Facilitating Diverse Political Engagement with the Living Voters Guide
+AU  - Freelon, Deen   G.
+AU  - Kriplean, Travis
+AU  - Morgan, Jonathan
+AU  - Bennett, W. Lance
+AU  - Borning, Alan
+Y1  - 2012/07/01
+PY  - 2012
+DA  - 2012/07/01
+N1  - doi: 10.1080/19331681.2012.665755
+DO  - 10.1080/19331681.2012.665755
+T2  - Journal of Information Technology & Politics
+JF  - Journal of Information Technology & Politics
+JO  - Journal of Information Technology & Politics
+SP  - 279
+EP  - 297
+VL  - 9
+IS  - 3
+PB  - Routledge
+N2  - ABSTRACT Unlike 20th-century mass media, the Internet requires self-selection of content by its very nature. This has raised the normative concern that users may opt to encounter only political information and perspectives that accord with their pre-existing views. This study examines the different ways that voters appropriated a new, purpose-built online engagement platform to engage with a wide variety of political opinions and arguments. In a system aimed at helping Washington state citizens make their 2010 election decisions, we find that users take significant advantage of three key opportunities to engage with political diversity: accessing, considering, and producing arguments on both sides of various policy proposals. Notably, engagement with each of these forms of participation drops off as the required level of commitment increases. We conclude by discussing the implications of these results as well as directions for future research.
+AB  - ABSTRACT Unlike 20th-century mass media, the Internet requires self-selection of content by its very nature. This has raised the normative concern that users may opt to encounter only political information and perspectives that accord with their pre-existing views. This study examines the different ways that voters appropriated a new, purpose-built online engagement platform to engage with a wide variety of political opinions and arguments. In a system aimed at helping Washington state citizens make their 2010 election decisions, we find that users take significant advantage of three key opportunities to engage with political diversity: accessing, considering, and producing arguments on both sides of various policy proposals. Notably, engagement with each of these forms of participation drops off as the required level of commitment increases. We conclude by discussing the implications of these results as well as directions for future research.
+SN  - 1933-1681
+M3  - doi: 10.1080/19331681.2012.665755
+UR  - http://dx.doi.org/10.1080/19331681.2012.665755
+ER  - 
+
+TY  - JOUR
+T1  - ENGAGING TIMESHARE OWNERS IN TOURISM DESTINATION MANAGEMENT: TOURISM PLANNING AND TOURISM MARKETING IMPLICATIONS
+AU  - Huang, Chenchen
+AU  - Pennington‐Gray, Lori
+AU  - Ko, Yong Jae
+AU  - Thapa, Brijesh
+Y1  - 2010/01/01
+PY  - 2010
+DA  - 2010/01/01
+N1  - doi: 10.1080/10548400903534766
+DO  - 10.1080/10548400903534766
+T2  - Journal of Travel & Tourism Marketing
+JF  - Journal of Travel & Tourism Marketing
+JO  - Journal of Travel & Tourism Marketing
+SP  - 14
+EP  - 30
+VL  - 27
+IS  - 1
+PB  - Routledge
+N2  - It is important to understand tourists' willingness to participate in tourism planning and the factors influencing their willingness because they are an integral part of the destination and ultimately one of the main buyers of the product. Timeshare owners are a special group of tourists who have additional connections with the tourism destination through their timeshare. The purpose of this study was to investigate the relationships among timeshare owners' perceptions of tourism planning, civic engagement, sense of place, and willingness to participate in tourism planning. This study was based on a questionnaire survey of U.S. timeshare owners. The total sample size was 302. A two?stage structural equation modeling approach was applied in data analysis. Results from the measurement model suggested that the model fit the data quite well. Results from the structural model suggested that timeshare owners' perceptions of tourism planning, their past history of civic participation, and their sense of place significantly impact their willingness to participate in tourism planning, while timeshare owners' past experience in political participation did not significantly affect their willingness to participate in tourism planning. Implications of the findings in tourism planning and tourism destination marketing are presented.
+AB  - It is important to understand tourists' willingness to participate in tourism planning and the factors influencing their willingness because they are an integral part of the destination and ultimately one of the main buyers of the product. Timeshare owners are a special group of tourists who have additional connections with the tourism destination through their timeshare. The purpose of this study was to investigate the relationships among timeshare owners' perceptions of tourism planning, civic engagement, sense of place, and willingness to participate in tourism planning. This study was based on a questionnaire survey of U.S. timeshare owners. The total sample size was 302. A two?stage structural equation modeling approach was applied in data analysis. Results from the measurement model suggested that the model fit the data quite well. Results from the structural model suggested that timeshare owners' perceptions of tourism planning, their past history of civic participation, and their sense of place significantly impact their willingness to participate in tourism planning, while timeshare owners' past experience in political participation did not significantly affect their willingness to participate in tourism planning. Implications of the findings in tourism planning and tourism destination marketing are presented.
+SN  - 1054-8408
+M3  - doi: 10.1080/10548400903534766
+UR  - http://dx.doi.org/10.1080/10548400903534766
+ER  - 
+
+TY  - JOUR
+T1  - THE CIVIC SELL
+AU  - Banaji, Shakuntala
+AU  - Buckingham, David
+Y1  - 2009/12/01
+PY  - 2009
+DA  - 2009/12/01
+N1  - doi: 10.1080/13691180802687621
+DO  - 10.1080/13691180802687621
+T2  - Information, Communication & Society
+JF  - Information, Communication & Society
+JO  - Information, Communication & Society
+SP  - 1197
+EP  - 1223
+VL  - 12
+IS  - 8
+PB  - Routledge
+N2  - This article is based on newly completed research looking at the role of the internet as a means of promoting civic engagement and participation among young people aged 15?25. It focuses on one specific aspect of this phenomenon, namely the use of websites to promote ?ethical consumption? among young people. This paper begins by briefly examining several intersecting works discussing not-for-profit marketing, commercial marketing, youth cultures and subcultures, politics, and ethical consumerism. It then moves on to examine the rhetorical constructions of youth identity and ethical consumerism on a range of civic websites, exploring the identifications and disavowals implicit in the language, layout, and imagery, and the conceptualizations civic-orientated Web producers have of their audiences and of consumption per se. This is achieved by taking a case-study approach involving a qualitative textual analysis of web-pages taken from UK and US-based sites such as Adbusters, Oxfam's Generation Why, Ethics Girls, Adili and Amnesty International, which advertise or promote the buying of ethical goods by young people. It also involves an analysis of the aims of the site producers, as exemplified on the sites? mission statements and in in-depth interviews. By means of this analysis, the article seeks to identify and assess the actually or potentially ?civic? aspects of these sites and to question the notion of ethical consumption in particular.
+AB  - This article is based on newly completed research looking at the role of the internet as a means of promoting civic engagement and participation among young people aged 15?25. It focuses on one specific aspect of this phenomenon, namely the use of websites to promote ?ethical consumption? among young people. This paper begins by briefly examining several intersecting works discussing not-for-profit marketing, commercial marketing, youth cultures and subcultures, politics, and ethical consumerism. It then moves on to examine the rhetorical constructions of youth identity and ethical consumerism on a range of civic websites, exploring the identifications and disavowals implicit in the language, layout, and imagery, and the conceptualizations civic-orientated Web producers have of their audiences and of consumption per se. This is achieved by taking a case-study approach involving a qualitative textual analysis of web-pages taken from UK and US-based sites such as Adbusters, Oxfam's Generation Why, Ethics Girls, Adili and Amnesty International, which advertise or promote the buying of ethical goods by young people. It also involves an analysis of the aims of the site producers, as exemplified on the sites? mission statements and in in-depth interviews. By means of this analysis, the article seeks to identify and assess the actually or potentially ?civic? aspects of these sites and to question the notion of ethical consumption in particular.
+SN  - 1369-118X
+M3  - doi: 10.1080/13691180802687621
+UR  - http://dx.doi.org/10.1080/13691180802687621
+ER  - 
+
+TY  - JOUR
+T1  - Civic Engagement through DIY Urbanism and Collective Networked Action
+AU  - Sawhney, Nitin
+AU  - de Klerk, Christo
+AU  - Malhotra, Shriya
+Y1  - 2015/05/27
+PY  - 2015
+DA  - 2015/05/27
+N1  - doi: 10.1080/02697459.2015.1054662
+DO  - 10.1080/02697459.2015.1054662
+T2  - Planning Practice & Research
+JF  - Planning Practice & Research
+JO  - Planning Practice & Research
+SP  - 337
+EP  - 354
+VL  - 30
+IS  - 3
+PB  - Routledge
+N2  - In this paper, we examine do-it-yourself (DIY) urbanism through place-based and technology initiatives that support collective networked action to foster civic engagement in neighborhood contexts. The goal is to engage informal and ad-hoc networks of individual and collective actors in productively addressing critical conditions within their urban localities. Based on participatory research and co-design with residents and urban activist groups, Delai Sam and Partizaning, in districts of Moscow, Russia, we devised a series of interventions using a network of mailboxes, prototype online collaboration platforms (SynchroniCITY and MicroAct) and community-based workshops to engage participants in revealing issues, designing solutions and coordinating urban actions. Through these experiences, we consider the challenges of DIY urbanism as an inclusive, sustained and meaningful form of cooperative engagement and urban activism.
+AB  - In this paper, we examine do-it-yourself (DIY) urbanism through place-based and technology initiatives that support collective networked action to foster civic engagement in neighborhood contexts. The goal is to engage informal and ad-hoc networks of individual and collective actors in productively addressing critical conditions within their urban localities. Based on participatory research and co-design with residents and urban activist groups, Delai Sam and Partizaning, in districts of Moscow, Russia, we devised a series of interventions using a network of mailboxes, prototype online collaboration platforms (SynchroniCITY and MicroAct) and community-based workshops to engage participants in revealing issues, designing solutions and coordinating urban actions. Through these experiences, we consider the challenges of DIY urbanism as an inclusive, sustained and meaningful form of cooperative engagement and urban activism.
+SN  - 0269-7459
+M3  - doi: 10.1080/02697459.2015.1054662
+UR  - http://dx.doi.org/10.1080/02697459.2015.1054662
+ER  - 
+
+TY  - JOUR
+T1  - Fan activism sustained and challenged: participatory culture in Chinese online translation communities
+AU  - Zhang, Weiyu
+AU  - Mao, Chengting
+Y1  - 2013/03/01
+PY  - 2013
+DA  - 2013/03/01
+N1  - doi: 10.1080/17544750.2013.753499
+DO  - 10.1080/17544750.2013.753499
+T2  - Chinese Journal of Communication
+JF  - Chinese Journal of Communication
+JO  - Chinese Journal of Communication
+SP  - 45
+EP  - 61
+VL  - 6
+IS  - 1
+PB  - Routledge
+N2  - Henry Jenkins, in Convergence Culture, argues that ?[p]opular culture may be preparing the way for a more meaningful public culture?. This article examines this argument in the context of online translation communities in China, which originated from fan groups interested in foreign comics, games, movies, and television dramas. Drawing on evidence collected through participant observation and 23 in-depth interviews, this article first reviews the historical development and the structural layout of such online translation communities. It then focuses on the motivations of their members to contribute to the translation tasks, which show that personal interests speak louder than collective goals. Finally, it analyzes how the collaboration structure, mindset of collaboration, skills, and sense of agency are transferred from translating entertainment content to civic education content (i.e. open courses). Participatory culture fostered through fan activities is found to be transferred into civic engagement; however, the transfer between fan activism and political participation is yet to be seen.
+AB  - Henry Jenkins, in Convergence Culture, argues that ?[p]opular culture may be preparing the way for a more meaningful public culture?. This article examines this argument in the context of online translation communities in China, which originated from fan groups interested in foreign comics, games, movies, and television dramas. Drawing on evidence collected through participant observation and 23 in-depth interviews, this article first reviews the historical development and the structural layout of such online translation communities. It then focuses on the motivations of their members to contribute to the translation tasks, which show that personal interests speak louder than collective goals. Finally, it analyzes how the collaboration structure, mindset of collaboration, skills, and sense of agency are transferred from translating entertainment content to civic education content (i.e. open courses). Participatory culture fostered through fan activities is found to be transferred into civic engagement; however, the transfer between fan activism and political participation is yet to be seen.
+SN  - 1754-4750
+M3  - doi: 10.1080/17544750.2013.753499
+UR  - http://dx.doi.org/10.1080/17544750.2013.753499
+ER  - 
+
+TY  - JOUR
+T1  - User-friendly web mapping: lessons from a citizen science website
+AU  - Newman, Greg
+AU  - Zimmerman, Don
+AU  - Crall, Alycia
+AU  - Laituri, Melinda
+AU  - Graham, Jim
+AU  - Stapel, Linda
+Y1  - 2010/11/26
+PY  - 2010
+DA  - 2010/11/26
+N1  - doi: 10.1080/13658816.2010.490532
+DO  - 10.1080/13658816.2010.490532
+T2  - International Journal of Geographical Information Science
+JF  - International Journal of Geographical Information Science
+JO  - International Journal of Geographical Information Science
+SP  - 1851
+EP  - 1869
+VL  - 24
+IS  - 12
+PB  - Taylor & Francis
+N2  - Citizen science websites are emerging as a common way for volunteers to collect and report geographic ecological data. Engaging the public in citizen science is challenging and, when involving online participation, data entry, and map use, becomes even more daunting. Given these new challenges, citizen science websites must be easy to use, result in positive overall satisfaction for many different users, support many different tasks, and ensure data quality. To begin reaching these goals, we built a geospatially enabled citizen science website, evaluated its usability, and gained experience by working with and listening to citizens using the website. We sought to determine general perceptions, discover potential problems, and iteratively improve website features. Although the website was rated positively overall, map-based tasks identified a wide range of problems. Given our results, we redesigned the website, improved the content, enhanced the ease of use, simplified the map interface, and added features. We discuss citizen science websites in relation to online Public Participation Geographic Information Systems, examine the role(s) websites may play in the citizen science research model, discuss how citizen science research advances GIScience, and offer guidelines to improve citizen-based web mapping applications.
+AB  - Citizen science websites are emerging as a common way for volunteers to collect and report geographic ecological data. Engaging the public in citizen science is challenging and, when involving online participation, data entry, and map use, becomes even more daunting. Given these new challenges, citizen science websites must be easy to use, result in positive overall satisfaction for many different users, support many different tasks, and ensure data quality. To begin reaching these goals, we built a geospatially enabled citizen science website, evaluated its usability, and gained experience by working with and listening to citizens using the website. We sought to determine general perceptions, discover potential problems, and iteratively improve website features. Although the website was rated positively overall, map-based tasks identified a wide range of problems. Given our results, we redesigned the website, improved the content, enhanced the ease of use, simplified the map interface, and added features. We discuss citizen science websites in relation to online Public Participation Geographic Information Systems, examine the role(s) websites may play in the citizen science research model, discuss how citizen science research advances GIScience, and offer guidelines to improve citizen-based web mapping applications.
+SN  - 1365-8816
+M3  - doi: 10.1080/13658816.2010.490532
+UR  - http://dx.doi.org/10.1080/13658816.2010.490532
+ER  - 
+
+TY  - JOUR
+T1  - Key actor perspectives on stakeholder engagement in Omani Environmental Impact Assessment: an application of Q-Methodology
+AU  - Cotton, Matthew David
+AU  - Mahroos-Alsaiari, Ahmed A.
+Y1  - 2015/01/02
+PY  - 2015
+DA  - 2015/01/02
+N1  - doi: 10.1080/09640568.2013.847822
+DO  - 10.1080/09640568.2013.847822
+T2  - Journal of Environmental Planning and Management
+JF  - Journal of Environmental Planning and Management
+JO  - Journal of Environmental Planning and Management
+SP  - 91
+EP  - 112
+VL  - 58
+IS  - 1
+PB  - Routledge
+N2  - Stakeholder engagement (SE), particularly with representatives of locally affected communities, is integral to Environmental Impact Assessment (EIA) processes, so critical evaluation of SE is necessary across a range of different socio-political contexts. EIA SE practice in the Sultanate of Oman is examined using Q-Methodology, a qualitative-quantitative discourse analysis technique, in order to evaluate key-actor perspectives and policy directions. Four discourses emerge, pertaining to (1) the institutionalisation of SE; (2) business as usual; (3) rights-centred engagement; and (4) decentralisation of EIA institutions. Consensus emerges that shows support for transparency and formalisation of SE; greater citizen-centred decision-making power; transparency in government guidelines; and the elimination of developer-led consultation processes. Policy options for reforming EIA policy are discussed, including a code of participation practice and a toolkit of suitable engagement methods.
+AB  - Stakeholder engagement (SE), particularly with representatives of locally affected communities, is integral to Environmental Impact Assessment (EIA) processes, so critical evaluation of SE is necessary across a range of different socio-political contexts. EIA SE practice in the Sultanate of Oman is examined using Q-Methodology, a qualitative-quantitative discourse analysis technique, in order to evaluate key-actor perspectives and policy directions. Four discourses emerge, pertaining to (1) the institutionalisation of SE; (2) business as usual; (3) rights-centred engagement; and (4) decentralisation of EIA institutions. Consensus emerges that shows support for transparency and formalisation of SE; greater citizen-centred decision-making power; transparency in government guidelines; and the elimination of developer-led consultation processes. Policy options for reforming EIA policy are discussed, including a code of participation practice and a toolkit of suitable engagement methods.
+SN  - 0964-0568
+M3  - doi: 10.1080/09640568.2013.847822
+UR  - http://dx.doi.org/10.1080/09640568.2013.847822
+ER  - 
+
+TY  - JOUR
+T1  - Citizen activism, conservative views & mega planning in a digital era
+AU  - Trapenberg Frick, Karen
+Y1  - 2016/01/02
+PY  - 2016
+DA  - 2016/01/02
+N1  - doi: 10.1080/14649357.2015.1125520
+DO  - 10.1080/14649357.2015.1125520
+T2  - Planning Theory & Practice
+JF  - Planning Theory & Practice
+JO  - Planning Theory & Practice
+SP  - 93
+EP  - 118
+VL  - 17
+IS  - 1
+PB  - Routledge
+N2  - AbstractScholarship on citizen activism in a digital era is growing exponentially in sociology, political science, and communications/new media studies. Theorists observe changing dynamics and power shifts within a public virtual sphere. In contrast, planning scholarship is sparse on how citizens use technology outside of official channels to participate and mobilize. To explore this under-studied phenomenon, a new conceptual framework is developed by synthesizing literature across disciplines to examine digital networked activism in planning and focusing on conservative activists? fierce opposition to regional planning in Atlanta, Georgia and the San Francisco Bay Area. I find activists use new media in combination with traditional strategies to communicate, organize, market their cause and refine tactics. The new media facilitates their channeling of deeply held emotions into the production, performance and circulation of counter-narratives that destabilize the planning process as conventionally understood. Planners? responses are largely reactive and catching up to the challenge. As a result, planners I interviewed are rethinking civic engagement in a digital era.
+AB  - AbstractScholarship on citizen activism in a digital era is growing exponentially in sociology, political science, and communications/new media studies. Theorists observe changing dynamics and power shifts within a public virtual sphere. In contrast, planning scholarship is sparse on how citizens use technology outside of official channels to participate and mobilize. To explore this under-studied phenomenon, a new conceptual framework is developed by synthesizing literature across disciplines to examine digital networked activism in planning and focusing on conservative activists? fierce opposition to regional planning in Atlanta, Georgia and the San Francisco Bay Area. I find activists use new media in combination with traditional strategies to communicate, organize, market their cause and refine tactics. The new media facilitates their channeling of deeply held emotions into the production, performance and circulation of counter-narratives that destabilize the planning process as conventionally understood. Planners? responses are largely reactive and catching up to the challenge. As a result, planners I interviewed are rethinking civic engagement in a digital era.
+SN  - 1464-9357
+M3  - doi: 10.1080/14649357.2015.1125520
+UR  - http://dx.doi.org/10.1080/14649357.2015.1125520
+ER  - 
+
+TY  - JOUR
+T1  - To War or Not? Engaging Middle School Students in an Ongoing Online Discussion
+AU  - O’Brien, Joseph
+AU  - Lawrence, Nicholas
+AU  - Green, Kori
+Y1  - 2014/03/04
+PY  - 2014
+DA  - 2014/03/04
+N1  - doi: 10.1080/00377996.2013.850051
+DO  - 10.1080/00377996.2013.850051
+T2  - The Social Studies
+JF  - The Social Studies
+JO  - The Social Studies
+SP  - 101
+EP  - 107
+VL  - 105
+IS  - 2
+PB  - Routledge
+N2  - In seeking to prepare students to be ?citizens of a culturally diverse, democratic society in an interdependent world,? teachers engage students in live, online discussions about what justifies war, while at the same time grappling with the requirements to teach the memorization of people, places and isolated events. Teachers and a university professor worked to teach students to think inductively about the justification of war, a theme found in most history curricula.
+AB  - In seeking to prepare students to be ?citizens of a culturally diverse, democratic society in an interdependent world,? teachers engage students in live, online discussions about what justifies war, while at the same time grappling with the requirements to teach the memorization of people, places and isolated events. Teachers and a university professor worked to teach students to think inductively about the justification of war, a theme found in most history curricula.
+SN  - 0037-7996
+M3  - doi: 10.1080/00377996.2013.850051
+UR  - http://dx.doi.org/10.1080/00377996.2013.850051
+ER  - 
+
+TY  - JOUR
+T1  - Participation in the Youth Civic Web: Assessing User Activity Levels in Web Sites Presenting Two Civic Styles
+AU  - Freelon, Deen
+AU  - Wells, Chris
+AU  - Bennett, W. Lance
+Y1  - 2013/07/01
+PY  - 2013
+DA  - 2013/07/01
+N1  - doi: 10.1080/19331681.2013.792309
+DO  - 10.1080/19331681.2013.792309
+T2  - Journal of Information Technology & Politics
+JF  - Journal of Information Technology & Politics
+JO  - Journal of Information Technology & Politics
+SP  - 293
+EP  - 309
+VL  - 10
+IS  - 3
+PB  - Routledge
+N2  - ABSTRACT Concerns over youth disengagement from conventional politics mixed with perceptions of youth aptitude for digital media have led scholars and practitioners to investigate civic Web sites as locations of potential youth learning and participation. Over the past few years, the scholarly literature on youth civic Web sites has developed a number of conceptual vocabularies for, and catalogued the nature of, the civic engagement opportunities offered by such sites. But the extant literature lacks documentation of a critically important step in this research logic: the extent to which young users actually take advantage of the opportunities to offered them. This study addresses this gap by presenting a theoretically driven investigation of specific participatory features in the youth civic Web and the quantity of user contributions they attract. Drawing from untested assumptions found in recent work, we test hypotheses concerning the impact on user activity of (a) citizenship orientations communicated by sites and (b) the organizational background of sites. We find that how sites communicate citizenship plays a significant role in determining the quantity of user participation, while the type of organization sponsoring a site makes little difference. We also document the existence of certain ?superstar? sites that attract disproportionate amounts of user content. Directions for future research and methodological issues related to the coding of diverse activity on complex sites and challenges to causal inference are also discussed.
+AB  - ABSTRACT Concerns over youth disengagement from conventional politics mixed with perceptions of youth aptitude for digital media have led scholars and practitioners to investigate civic Web sites as locations of potential youth learning and participation. Over the past few years, the scholarly literature on youth civic Web sites has developed a number of conceptual vocabularies for, and catalogued the nature of, the civic engagement opportunities offered by such sites. But the extant literature lacks documentation of a critically important step in this research logic: the extent to which young users actually take advantage of the opportunities to offered them. This study addresses this gap by presenting a theoretically driven investigation of specific participatory features in the youth civic Web and the quantity of user contributions they attract. Drawing from untested assumptions found in recent work, we test hypotheses concerning the impact on user activity of (a) citizenship orientations communicated by sites and (b) the organizational background of sites. We find that how sites communicate citizenship plays a significant role in determining the quantity of user participation, while the type of organization sponsoring a site makes little difference. We also document the existence of certain ?superstar? sites that attract disproportionate amounts of user content. Directions for future research and methodological issues related to the coding of diverse activity on complex sites and challenges to causal inference are also discussed.
+SN  - 1933-1681
+M3  - doi: 10.1080/19331681.2013.792309
+UR  - http://dx.doi.org/10.1080/19331681.2013.792309
+ER  - 
+
+TY  - JOUR
+T1  - Learning about distant places through the Internet: Young students as global citizens?
+AU  - Rye, Ståle   Angen
+Y1  - 2013/06/01
+PY  - 2013
+DA  - 2013/06/01
+N1  - doi: 10.1080/00291951.2013.803260
+DO  - 10.1080/00291951.2013.803260
+T2  - Norsk Geografisk Tidsskrift - Norwegian Journal of Geography
+JF  - Norsk Geografisk Tidsskrift - Norwegian Journal of Geography
+JO  - Norsk Geografisk Tidsskrift - Norwegian Journal of Geography
+SP  - 148
+EP  - 156
+VL  - 67
+IS  - 3
+PB  - Routledge
+N2  - The article explores how the use of the Internet in school settings influences the way young people develop as citizens in an interconnected world and the possible implications for teaching geography subject at school. First, this topic is approached theoretically through a discussion of new forms of citizenship. The issue is investigated by using interview data and observations on the use of the Internet by upper secondary school students in Norway when searching for information about distant places. During the interviews, knowledge about tropical rainforests was used as a practical example. The main finding is that although the students could access information about a large part of the world from their laptop, a distance remained between the students and the rainforests and those who live in them. The article also reveals that, although it is often argued that the national context is weakened as a frame for civic engagement, the students referred to it as a basic frame when engaging with what is distant. Thus, it may be questioned how the use of the Internet in schools contributes to the development of students as global citizens.
+AB  - The article explores how the use of the Internet in school settings influences the way young people develop as citizens in an interconnected world and the possible implications for teaching geography subject at school. First, this topic is approached theoretically through a discussion of new forms of citizenship. The issue is investigated by using interview data and observations on the use of the Internet by upper secondary school students in Norway when searching for information about distant places. During the interviews, knowledge about tropical rainforests was used as a practical example. The main finding is that although the students could access information about a large part of the world from their laptop, a distance remained between the students and the rainforests and those who live in them. The article also reveals that, although it is often argued that the national context is weakened as a frame for civic engagement, the students referred to it as a basic frame when engaging with what is distant. Thus, it may be questioned how the use of the Internet in schools contributes to the development of students as global citizens.
+SN  - 0029-1951
+M3  - doi: 10.1080/00291951.2013.803260
+UR  - http://dx.doi.org/10.1080/00291951.2013.803260
+ER  - 
+
+TY  - JOUR
+T1  - The Study of the Development of Civic Engagement Within Contemporary Developmental Science: Theory, Method, and Application
+AU  - Lerner, Richard M.
+AU  - Johnson, Sara K.
+AU  - Wang, Jun
+AU  - Ferris, Kaitlyn A.
+AU  - Hershberg, Rachel M.
+Y1  - 2015/04/03
+PY  - 2015
+DA  - 2015/04/03
+N1  - doi: 10.1080/15427609.2015.1013759
+DO  - 10.1080/15427609.2015.1013759
+T2  - Research in Human Development
+JF  - Research in Human Development
+JO  - Research in Human Development
+SP  - 149
+EP  - 156
+VL  - 12
+IS  - 1-2
+PB  - Routledge
+N2  - Within contemporary developmental science, models derived from relational developmental systems metatheory emphasize that the basic process involved in the ontogeny of civic engagement involves mutually-influential and beneficial relations between the developing individual and his or her complex and changing social, cultural, and physical contexts (represented as individual ? ? context relations). The authors suggest that research on the development of civic engagement should be theoretically predicated, use change-sensitive, longitudinal methods, and be comparative across time and place. Using these facets of scholarship as a lens, we discuss the contributions to this special issue. We conclude that the present set of studies provides a useful basis for future research and applications aimed at understanding and promoting individuals? civic contributions, and their support of social organizations promoting individual thriving and freedom, liberty, and social justice.
+AB  - Within contemporary developmental science, models derived from relational developmental systems metatheory emphasize that the basic process involved in the ontogeny of civic engagement involves mutually-influential and beneficial relations between the developing individual and his or her complex and changing social, cultural, and physical contexts (represented as individual ? ? context relations). The authors suggest that research on the development of civic engagement should be theoretically predicated, use change-sensitive, longitudinal methods, and be comparative across time and place. Using these facets of scholarship as a lens, we discuss the contributions to this special issue. We conclude that the present set of studies provides a useful basis for future research and applications aimed at understanding and promoting individuals? civic contributions, and their support of social organizations promoting individual thriving and freedom, liberty, and social justice.
+SN  - 1542-7609
+M3  - doi: 10.1080/15427609.2015.1013759
+UR  - http://dx.doi.org/10.1080/15427609.2015.1013759
+ER  - 
+
+TY  - JOUR
+T1  - Encouraging undergraduate engineering students towards civic engagement
+AU  - Wallen, Matthew   R.
+AU  - Pandit, Abhay   S.
+Y1  - 2009/05/01
+PY  - 2009
+DA  - 2009/05/01
+N1  - doi: 10.1080/03043790902829299
+DO  - 10.1080/03043790902829299
+T2  - European Journal of Engineering Education
+JF  - European Journal of Engineering Education
+JO  - European Journal of Engineering Education
+SP  - 141
+EP  - 148
+VL  - 34
+IS  - 2
+PB  - Taylor & Francis
+N2  - Responding to the calls for teaching ?soft skills? within the undergraduate engineering curriculum and for the university to address a perceived decrease in social capital, a programme titled Community Awareness Initiatives Responsibly Directed by Engineers (CAIRDE, an Irish language word meaning ?friends?) was instituted at the National University of Ireland, Galway. As part of a mandatory module in the Mechanical and Biomedical undergraduate programmes, students carry out self-directed projects involving community action (service) and application of knowledge (students? prior learning). This paper reports on an evaluative research study focussed on understanding the participating students? experiences. Among findings related to students? perceptions as future professionals, students describe a growing awareness of the need for collaboration and the positive value of engagement with the community as knowledgeable end-users of their designs. The paper concludes by suggesting greater integration of this type of pedagogy for civic engagement across the curriculum.
+AB  - Responding to the calls for teaching ?soft skills? within the undergraduate engineering curriculum and for the university to address a perceived decrease in social capital, a programme titled Community Awareness Initiatives Responsibly Directed by Engineers (CAIRDE, an Irish language word meaning ?friends?) was instituted at the National University of Ireland, Galway. As part of a mandatory module in the Mechanical and Biomedical undergraduate programmes, students carry out self-directed projects involving community action (service) and application of knowledge (students? prior learning). This paper reports on an evaluative research study focussed on understanding the participating students? experiences. Among findings related to students? perceptions as future professionals, students describe a growing awareness of the need for collaboration and the positive value of engagement with the community as knowledgeable end-users of their designs. The paper concludes by suggesting greater integration of this type of pedagogy for civic engagement across the curriculum.
+SN  - 0304-3797
+M3  - doi: 10.1080/03043790902829299
+UR  - http://dx.doi.org/10.1080/03043790902829299
+ER  - 
+
+TY  - JOUR
+T1  - TALKING AMONG THEMSELVES
+AU  - Freelon, Deen   Goodwin
+Y1  - 2011/03/01
+PY  - 2011
+DA  - 2011/03/01
+N1  - doi: 10.1080/1369118X.2010.495410
+DO  - 10.1080/1369118X.2010.495410
+T2  - Information, Communication & Society
+JF  - Information, Communication & Society
+JO  - Information, Communication & Society
+SP  - 198
+EP  - 218
+VL  - 14
+IS  - 2
+PB  - Routledge
+N2  - The character of youth civic engagement on the internet has emerged as a productive topic of study in communication research. Concurrently, a number of recent studies of online forums have found that technological design features can powerfully influence both the form and content of civic discussion. The present study integrates these previously unacquainted literatures, contributing to each by comparing the user content of two online youth engagement forums: one of which tightly manages communication between participants and the other of which grants them far more expressive latitude. The results indicate that technical design matters: significantly more topics of a traditionally civic character were raised in the former than in the latter. Further, the expressive forum elicited twice the number of total posts than its counterpart, although the highly regulated forum attracted significantly more unique users. Notably, the populations posting in the two spaces were almost completely mutually exclusive, with the vast majority of users posting exclusively in one or the other. The implications of these findings are discussed in the context of youth civic forums and youth civic engagement more generally.
+AB  - The character of youth civic engagement on the internet has emerged as a productive topic of study in communication research. Concurrently, a number of recent studies of online forums have found that technological design features can powerfully influence both the form and content of civic discussion. The present study integrates these previously unacquainted literatures, contributing to each by comparing the user content of two online youth engagement forums: one of which tightly manages communication between participants and the other of which grants them far more expressive latitude. The results indicate that technical design matters: significantly more topics of a traditionally civic character were raised in the former than in the latter. Further, the expressive forum elicited twice the number of total posts than its counterpart, although the highly regulated forum attracted significantly more unique users. Notably, the populations posting in the two spaces were almost completely mutually exclusive, with the vast majority of users posting exclusively in one or the other. The implications of these findings are discussed in the context of youth civic forums and youth civic engagement more generally.
+SN  - 1369-118X
+M3  - doi: 10.1080/1369118X.2010.495410
+UR  - http://dx.doi.org/10.1080/1369118X.2010.495410
+ER  - 
+
+TY  - JOUR
+T1  - Understanding civic engagement behaviour on Facebook from a social capital theory perspective
+AU  - Warren, Anne Marie
+AU  - Sulaiman, Ainin
+AU  - Jaafar, Noor Ismawati
+Y1  - 2015/02/01
+PY  - 2015
+DA  - 2015/02/01
+N1  - doi: 10.1080/0144929X.2014.934290
+DO  - 10.1080/0144929X.2014.934290
+T2  - Behaviour & Information Technology
+JF  - Behaviour & Information Technology
+JO  - Behaviour & Information Technology
+SP  - 163
+EP  - 175
+VL  - 34
+IS  - 2
+PB  - Taylor & Francis
+N2  - This paper applies the social capital theory to construct a model for investigating the factors that influence online civic engagement behaviour on Facebook. While there is promising evidence that people are making concerted efforts to adopt Facebook to address social issues, research on their civic behaviour from a social capital viewpoint in the social media context remains limited. This study introduces new insights into how Facebook is shaping the landscape of civic engagement by examining three dimensions of social capital ? social interaction ties (structural), trust (relational), and shared languages and vision (cognitive). The study contends that these dimensions will influence individuals? online civic engagement behaviour on Facebook. We also argue that social interaction ties can engender trust, and shared languages and vision among its members, and that shared languages and vision can increase trust among Facebook members. Empirical data collected from 1233 Facebook users provide support for the proposed model. The results help in identifying the motivation underlying the online civic engagement behaviour of individuals in a public virtual community. The implications for theory and practice and future research directions are discussed.
+AB  - This paper applies the social capital theory to construct a model for investigating the factors that influence online civic engagement behaviour on Facebook. While there is promising evidence that people are making concerted efforts to adopt Facebook to address social issues, research on their civic behaviour from a social capital viewpoint in the social media context remains limited. This study introduces new insights into how Facebook is shaping the landscape of civic engagement by examining three dimensions of social capital ? social interaction ties (structural), trust (relational), and shared languages and vision (cognitive). The study contends that these dimensions will influence individuals? online civic engagement behaviour on Facebook. We also argue that social interaction ties can engender trust, and shared languages and vision among its members, and that shared languages and vision can increase trust among Facebook members. Empirical data collected from 1233 Facebook users provide support for the proposed model. The results help in identifying the motivation underlying the online civic engagement behaviour of individuals in a public virtual community. The implications for theory and practice and future research directions are discussed.
+SN  - 0144-929X
+M3  - doi: 10.1080/0144929X.2014.934290
+UR  - http://dx.doi.org/10.1080/0144929X.2014.934290
+ER  - 
+
+TY  - JOUR
+T1  - Open Governance and E-Rulemaking: Online Deliberation and Policy-Making in Contemporary Greek Politics
+AU  - Deligiaouri, Anastasia
+Y1  - 2013/01/01
+PY  - 2013
+DA  - 2013/01/01
+N1  - doi: 10.1080/19331681.2012.746109
+DO  - 10.1080/19331681.2012.746109
+T2  - Journal of Information Technology & Politics
+JF  - Journal of Information Technology & Politics
+JO  - Journal of Information Technology & Politics
+SP  - 104
+EP  - 124
+VL  - 10
+IS  - 1
+PB  - Routledge
+N2  - ABSTRACT The Internet and its innovative communicative codes stand at the center of a discussion regarding a new, more participatory, direct, and ?strong? democracy. The widespread use of the Internet and its applications has profound implications on several facets of political life, such as the procedure of rulemaking. In modern, ?large-scale? democracies, the complexity and plurality of political interests seem to be under-represented in official parliamentary procedures. The model of open governance enables citizens to contribute toward how decisions are taken and accordingly democratize rulemaking. At the same time, it increases citizens' ability to exercise control over the elected political representatives. One recent implementation of the idea of an open (e-)government in Greece is the Web site http://www.opengov.gr that was launched by the newly elected government of the Socialist party (PASOK) in October 2009. In this Web site, draft laws per ministry are uploaded, and citizens can upload their comments on every article, expressing their opinion or their disagreement. This online deliberative procedure provides a forum for constructive civic engagement on rulemaking and, moreover, given that the comments are incorporated into the final legal document, gives citizens the chance to affect policy-making to a certain degree. The Web site also provides the opportunity to watch videos of cabinet councils as a fulfillment of transparency in political procedures. This article examines how the premise of open governance is being implemented by the e-rulemaking process on the specific Web site, and assesses its impact on legislation and policy-making issues.
+AB  - ABSTRACT The Internet and its innovative communicative codes stand at the center of a discussion regarding a new, more participatory, direct, and ?strong? democracy. The widespread use of the Internet and its applications has profound implications on several facets of political life, such as the procedure of rulemaking. In modern, ?large-scale? democracies, the complexity and plurality of political interests seem to be under-represented in official parliamentary procedures. The model of open governance enables citizens to contribute toward how decisions are taken and accordingly democratize rulemaking. At the same time, it increases citizens' ability to exercise control over the elected political representatives. One recent implementation of the idea of an open (e-)government in Greece is the Web site http://www.opengov.gr that was launched by the newly elected government of the Socialist party (PASOK) in October 2009. In this Web site, draft laws per ministry are uploaded, and citizens can upload their comments on every article, expressing their opinion or their disagreement. This online deliberative procedure provides a forum for constructive civic engagement on rulemaking and, moreover, given that the comments are incorporated into the final legal document, gives citizens the chance to affect policy-making to a certain degree. The Web site also provides the opportunity to watch videos of cabinet councils as a fulfillment of transparency in political procedures. This article examines how the premise of open governance is being implemented by the e-rulemaking process on the specific Web site, and assesses its impact on legislation and policy-making issues.
+SN  - 1933-1681
+M3  - doi: 10.1080/19331681.2012.746109
+UR  - http://dx.doi.org/10.1080/19331681.2012.746109
+ER  - 
+
+TY  - JOUR
+T1  - Better Service Design for Greater Civic Engagement
+AU  - Lam, Busayawan
+AU  - Chen, Yu Ping
+AU  - Whittle, Jon
+AU  - Binner, Jane
+AU  - Lawlor-Wright, Therese
+Y1  - 2015/03/01
+PY  - 2015
+DA  - 2015/03/01
+N1  - doi: 10.2752/175630615X14135446523224
+DO  - 10.2752/175630615X14135446523224
+T2  - The Design Journal
+JF  - The Design Journal
+JO  - The Design Journal
+SP  - 31
+EP  - 55
+VL  - 18
+IS  - 1
+PB  - Routledge
+N2  - ABSTRACTGenerally, people have a good understanding of their local areas. Hence, encouraging them to share this tacit knowledge with local authorities, urban designers and city planners could help improve the quality of public space design significantly. However, persuading people to share their concerns/ideas about their areas, especially through a digital platform, presents a real challenge. One of the main barriers is a lack of trust in the public feedback system. Thus, this research investigates relationships between online trust and service design in order to provide a guideline on how to design the feedback system that addresses users' practical and emotional requirements. A mixed-methods approach was employed to identify key factors affecting online trust and their implications on service design. Six key factors affecting online trust were identified and combined to form a basis for service design guidelines. The outcomes show that service design can support all components required to build trust.
+AB  - ABSTRACTGenerally, people have a good understanding of their local areas. Hence, encouraging them to share this tacit knowledge with local authorities, urban designers and city planners could help improve the quality of public space design significantly. However, persuading people to share their concerns/ideas about their areas, especially through a digital platform, presents a real challenge. One of the main barriers is a lack of trust in the public feedback system. Thus, this research investigates relationships between online trust and service design in order to provide a guideline on how to design the feedback system that addresses users' practical and emotional requirements. A mixed-methods approach was employed to identify key factors affecting online trust and their implications on service design. Six key factors affecting online trust were identified and combined to form a basis for service design guidelines. The outcomes show that service design can support all components required to build trust.
+SN  - 1460-6925
+M3  - doi: 10.2752/175630615X14135446523224
+UR  - http://www.tandfonline.com/doi/abs/10.2752/175630615X14135446523224
+ER  - 
+
+TY  - JOUR
+T1  - Inclusive approaches to urban climate adaptation planning and implementation in the Global South
+AU  - Chu, Eric
+AU  - Anguelovski, Isabelle
+AU  - Carmin, JoAnn
+Y1  - 2015/03/27
+PY  - 2015
+N1  - doi: 10.1080/14693062.2015.1019822
+DO  - 10.1080/14693062.2015.1019822
+T2  - Climate Policy
+JF  - Climate Policy
+JO  - Climate Policy
+SP  - 1
+EP  - 21
+PB  - Taylor & Francis
+N2  - As cities increasingly engage in climate adaptation planning, many are seeking to promote public participation and facilitate the engagement of different civil society actors. Still, the variations that exist among participatory approaches and the merits and tradeoffs associated with each are not well understood. This article examines the experiences of Quito (Ecuador) and Surat (India) to assess how civil society actors contribute to adaptation planning and implementation. The results showcase two distinct approaches to public engagement. The first emphasizes participation of experts, affected communities, and a wide array of citizens to sustain broadly inclusive programmes that incorporate local needs and concerns into adaptation processes and outcomes. The second approach focuses on building targeted partnerships between key government, private, and civil society actors to institutionalize robust decision-making structures, enhance abilities to raise funds, and increase means to directly engage with local community and international actors. A critical analysis of these approaches suggests more inclusive planning processes correspond to higher climate equity and justice outcomes in the short term, but the results also indicate that an emphasis on building dedicated multi-sector governance institutions may enhance long-term programme stability, while ensuring that diverse civil society actors have an ongoing voice in climate adaptation planning and implementation.Policy relevanceMany local governments in the Global South experience severe capacity and resource constraints. Cities are often required to devolve large-scale planning and decision-making responsibilities, such as those critical to climate adaptation, to different civil society actors. As a result, there needs to be more rigorous assessments of how civil society participation contributes to the adaptation policy and planning process and what local social, political, and economic factors dictate the way cities select different approaches to public engagement. Also, since social equity and justice are key indicators for determining the effectiveness and sustainability of adaptation interventions, urban adaptation plans and policies must also be designed according to local institutional strengths and civic capacities in order to account for the needs of the poor and most vulnerable. Inclusivity, therefore, is critical for ensuring equitable planning processes and just adaptation outcomes.
+AB  - As cities increasingly engage in climate adaptation planning, many are seeking to promote public participation and facilitate the engagement of different civil society actors. Still, the variations that exist among participatory approaches and the merits and tradeoffs associated with each are not well understood. This article examines the experiences of Quito (Ecuador) and Surat (India) to assess how civil society actors contribute to adaptation planning and implementation. The results showcase two distinct approaches to public engagement. The first emphasizes participation of experts, affected communities, and a wide array of citizens to sustain broadly inclusive programmes that incorporate local needs and concerns into adaptation processes and outcomes. The second approach focuses on building targeted partnerships between key government, private, and civil society actors to institutionalize robust decision-making structures, enhance abilities to raise funds, and increase means to directly engage with local community and international actors. A critical analysis of these approaches suggests more inclusive planning processes correspond to higher climate equity and justice outcomes in the short term, but the results also indicate that an emphasis on building dedicated multi-sector governance institutions may enhance long-term programme stability, while ensuring that diverse civil society actors have an ongoing voice in climate adaptation planning and implementation.Policy relevanceMany local governments in the Global South experience severe capacity and resource constraints. Cities are often required to devolve large-scale planning and decision-making responsibilities, such as those critical to climate adaptation, to different civil society actors. As a result, there needs to be more rigorous assessments of how civil society participation contributes to the adaptation policy and planning process and what local social, political, and economic factors dictate the way cities select different approaches to public engagement. Also, since social equity and justice are key indicators for determining the effectiveness and sustainability of adaptation interventions, urban adaptation plans and policies must also be designed according to local institutional strengths and civic capacities in order to account for the needs of the poor and most vulnerable. Inclusivity, therefore, is critical for ensuring equitable planning processes and just adaptation outcomes.
+SN  - 1469-3062
+M3  - doi: 10.1080/14693062.2015.1019822
+UR  - http://dx.doi.org/10.1080/14693062.2015.1019822
+ER  - 
+
+TY  - JOUR
+T1  - Plays nice with others? Multiple ecosystems, various roles and divergent engagement models
+AU  - Bosch-Sijtsema, Petra M.
+AU  - Bosch, Jan
+Y1  - 2015/09/14
+PY  - 2015
+DA  - 2015/09/14
+N1  - doi: 10.1080/09537325.2015.1038231
+DO  - 10.1080/09537325.2015.1038231
+T2  - Technology Analysis & Strategic Management
+JF  - Technology Analysis & Strategic Management
+JO  - Technology Analysis & Strategic Management
+SP  - 960
+EP  - 974
+VL  - 27
+IS  - 8
+PB  - Routledge
+N2  - In strategic management, the term meta-organisation is discussed as a network of firms and individuals in which members coexist, collaborate and evolve through a set of relationships and together form a larger organism. We focus on the meta-organisation form of an ecosystem in the IT industry, which often is based around a technical architecture or platform. Studies often discuss one network and selected members in such a network, but few mention that firms can work in multiple ecosystems and need to apply divergent engagement models. We study how firms engage in multiple ecosystems through three qualitative case studies. The article contributes with the following: (1) firms often operate in multiple ecosystems for which they need to dynamically adapt their engagement strategy. (2) Firms are striving to balance between strategic divergences: power versus symbiosis and a collaborative approach versus a competitive approach.
+AB  - In strategic management, the term meta-organisation is discussed as a network of firms and individuals in which members coexist, collaborate and evolve through a set of relationships and together form a larger organism. We focus on the meta-organisation form of an ecosystem in the IT industry, which often is based around a technical architecture or platform. Studies often discuss one network and selected members in such a network, but few mention that firms can work in multiple ecosystems and need to apply divergent engagement models. We study how firms engage in multiple ecosystems through three qualitative case studies. The article contributes with the following: (1) firms often operate in multiple ecosystems for which they need to dynamically adapt their engagement strategy. (2) Firms are striving to balance between strategic divergences: power versus symbiosis and a collaborative approach versus a competitive approach.
+SN  - 0953-7325
+M3  - doi: 10.1080/09537325.2015.1038231
+UR  - http://dx.doi.org/10.1080/09537325.2015.1038231
+ER  - 
+
+TY  - JOUR
+T1  - Tales of science and defiance: the case for co-learning and collaboration in bridging the science/emotion divide in water recycling debates
+AU  - Morgan, Edward Alexander
+AU  - Grant-Smith, Deanna Chantal Cristina
+Y1  - 2015/10/03
+PY  - 2015
+DA  - 2015/10/03
+N1  - doi: 10.1080/09640568.2014.954691
+DO  - 10.1080/09640568.2014.954691
+T2  - Journal of Environmental Planning and Management
+JF  - Journal of Environmental Planning and Management
+JO  - Journal of Environmental Planning and Management
+SP  - 1770
+EP  - 1788
+VL  - 58
+IS  - 10
+PB  - Routledge
+N2  - Although science is generally assumed to be well integrated into rational decision-making models, it can be used to destabilise consultative processes, particularly when emotions are involved. Water policies are often seen as debates over technical and engineering issues, but can be highly controversial. Recycled water proposals, in particular, can create highly emotive conflicts. Through a case study regarding the rejection of recycled water proposals in the south-east Queensland, Australia, we explore the influence of science and emotions in contemporary water planning. We highlight the dangers inherent in promoting technical water planning issues at the expense of appropriate consideration of citizen concerns. Combining the science?policy interface and stakeholder engagement literatures, we advocate for collaborative decision-making processes that accommodate emotions and value judgements. A more collaborative stakeholder engagement model, founded on the principles of co-learning, has the potential to broaden the decision-making base and to promote better and more inclusive decision-making.
+AB  - Although science is generally assumed to be well integrated into rational decision-making models, it can be used to destabilise consultative processes, particularly when emotions are involved. Water policies are often seen as debates over technical and engineering issues, but can be highly controversial. Recycled water proposals, in particular, can create highly emotive conflicts. Through a case study regarding the rejection of recycled water proposals in the south-east Queensland, Australia, we explore the influence of science and emotions in contemporary water planning. We highlight the dangers inherent in promoting technical water planning issues at the expense of appropriate consideration of citizen concerns. Combining the science?policy interface and stakeholder engagement literatures, we advocate for collaborative decision-making processes that accommodate emotions and value judgements. A more collaborative stakeholder engagement model, founded on the principles of co-learning, has the potential to broaden the decision-making base and to promote better and more inclusive decision-making.
+SN  - 0964-0568
+M3  - doi: 10.1080/09640568.2014.954691
+UR  - http://dx.doi.org/10.1080/09640568.2014.954691
+ER  - 
+
+TY  - JOUR
+T1  - Participatory Apps for Urban Planning—Space for Improvement
+AU  - Ertiö, Titiana-Petra
+Y1  - 2015/05/27
+PY  - 2015
+DA  - 2015/05/27
+N1  - doi: 10.1080/02697459.2015.1052942
+DO  - 10.1080/02697459.2015.1052942
+T2  - Planning Practice & Research
+JF  - Planning Practice & Research
+JO  - Planning Practice & Research
+SP  - 303
+EP  - 321
+VL  - 30
+IS  - 3
+PB  - Routledge
+N2  - Participatory urban planning is considered an important aspect of developing local democracy. Recently, the use of mobile technologies to engage with citizens has gained interest among researchers, policy-makers, and activists. The purpose of this article is to introduce a typology that identifies types of mobile applications (apps) supporting citizen participation in urban planning. The presented typology is developed based on theories of participation and has three dimensions: type of data collected, information flow, and empowerment of citizens. Overall, the typology identifies eight types of participatory apps. Participatory apps in use around the world are then plotted into the typology and their contribution is analyzed with reference to the dimensions of the typology. Apps evolve from sharing information on the surrounding environment towards a dialogue aimed to accommodate citizen knowledge into the planning process. The article concludes that the impact of planning apps has yet been modest, but is expected to increase, and discusses ways in which planning apps can leverage citizens' knowledge in the future.
+AB  - Participatory urban planning is considered an important aspect of developing local democracy. Recently, the use of mobile technologies to engage with citizens has gained interest among researchers, policy-makers, and activists. The purpose of this article is to introduce a typology that identifies types of mobile applications (apps) supporting citizen participation in urban planning. The presented typology is developed based on theories of participation and has three dimensions: type of data collected, information flow, and empowerment of citizens. Overall, the typology identifies eight types of participatory apps. Participatory apps in use around the world are then plotted into the typology and their contribution is analyzed with reference to the dimensions of the typology. Apps evolve from sharing information on the surrounding environment towards a dialogue aimed to accommodate citizen knowledge into the planning process. The article concludes that the impact of planning apps has yet been modest, but is expected to increase, and discusses ways in which planning apps can leverage citizens' knowledge in the future.
+SN  - 0269-7459
+M3  - doi: 10.1080/02697459.2015.1052942
+UR  - http://dx.doi.org/10.1080/02697459.2015.1052942
+ER  - 
+
+TY  - JOUR
+T1  - Engaging Students through Mapping Local History
+AU  - Mitchell, Katharyne
+AU  - Elwood, Sarah
+Y1  - 2012/07/01
+PY  - 2012
+DA  - 2012/07/01
+N1  - doi: 10.1080/00221341.2011.624189
+DO  - 10.1080/00221341.2011.624189
+T2  - Journal of Geography
+JF  - Journal of Geography
+JO  - Journal of Geography
+SP  - 148
+EP  - 157
+VL  - 111
+IS  - 4
+PB  - Routledge
+N2  - Abstract This article argues that the integration of local history and geography through collaborative digital mapping can lead to greater interest in civic participation by early adolescent learners. In the study, twenty-nine middle school students were asked to research, represent, and discuss local urban sites of historical significance on an interactive Web platform. As students learned more about local community events, people, and historical forces, they became increasingly engaged with the material and enthusiastic about making connections to larger issues and processes. In the final session, students expressed interest in participating in their own communities through joining nonprofit organizations and educating others about community history and daily life.
+AB  - Abstract This article argues that the integration of local history and geography through collaborative digital mapping can lead to greater interest in civic participation by early adolescent learners. In the study, twenty-nine middle school students were asked to research, represent, and discuss local urban sites of historical significance on an interactive Web platform. As students learned more about local community events, people, and historical forces, they became increasingly engaged with the material and enthusiastic about making connections to larger issues and processes. In the final session, students expressed interest in participating in their own communities through joining nonprofit organizations and educating others about community history and daily life.
+SN  - 0022-1341
+M3  - doi: 10.1080/00221341.2011.624189
+UR  - http://dx.doi.org/10.1080/00221341.2011.624189
+ER  - 
+
+TY  - JOUR
+T1  - Civic Engagement in the Community: Undergraduate Clinical Legal Education
+AU  - Allen, Mahalley D.
+AU  - Parker, Sally A.
+AU  - DeLorenzo, Teodora C.
+Y1  - 2012/01/01
+PY  - 2012
+DA  - 2012/01/01
+N1  - doi: 10.1080/15512169.2012.641393
+DO  - 10.1080/15512169.2012.641393
+T2  - Journal of Political Science Education
+JF  - Journal of Political Science Education
+JO  - Journal of Political Science Education
+SP  - 35
+EP  - 49
+VL  - 8
+IS  - 1
+PB  - Routledge
+N2  - The Community Legal Information Center (CLIC) of California State University, Chico, provides a unique civic engagement program designed to serve the legal service needs of Northern California. Founded in 1969, CLIC is now a 12-program, on-campus law clinic staffed by up to 125 undergraduate students each semester and is the most extensive undergraduate legal clinic in the nation. Although free legal clinics are not unusual at law schools, they are very rare at the undergraduate level. We discuss how CLIC successfully provides students with the opportunity to serve the legal needs of their community while also applying what they have learned through traditional classroom learning. Research on successful undergraduate civic engagement programs is significant because civic engagement and service-learning are often perceived as lacking educational quality and merit. Further, legitimate questions surrounding civic engagement programs, such as the proper educational methodology to be used in such programs, still exist. We explore how CLIC serves as a framework from which other academic programs can model their own civic engagement programs such that they integrate traditional academic exercises with community service.
+AB  - The Community Legal Information Center (CLIC) of California State University, Chico, provides a unique civic engagement program designed to serve the legal service needs of Northern California. Founded in 1969, CLIC is now a 12-program, on-campus law clinic staffed by up to 125 undergraduate students each semester and is the most extensive undergraduate legal clinic in the nation. Although free legal clinics are not unusual at law schools, they are very rare at the undergraduate level. We discuss how CLIC successfully provides students with the opportunity to serve the legal needs of their community while also applying what they have learned through traditional classroom learning. Research on successful undergraduate civic engagement programs is significant because civic engagement and service-learning are often perceived as lacking educational quality and merit. Further, legitimate questions surrounding civic engagement programs, such as the proper educational methodology to be used in such programs, still exist. We explore how CLIC serves as a framework from which other academic programs can model their own civic engagement programs such that they integrate traditional academic exercises with community service.
+SN  - 1551-2169
+M3  - doi: 10.1080/15512169.2012.641393
+UR  - http://dx.doi.org/10.1080/15512169.2012.641393
+ER  - 
+
+TY  - JOUR
+T1  - Irresponsible Engagement and the Citizen Investor
+AU  - O'Byrne, Susan
+AU  - Daymon, Christine
+Y1  - 2014/10/20
+PY  - 2014
+DA  - 2014/10/20
+N1  - doi: 10.1080/1062726X.2014.956105
+DO  - 10.1080/1062726X.2014.956105
+T2  - Journal of Public Relations Research
+JF  - Journal of Public Relations Research
+JO  - Journal of Public Relations Research
+SP  - 455
+EP  - 473
+VL  - 26
+IS  - 5
+PB  - Routledge
+N2  - The study investigates how shareholders are constructed and engaged with through public relations in the Australian financial sector. The web sites and annual and sustainability reports of major Australian companies and investment funds were examined through qualitative content analysis. Findings indicate that a hierarchical distinction exists within the discrete but amorphous stakeholder group known as shareholders, where privilege and disadvantage exist alongside disparate levels of power and agency. This is perpetuated by and through irresponsible public relations, which constructs a discourse of ownership that excludes citizens as legitimate stakeholders limiting their capacity to influence more ethical corporate decisions and practices. Recommendations are offered for how public relations might engage shareholders more responsibly.
+AB  - The study investigates how shareholders are constructed and engaged with through public relations in the Australian financial sector. The web sites and annual and sustainability reports of major Australian companies and investment funds were examined through qualitative content analysis. Findings indicate that a hierarchical distinction exists within the discrete but amorphous stakeholder group known as shareholders, where privilege and disadvantage exist alongside disparate levels of power and agency. This is perpetuated by and through irresponsible public relations, which constructs a discourse of ownership that excludes citizens as legitimate stakeholders limiting their capacity to influence more ethical corporate decisions and practices. Recommendations are offered for how public relations might engage shareholders more responsibly.
+SN  - 1062-726X
+M3  - doi: 10.1080/1062726X.2014.956105
+UR  - http://dx.doi.org/10.1080/1062726X.2014.956105
+ER  - 
+
+TY  - JOUR
+T1  - Breakpoint or Binder: Religious Engagement in Dutch Civil Society
+AU  - Çelik, Gürkan
+Y1  - 2013/09/01
+PY  - 2013
+DA  - 2013/09/01
+N1  - doi: 10.1080/17448689.2013.813733
+DO  - 10.1080/17448689.2013.813733
+T2  - Journal of Civil Society
+JF  - Journal of Civil Society
+JO  - Journal of Civil Society
+SP  - 248
+EP  - 267
+VL  - 9
+IS  - 3
+PB  - Routledge
+N2  - Civil society as a social sphere is constantly subjected to change. Using the Dutch context, this article addresses the question whether religiously inspired engagement is a binder or a breakpoint in modern societies. The author examines how religiously inspired people in the Netherlands involve themselves in non-governmental organizations (NGOs) and voluntary activities. Religious involvement and social engagement in different European countries are compared and discussed. In addition, the author explores the models of civil society and applies these to both the Christian and Islamic civil society in the Netherlands. Using four religious ?identity organizations? as case studies, this article discusses the interaction of Christian and Islamic civil society related to secularized Dutch society. The character and intentions of religiously inspired organizations and the relationship between religious and secular involvement are examined. This study also focuses on the attitude of policymakers towards religiously inspired engagement and government policy on ?identity organizations? in the Netherlands.
+AB  - Civil society as a social sphere is constantly subjected to change. Using the Dutch context, this article addresses the question whether religiously inspired engagement is a binder or a breakpoint in modern societies. The author examines how religiously inspired people in the Netherlands involve themselves in non-governmental organizations (NGOs) and voluntary activities. Religious involvement and social engagement in different European countries are compared and discussed. In addition, the author explores the models of civil society and applies these to both the Christian and Islamic civil society in the Netherlands. Using four religious ?identity organizations? as case studies, this article discusses the interaction of Christian and Islamic civil society related to secularized Dutch society. The character and intentions of religiously inspired organizations and the relationship between religious and secular involvement are examined. This study also focuses on the attitude of policymakers towards religiously inspired engagement and government policy on ?identity organizations? in the Netherlands.
+SN  - 1744-8689
+M3  - doi: 10.1080/17448689.2013.813733
+UR  - http://dx.doi.org/10.1080/17448689.2013.813733
+ER  - 
+
+TY  - JOUR
+T1  - When the subaltern speaks: citizen journalism and genocide ‘victims’’ voices online
+AU  - Mpofu, Shepherd
+Y1  - 2015/10/02
+PY  - 2015
+DA  - 2015/10/02
+N1  - doi: 10.1080/23743670.2015.1119491
+DO  - 10.1080/23743670.2015.1119491
+T2  - African Journalism Studies
+JF  - African Journalism Studies
+JO  - African Journalism Studies
+SP  - 82
+EP  - 101
+VL  - 36
+IS  - 4
+PB  - Routledge
+N2  - ABSTRACTUsing qualitative data drawn from newzimbabwe.com and a listserv comprising mostly Ndebele-speaking people of Zimbabwe, this article investigates how the Web 2.0 era has given subaltern voices platforms to discuss issues rendered taboo in authoritarian contexts. The study is anchored on the concept of the subaltern public sphere and the metaphor of the ?voice? in cyberspace. The subaltern, as used here, refers to those people who perceive themselves as excluded from mainstream power and economic activities. The study uses online observation and critical discourse analysis (CDA) to examine how ?Ndebeles? discuss the 1980s genocide and how citizen journalism has generally revolutionised their participation in debates silenced by the ruling elite. What strongly comes out from the discussants? interactions is that the genocide, which has not been addressed since it ?ended? with the signing of the Unity Accord in 1987, remains contentious as victims have not found closure. The study concludes that Web 2.0 has reconfigured subaltern communities? engagements with the traumatic genocide.
+AB  - ABSTRACTUsing qualitative data drawn from newzimbabwe.com and a listserv comprising mostly Ndebele-speaking people of Zimbabwe, this article investigates how the Web 2.0 era has given subaltern voices platforms to discuss issues rendered taboo in authoritarian contexts. The study is anchored on the concept of the subaltern public sphere and the metaphor of the ?voice? in cyberspace. The subaltern, as used here, refers to those people who perceive themselves as excluded from mainstream power and economic activities. The study uses online observation and critical discourse analysis (CDA) to examine how ?Ndebeles? discuss the 1980s genocide and how citizen journalism has generally revolutionised their participation in debates silenced by the ruling elite. What strongly comes out from the discussants? interactions is that the genocide, which has not been addressed since it ?ended? with the signing of the Unity Accord in 1987, remains contentious as victims have not found closure. The study concludes that Web 2.0 has reconfigured subaltern communities? engagements with the traumatic genocide.
+SN  - 2374-3670
+M3  - doi: 10.1080/23743670.2015.1119491
+UR  - http://dx.doi.org/10.1080/23743670.2015.1119491
+ER  - 
+
+TY  - JOUR
+T1  - Understanding youth civic engagement: debates, discourses, and lessons from practice
+AU  - Shaw, Aileen
+AU  - Brady, Bernadine
+AU  - McGrath, Brian
+AU  - Brennan, Mark A.
+AU  - Dolan, Pat
+Y1  - 2014/08/08
+PY  - 2014
+DA  - 2014/08/08
+N1  - doi: 10.1080/15575330.2014.931447
+DO  - 10.1080/15575330.2014.931447
+T2  - Community Development
+JF  - Community Development
+JO  - Community Development
+SP  - 300
+EP  - 316
+VL  - 45
+IS  - 4
+PB  - Routledge
+N2  - While civic engagement provides a rich rationale for intervention, the array of discourses urging a focus on youth engagement or action means that the concept can be confusing, cluttered, and lacking consistent operationalization. From the perspective of policy-makers and program managers, it can be challenging to disentangle the competing messages and assumptions about young people that underpin the rhetoric in relation to youth engagement. Using a wide range of international research, the purpose of this paper is to provide clarity regarding the key multiple concepts and issues pertinent to the concept of youth civic engagement. In particular, the paper answers the following questions: what are the definitions, typologies, and discourses in which the concept of youth civic engagement operates, and what are the putative beneficial outcomes of youth engagement identified? We also discuss some of the broader considerations on the positioning of young people in society, which impact the trajectory of civic engagement efforts. As a means for reflecting on their own practices, programs, and approaches, our intent is to provide those involved in both the application and research of youth engagement with a more coherent roadmap of the diversity residing in this field.
+AB  - While civic engagement provides a rich rationale for intervention, the array of discourses urging a focus on youth engagement or action means that the concept can be confusing, cluttered, and lacking consistent operationalization. From the perspective of policy-makers and program managers, it can be challenging to disentangle the competing messages and assumptions about young people that underpin the rhetoric in relation to youth engagement. Using a wide range of international research, the purpose of this paper is to provide clarity regarding the key multiple concepts and issues pertinent to the concept of youth civic engagement. In particular, the paper answers the following questions: what are the definitions, typologies, and discourses in which the concept of youth civic engagement operates, and what are the putative beneficial outcomes of youth engagement identified? We also discuss some of the broader considerations on the positioning of young people in society, which impact the trajectory of civic engagement efforts. As a means for reflecting on their own practices, programs, and approaches, our intent is to provide those involved in both the application and research of youth engagement with a more coherent roadmap of the diversity residing in this field.
+SN  - 1557-5330
+M3  - doi: 10.1080/15575330.2014.931447
+UR  - http://dx.doi.org/10.1080/15575330.2014.931447
+ER  - 
+0
+

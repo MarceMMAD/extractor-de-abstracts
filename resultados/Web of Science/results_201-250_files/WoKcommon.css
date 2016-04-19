@@ -1,0 +1,2496 @@
+/* BODY defines font and green/grey background image and grey color OKAY? */
+
+BODY {
+    BACKGROUND-COLOR: #F8F8F8;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+    /* JJN Remove these margins and padding -- EPAM 'main.css' to control
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+*/
+}
+
+
+/* ********************* BEGIN : Default Values ***************************** */
+
+img {
+    border: none;
+    /*	vertical-align: middle; */
+}
+
+
+/* Standard Links */
+
+A:link,
+A:active,
+A:visited {
+    /* COLOR: #3550CA; */
+    TEXT-DECORATION: none;
+}
+
+A:hover {
+    /* COLOR: #3550CA; */
+    /* TEXT-DECORATION: underline; */
+}
+
+P {
+    margin-right: 4px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ********************* END : Default Values ***************************** */
+
+
+/* ********************* BEGIN : Common Styles ***************************** */
+
+.normalWeight {
+    font-weight: normal;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.smaller95 {
+    font-size: 95%;
+}
+
+.nodisplay {
+    display: none;
+}
+
+
+/* This slight hack moves text off screen to the left. 
+ * This enables labels to be read by a screen reader but be "invisible" */
+
+label.hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+}
+
+
+/* OLD dotted rules -- now solid *************************** */
+
+.dothorz {
+    HEIGHT: 1px;
+    background-color: #CCCCCC;
+}
+
+.sharedReferencesPage .dothorz {
+    /* JJN hide this to solve double-rule in 5.13 */
+    HEIGHT: 1px;
+    background-color: #F8F8F8;
+}
+
+.citedRefListPage .dothorz {
+    /* JJN hide this to solve double-rule in 5.13 */
+    HEIGHT: 1px;
+    background-color: #F8F8F8;
+}
+
+.dotclear img,
+.dothorz img,
+.dotvert img,
+.umlMoreGap img {
+    display: block;
+}
+
+.dotvert {
+    background-color: #CCCCCC;
+    width: 1px;
+}
+
+
+/* ********************* BEGIN : Back Links ***************************** */
+
+.borderProduct {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FF9201;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.returnProduct {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #007D1D;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    background-color: #F2F2F2;
+    padding-left: 10px;
+}
+
+.backLink {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding-bottom: 4px;
+}
+
+.SiloBackLink {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+}
+
+
+/* ********************* END : Back Links ***************************** */
+
+
+/* SHELL Styles -- We may be able to group some of these *************************** */
+
+.NEW3colTable,
+.NEW2colTable4sidebar {
+    min-width: 700px;
+}
+
+.NEWleftOuterEdge {
+    width: 1px;
+    height: 1px;
+}
+
+.NEWrightOuterEdge {
+    width: 1px;
+    height: 1px;
+}
+
+.NEWtopTabContainer {}
+
+.NEWprodToolbarContainer,
+.NEWsummaryTopContainer,
+.NEWmiddleWhiteContainer,
+.NEWsearchContainer,
+.NEWquickOutputContainer,
+.NEWlanguageContainer,
+.NEWsearchLimitsContainer,
+.NEWbottomContainer,
+.NEWvcrContainer,
+.NEWselectDBContainer,
+.NEWumlDataContainer,
+.NEWumlScoreCardContainer,
+.NEWsearchHistoryContainer,
+.NEWdaisContainer,
+.NEWcr2searchContainer,
+.NEWselectContainer,
+.NEWcitedReferencesContainer,
+.CHEMresultsTableContainer {
+    background-color: #F8F8F8;
+    padding-right: 1px;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    margin: 0px;
+    margin-top: 41px;
+}
+
+.NEWdaisTopContainer {
+    background-color: #F3F3F3;
+}
+
+.WOSchemResults .NEWsummaryTopContainer {
+    /* JJN added for 5.13 */
+    padding: 0 30px;
+}
+
+.WOSchemResults .summaryInfoHead {
+    /* JJN added for 5.13 */
+    border: none;
+    margin-bottom: -1px;
+}
+
+.WOSchemResults .NEWquickOutputContainer .NEWquickOutputBox {
+    /* JJN added for 5.13 */
+    padding: 0 20px;
+}
+
+.NEWsearchContainer,
+.NEWsearchHistoryContainer {
+    padding-left: 31px;
+    padding-right: 30px;
+}
+
+.NEWcr2searchContainer {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 10px;
+}
+
+
+/* JJN added for 5.13 */
+
+.NEWsearchPageCR .NEWsearchContainer {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+
+/* JJN added to fix bug 19472bug of CR step 2 tutorial link off page */
+
+.CHEMresultsTableContainer {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 0px;
+}
+
+
+/* JJN added for 5.13 */
+
+.NEWcitedReferencesContainer {
+    margin-top: 20px;
+    padding: 0px 30px;
+}
+
+
+/* JJN Fixes for summary-type pages for 5.13. Adding padding to fix form padding problem. */
+
+.markedListPage #summaryRecordsTable {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+/* JJN Fixes for summary-type pages for 5.13 */
+
+div.paginationBar.topPaginationBar.searchPagination p {
+    padding-left: 10px;
+}
+
+
+/* JJN Fixes for summary-type pages for 5.13 */
+
+.citedRefListPage #summary_records_form
+/* JJN trying to fix IE8 , .citedRefListPage #output_form */
+
+{
+    /* JJN removed this and add it to other elements on the page padding-left: 30px; padding-right: 30px; */
+}
+
+
+/* JJN Fixes for summary-type pages for 5.13 */
+
+.citedRefListPage table#summaryRecordsTable {
+    border: none;
+}
+
+
+/* JJN Fixes for summary-type pages for 5.13 */
+
+.citedRefListPage p {
+    margin-left: 10px;
+}
+
+
+/* JJN Fixes for summary-type pages for 5.13 */
+
+.citedRefListPage p.NEWpageTitle {
+    font-size: 18px;
+}
+
+
+/* JJN Fixes for summary-type pages for 5.13 */
+
+.citedRefListPage p.fromCollection {
+    padding-top: 0px;
+    padding-bottom: 12px
+}
+
+.sharedReferencesPage #summary_records_form {
+    padding-left: 30px;
+    padding-right: 29px;
+}
+
+
+/* JJN Fixes for summary-type pages for 5.13 */
+
+.sharedReferencesPage table#summaryRecordsTable {
+    border: none;
+}
+
+
+/* JJN Fixes for summary-type pages for 5.13 */
+
+.sharedReferencesPage p {
+    margin-left: 10px;
+}
+
+
+/* JJN Fixes for summary-type pages for 5.13 */
+
+.sharedReferencesPage p.NEWpageTitle {
+    font-size: 18px;
+}
+
+
+/* JJN Fixes for summary-type pages for 5.13 */
+
+.sharedReferencesPage p.fromCollection {
+    padding-top: 0px;
+    padding-bottom: 12px
+}
+
+.citationReportPage p.fromCollection {
+    padding-top: 0px;
+    padding-bottom: 12px
+}
+
+.NEWprodToolbarContainerAllDB {
+    padding-top: 0px;
+    padding-right: 25px;
+    padding-bottom: 0px;
+    padding-left: 25px;
+    margin: 0px;
+    background-color: #FFF;
+}
+
+.NEWsummaryDataContainer {
+    background-color: #F8F8F8;
+}
+
+.NEWumlScoreCardContainer {
+    padding: 0 30px 15px;
+    margin-top: 20px;
+}
+
+.NEWsearchHistoryContainer {
+    padding-bottom: 40px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #CCC;
+    /*
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCC;	
+	*/
+}
+
+.NEWviewAbstract {
+    BACKGROUND-POSITION: top;
+    BACKGROUND-IMAGE: url(../images/bg_vert.gif);
+    BACKGROUND-REPEAT: repeat-x;
+    BACKGROUND-COLOR: #C2C2C2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 4px;
+}
+
+.NEWviewAbtractBox {
+    BACKGROUND-COLOR: #F8F8F8;
+    padding: 6px;
+}
+
+.NEWquickOutputContainer .NEWquickOutputBox {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.NEWselectDBContainer {
+    /* JJN adjusted this for new select a db page   */
+    /* padding-top: 20px; */
+    padding-bottom: 40px;
+    padding-left: 21px;
+    margin-top: 20px;
+}
+
+.databases_left,
+.databases_right {
+    /* JJN added this for new select a db page  */
+    display: table-cell;
+    width: 45%;
+}
+
+.NEWfullRecordDataContainer {
+    background-color: #F8F8F8;
+}
+
+.NEWmoduleTitleContainer {
+    background-color: #F8F8F8;
+    margin: 0px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 0px;
+    padding-left: 25px;
+}
+
+.NEWmoduleMidContainer,
+.NEWpersContainer,
+.NEWncbiContainer,
+.NEWsssContainer,
+.NEWaufinderContainer,
+.NEWpctContainer,
+.NEWbrowseContainer,
+.NEWmjlContainer {
+    background-color: #F8F8F8;
+    margin: 0px;
+    padding-top: 5px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+}
+
+.NEWncbiContainer {
+    /* JJN added this for 5.13 */
+    margin: 10px 0 30px;
+}
+
+.NEWncbiContainer {
+    /* JJN added this for 5.13 */
+    margin: 10px 0 30px;
+}
+
+.NEWaufinderContainer {
+    /* JJN added to add air above footer in AF */
+    padding-bottom: 40px;
+}
+
+.NEWsssContainer {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.NEWmjlContainer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+/* WoK Errors (I think these are used in components) */
+
+
+/* JJN: added this to make exising error headings uppercase and the correct red */
+
+.NEWwokErrorContainer H3 {
+    color: #DC0A0A;
+    text-transform: uppercase;
+}
+
+.NEWwokErrorContainer {
+    background-color: #FFFFFF;
+    margin: 0px;
+    padding: 45px;
+}
+
+.NEWnorecordErrorContainer {
+    /* background-color: #FFF;   KC: Removed so doesn't override page color. (WOKVX-19762) */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+}
+
+.NEWwokErrorContainer P {
+    font-size: 13px;
+    color: #333333;
+    /* JJN: Was 4B4B4B */
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.NEWwokErrorContainer UL {
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-left: 10px;
+    padding: 0px;
+}
+
+.NEWwokErrorContainer LI {
+    font-size: 13px;
+    color: #333333;
+    /* JJN: Was 4B4B4B */
+    margin-left: 20px;
+}
+
+
+/* << back arrow font size *************************** */
+
+.NEWbackArrows {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.NEWbackLink {
+    white-space: nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    padding-top: 4px;
+    padding-right: 0px;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.NEWbackLink#sl-management {
+    padding-bottom: 20px;
+}
+
+
+/* Top Logos *************************** */
+
+.NEWtrLogo {
+    text-align: right;
+    float: right;
+}
+
+.NEWwokLogo {}
+
+
+/* Top Banner Toolbar *************************** */
+
+.NEWbannerBar {
+    WHITE-SPACE: nowrap;
+    background-color: #FFFFFF;
+    margin: 0px;
+    padding-top: 2px;
+    padding-right: 0px;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    min-width: 832px;
+}
+
+.NEWbannerBarSMALL {
+    WHITE-SPACE: nowrap;
+    background-color: #FFFFFF;
+    margin: 0px;
+    padding-top: 2px;
+    padding-right: 0px;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    min-width: 441px;
+}
+
+.NEWbannerNavBar {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: right;
+    vertical-align: middle;
+    background-color: #DFDFDF;
+    background-image: url(../images/navbg.gif);
+    background-repeat: repeat-x;
+    padding-top: 6px;
+    padding-right: 20px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    background-position: top;
+}
+
+.NEWbannerNavBar .NEWpipe,
+.NEWbannerNavBar .NEWpipeCEL,
+.umlMoreField .NEWpipe {
+    vertical-align: bottom;
+    height: 16px;
+    width: 1px;
+}
+
+.summary_quickTopButtons .NEWpipe,
+.FR_links_table .NEWpipe,
+.outputSErow1 .NEWpipe,
+outputSErow3 .NEWpipe {
+    vertical-align: bottom;
+    height: 18px;
+    width: 1px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.FR_links_table input {
+    padding-bottom: 3px;
+}
+
+.NEWtopNavItem {
+    font-size: 13px;
+    PADDING-LEFT: 9px;
+    PADDING-RIGHT: 9px;
+    white-space: nowrap
+}
+
+
+/* Tab Styles *************************** */
+
+.NEWtabBar {
+    margin: 0px;
+    padding: 0px;
+    white-space: nowrap;
+}
+
+
+/* Product Toolbar Styles *************************** */
+
+.NEWtoolBar {
+    padding-top: 4px;
+    padding-right: 0px;
+    padding-bottom: 4px;
+    padding-left: 0px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #CCCCCC;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+
+/* this is used for the ML icon in the toolbar */
+
+.contnavtextB {
+    PADDING-LEFT: 3px;
+}
+
+
+/* Page Title *************************** */
+
+.NEWpageTitle {
+    white-space: nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #015981;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 4px;
+    padding-left: 30px;
+    margin: 0px;
+}
+
+
+/* Language Display *************************** */
+
+.languages {
+    vertical-align: middle;
+    padding-top: 6px;
+    padding-right: 20px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #CCCCCC;
+}
+
+.languages .NEWpipe {
+    vertical-align: bottom;
+    height: 16px;
+    width: 1px;
+}
+
+.languageHdr {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-right: 10px;
+    color: #4E4E4E;
+    font-weight: bold;
+}
+
+.languageChars {
+    /* Use for graphical languages */
+    font-size: 15px;
+    padding-right: 9px;
+    padding-left: 9px;
+}
+
+.languageText {
+    /* Use for alpha languages */
+    font-size: 12px;
+    padding-right: 9px;
+    padding-left: 9px;
+    color: #333333;
+    /* JJN: Was 4B4B4B */
+}
+
+
+/* Footer *************************** */
+
+.NEWfooter {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #CCCCCC;
+    padding-top: 10px;
+    background-color: #F8F8F8;
+}
+
+.NEWfeedback {
+    font-size: 12px;
+    color: #333333;
+    /* JJN: Was 4B4B4B */
+    font-style: italic;
+    margin: 0px;
+    padding-left: 6px;
+    white-space: nowrap;
+}
+
+.NEWpolicy {
+    font-size: 12px;
+    color: #333333;
+    /* JJN: Was 4B4B4B */
+    margin: 0px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.NEWprivacy {
+    font-size: 12px;
+    color: #333333;
+    /* JJN: Was 4B4B4B */
+    margin: 0px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.NEWcopyright {
+    font-size: 12px;
+    color: #333333;
+    /* JJN: Was 4B4B4B */
+    margin: 0px;
+    padding-top: 6px;
+    padding-right: 6px;
+}
+
+
+/* "NEW" text *************************** */
+
+.NEWtext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 4px;
+    font-style: italic;
+    font-weight: bold;
+    color: #F46200;
+}
+
+
+/* Form Boxes Defaults *************************** */
+
+.formBoxesShow {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #808080;
+}
+
+.formBoxesRefine {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #999999;
+}
+
+.formBoxesSave {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #808080;
+    margin-left: 0px;
+}
+
+.formBoxesSort {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #808080;
+}
+
+.formBoxesCRS {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30em;
+    border: 1px solid #b9b9b9;
+    margin-top: 4px;
+    padding: 5px;
+    /* JJN added next 4 to make search boxes rounded per EPAM - this class is still used in DII chem search  */
+    border-radius: 5px;
+    border: 1px solid #b9b9b9;
+    box-shadow: inset 0 0 7px 0 rgba(0, 0, 0, .15);
+    background: #FFF;
+}
+
+.formFieldSelect {
+    font-size: 13px;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    border: 1px solid #808080;
+}
+
+.formBooleanSelect {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    width: 65px;
+    border: 1px solid #808080;
+}
+
+
+/* ********************* END : Common Styles ***************************** */
+
+
+/* **************************** BEGIN : Error Messages **************************** */
+
+.errorMessage {
+    /* JJN: errors now on left by default TEXT-ALIGN: center; */
+    margin-top: 10px;
+    margin-left: 31px;
+    margin-right: 31px;
+    margin-bottom: 10px;
+}
+
+.errorHead {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: #DC0A0A;
+    text-transform: uppercase;
+}
+
+.newErrorHead {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: #DC0A0A;
+    /* float: clear; */
+    text-align: left;
+    /* text-transform:uppercase : JJN Removed for bug 19740 */
+}
+
+.newErrorHeadLinks {
+    /* font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	float: right; */
+    /* JJN: new style to make text match the help link just below it */
+    color: #dc0a0a;
+    font-weight: normal;
+    margin-right: 10px;
+    padding-bottom: 6px;
+    right: 10px;
+    text-align: left;
+}
+
+.errorText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    padding-bottom: 6px;
+    color: #DC0A0A;
+}
+
+.noHitsMessage {
+    FONT-WEIGHT: normal;
+    font-size: 13px;
+    PADDING-BOTTOM: 1px;
+    COLOR: #DC0A0A;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    text-align: left;
+    /* I don't think we need this, and it adds extra space above search tips-- clear: both;  */
+}
+
+
+/* **************************** END : Error Messages **************************** */
+
+.NEWmiskHorRule {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #CCCCCC;
+}
+
+.summary_quickTop {
+    padding-left: 2px
+}
+
+
+/* JJN added for 5.13 wos chem down arrow */
+
+.summary_quickTopButtons {
+    padding-bottom: 5px;
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+
+/* Dedicated Error Page (e.g., IP error) styles ================================================= */
+
+.contnav_error {
+    PADDING-RIGHT: 10px;
+    PADDING-LEFT: 10px;
+    PADDING-BOTTOM: 0px;
+    PADDING-TOP: 10px;
+    BACKGROUND-COLOR: #ffffff
+}
+
+.error_pagecntnav {
+    width: 100%;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.turn_notice {
+    font-weight: bold;
+    color: #333333;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.your_editions {
+    padding-top: 6px;
+    font-size: 13px;
+    color: #333333;
+    /* JJN: Was 4B4B4B */
+    padding-left: 20px;
+}
+
+
+/* Registration Marks for Select a Database Page */
+
+.special_product .RegMark {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    vertical-align: top !important;
+    padding-left: 1px;
+}
+
+.special_product .TMMark {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70%;
+    vertical-align: top;
+}
+
+
+/* Registration Marks for Additional Resources Page */
+
+.other_product .RegMark,
+.NEWFRsidebar .RegMark {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    vertical-align: top !important;
+    padding-left: 1px;
+}
+
+.other_product .TMMark {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70%;
+    vertical-align: top;
+}
+
+.other_desc .RegMark {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    vertical-align: top !important;
+    padding-left: 1px;
+}
+
+.other_desc .TMMark {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70%;
+    vertical-align: top;
+}
+
+
+/* Registration Marks for Refine Sidebar */
+
+.refineItem .RegMark {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    vertical-align: top !important;
+    padding-left: 1px;
+}
+
+.refineItem .TMMark {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70%;
+    vertical-align: top;
+}
+
+
+/* Inspec images*/
+
+.archiveImage {
+    padding-top: 8px;
+}
+
+
+/* Medline styles */
+
+.abstractsOnly {
+    font-size: 14px;
+    padding-left: 1px;
+    color: #333333;
+    /* JJN: Was 4B4B4B */
+}
+
+.field_tagsExample {
+    font-size: 12px;
+    padding-top: 2px;
+    padding-right: 4px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* DII Styles */
+
+.DIIpan {
+    float: right;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+
+.CITEDradio {
+    font-size: 14px;
+    margin-left: -3px;
+}
+
+.mark_instruct {
+    font-size: 14px;
+    padding-top: 8px;
+}
+
+.pcByCell {
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: #FFFFFF;
+}
+
+.pcByHead {
+    background-color: #E5E5E5;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 3px;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: #FFFFFF;
+    text-align: center;
+}
+
+.citedPatentTable {
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+
+/* Other Product Link */
+
+.otherProductLink {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    /* font-weight: bold; */
+    color: #FFFFFF;
+    float: right;
+    margin: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 4px;
+    padding-left: 0px;
+}
+
+.otherProductLink A:link,
+.otherProductLink A:active,
+.otherProductLink A:visited {
+    COLOR: #FFFFFF;
+    TEXT-DECORATION: none;
+}
+
+.otherProductLink A:hover {
+    COLOR: #FFFFFF;
+    TEXT-DECORATION: underline;
+}
+
+.records_chunk {
+    /**** visibility: hidden; ***/
+    display: none;
+}
+
+.secondary_record_citMap {
+    margin-top: 2px;
+    margin-left: -4px;
+    font-size: 13px;
+}
+
+
+/* Dedicated NCBI Page styles (table styles in WoKfullRecord.css) ================================== */
+
+.ncbi_instruction {
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.NEWncbiContainer P {
+    font-size: 13px;
+    padding: 20px;
+}
+
+.TCnote {
+    background-color: #FEFADF;
+    padding: 0px;
+}
+
+.orangeHead {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF9201;
+    padding: 3px;
+}
+
+
+/* FAST styles - used for WoK RCI */
+
+.F_synonyms_intro {
+    font-size: 13px;
+    PADDING-BOTTOM: 8px;
+    PADDING-TOP: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 15px;
+}
+
+.F_synonyms_data {
+    font-size: 12px;
+    color: #000000;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 3px;
+}
+
+
+/* **************************** BEGIN : Select a Database Page **************************** */
+
+.NEWselectDBContainer h2 {
+    font-size: 14px;
+    color: #333333;
+    /* JJN: Was 4B4B4B */
+    PADDING-TOP: 18px;
+    font-weight: bold;
+    padding-bottom: 4px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #CCCCCC;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+.NEWselectDBContainer h3 {
+    font-size: 14px;
+    color: #333333;
+    /* JJN: Was 4B4B4B */
+    PADDING-TOP: 20px;
+    /* JJN adjust for new select a db page */
+    font-weight: bold;
+    padding-bottom: 0px;
+    margin: 0px;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.select_desc {
+    font-size: 13px;
+    color: #333333;
+    /* JJN: Was 4B4B4B */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    margin: 0px;
+}
+
+.spec_years {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.NEWselectDBContainer UL {
+    MARGIN-TOP: 0px;
+    PADDING-LEFT: 0px;
+    MARGIN-BOTTOM: 0px;
+    MARGIN-LEFT: 15px;
+    padding-bottom: 8px;
+    margin-right: 20px;
+}
+
+.NEWselectDBContainer LI {
+    MARGIN-TOP: 0px;
+    PADDING-LEFT: 0px;
+    MARGIN-BOTTOM: 0px;
+    MARGIN-LEFT: 25px;
+    padding-bottom: 0px;
+    font-size: 13px;
+    color: #333333;
+    /* JJN: Was 4B4B4B */
+}
+
+.RegMark {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    vertical-align: top !important;
+    padding-left: 2px;
+}
+
+.TMMark {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70%;
+    vertical-align: top !important;
+    padding-left: 2px;
+}
+
+
+/* **************************** END : Select a Database Page **************************** */
+
+.NEWmiskHorRule {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #CCCCCC;
+}
+
+.NEWsaIcon {
+    margin-left: 6px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.NEWsignedIn {
+    font-size: 13px;
+    font-weight: bold;
+    color: #666666;
+    padding-right: 9px;
+}
+
+.NEWtoggleIcon {
+    margin-right: 3px;
+    vertical-align: middle;
+    /* JJN changed from bottom to align plus on Author Identifiers better with text */
+}
+
+
+/* ********************* BEGIN : Quick Output ************************* */
+
+.moreLink {
+    font-size: 12px;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.mlCount {
+    font-size: 15px;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.selectPage {
+    font-size: 16px;
+    white-space: nowrap;
+    vertical-align: 15%;
+    padding-left: 8px;
+    color: #333333;
+}
+
+.endNoteIcon {
+    /* border-right:1px solid;
+	color: #cccccc;	
+	padding-right: 5px; JJN REMOVED ALL of this */
+}
+
+.saveToLabel {
+    font-size: 12px;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding-left: 8px;
+    color: #595959;
+}
+
+.outputSE .saveToLabel,
+.addToML {
+    padding-left: 0px;
+}
+
+.addToML {
+    font-size: 12px;
+    white-space: nowrap;
+    vertical-align: middle;
+    color: #595959;
+}
+
+.mlCount {
+    padding-top: 0px;
+    padding-bottom: 3px;
+}
+
+.outputText {
+    /* JJN added for 5.13 */
+    padding-top: 0px;
+    padding-bottom: 3px;
+}
+
+.viewML {
+    font-size: 12px;
+    white-space: nowrap;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+.NEWquickOutputBox {
+    BACKGROUND-COLOR: #f2f2f2;
+    margin-bottom: 8px;
+}
+
+.NEWquickOutputBox .dothorz {
+    HEIGHT: 1px;
+    background-color: #BBBBBB;
+}
+
+.NEWquickOutputBox .dotvert {
+    background-color: #BBBBBB;
+    width: 1px;
+}
+
+.pageNumBoxes {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    border: 1px solid #BBBBBB;
+    color: #595959;
+    background-color: #F1F1F1;
+    height: 20px;
+    text-align: center
+}
+
+.emailForm {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+
+/* "X records matched" statement */
+
+.totalCount {
+    font-size: 12px;
+    color: #333333;
+    padding-left: 2px;
+    padding-bottom: 6px;
+}
+
+
+/* Summary Quick Output box */
+
+.outputHead {
+    PADDING-RIGHT: 10px;
+    PADDING-LEFT: 0px;
+    font-size: 13px;
+    PADDING-BOTTOM: 5px;
+    COLOR: #333333;
+    PADDING-TOP: 5px;
+    font-weight: bold;
+}
+
+.outputHeadButtons {
+    PADDING-LEFT: 20px;
+}
+
+.outputStepCell {
+    COLOR: #595959;
+    padding-right: 2px;
+    padding-left: 2px;
+    white-space: nowrap;
+}
+
+.outputText {
+    font-size: 13px;
+    COLOR: #333333;
+    white-space: nowrap;
+    padding-right: 4px;
+    padding-left: 6px;
+    padding-top: 3px;
+    line-height: 2em;
+    /* JJN added for 5.13 */
+}
+
+.outputText2 {
+    font-size: 13px;
+    COLOR: #333333;
+    padding-left: 8px;
+    padding-right: 4px;
+    padding-top: 4px;
+}
+
+.outputTextEm {
+    font-size: 13px;
+    COLOR: #333333;
+    padding-left: 8px;
+    padding-right: 3px;
+    padding-top: 3px;
+    text-align: right;
+    padding-bottom: 3px;
+}
+
+.outputStepHead {
+    font-size: 13px;
+    FONT-WEIGHT: bold;
+    COLOR: #333333;
+    margin-bottom: 4px;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    background-color: #E6E6E6;
+    /* JJN changed for 5.13 */
+    white-space: nowrap;
+}
+
+
+/* this next definition used for all 3 rows in "step 3" (or "step 2" of FR). They can be split and defined separately if needed. */
+
+.outputSErow1,
+.outputSE,
+.outputSErow3 {
+    padding-top: 4px;
+    padding-bottom: 2px;
+    vertical-align: middle;
+    padding-left: 8px;
+    padding-right: 4px;
+}
+
+.outputEm {
+    padding-top: 4px;
+    padding-bottom: 2px;
+    vertical-align: middle;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+
+/* this error style also in WoKcomponents. It's here for DII UML email error */
+
+.NEWwokErrorMess {
+    font-size: 13px;
+    font-weight: bold;
+    color: #993333;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: #FFFFCC;
+    border: 1px dashed #993333;
+}
+
+.outputLink {
+    font-size: 11px;
+    padding-left: 12px;
+    font-weight: normal;
+    white-space: nowrap;
+}
+
+
+/* ********************* END : Quick Output ************************* */
+
+
+/* ********************   BEGIN : FORMAT FOR PRINT ************************* */
+
+.printWhitePage {
+    BACKGROUND-IMAGE: none;
+    PADDING-BOTTOM: 0px;
+    PADDING-TOP: 3px;
+    BACKGROUND-COLOR: #FFFFFF;
+    font-family: "Times New Roman", "Lucida Sans Unicode", "Lucida Grande", Times, serif;
+    /* JJN updated next few lines to address 19680 */
+    margin-right: 10px;
+    margin-left: 10px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.printWhitePage TD {
+    font-size: 14px;
+}
+
+.printWhitePage .NEWfooter {
+    margin-top: 10px;
+}
+
+
+/* Next block of styles is for Format for Print tables - to fix 19679 */
+
+.printWhitePage table.FR_table_borders {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 6px;
+    width: auto;
+    outline: 1px solid #bababa;
+    border-collapse: collapse;
+}
+
+.printWhitePage table.FR_table_noborders {
+    width: auto
+}
+
+.printWhitePage table.FR_table_noborders .fr_address_row2:last-child {
+    width: auto
+}
+
+.printWhitePage img.showIcon:hover {
+    cursor: pointer
+}
+
+.printWhitePage table.FR_table_borders th {
+    vertical-align: middle;
+    padding: 9px 10px 9px 9px;
+    background: #f3f3f3;
+    text-align: left;
+    font-weight: bold;
+}
+
+.printWhitePage table.FR_table_borders td {
+    vertical-align: middle;
+}
+
+.printWhitePage table td {
+    /* JJN removed: too much padding beweeen data rows:  padding: 5px; */
+    vertical-align: top;
+}
+
+.printWhitePage table.FR_table_borders th,
+.printWhitePage table.FR_table_borders td {
+    border: 1px solid #CCCCCC;
+}
+
+.printWhitePage table td.fr_dataTable_head {
+    background-color: #EEEEEE;
+    border: 1px solid #CCCCCC;
+    text-align: left;
+}
+
+
+/* ********************   END : FORMAT FOR PRINT ************************* */
+
+
+/* ***************** BEGIN : VCR Nav Bar ***************** */
+
+.NEWnavBar {
+    background-color: #F3F3F3;
+    margin-top: 3px;
+    margin-right: 0px;
+    margin-bottom: 8px;
+    margin-left: 0px;
+    border-bottom: 1px solid #CCCCCC;
+    padding-top: 4px;
+    padding-right: 0px;
+    padding-bottom: 4px;
+    padding-left: 0px;
+}
+
+.SUMnavBar {
+    background-color: #FFFFFF;
+    margin-top: 3px;
+    margin-right: 10px;
+    margin-bottom: 8px;
+    margin-left: 10px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #CCCCCC;
+    padding-top: 4px;
+    padding-right: 0px;
+    padding-bottom: 4px;
+    padding-left: 0px;
+}
+
+.hitCount {
+    white-space: nowrap;
+}
+
+.goto {
+    PADDING-RIGHT: 6px;
+    PADDING-LEFT: 6px;
+    font-size: 13px;
+    color: #333333;
+    /* JJN: Was 4B4B4B */
+    white-space: nowrap;
+}
+
+.sortby {
+    PADDING-LEFT: 10px;
+    font-size: 13px;
+    color: #333333;
+    /* JJN: Was 4B4B4B */
+    white-space: nowrap;
+    text-align: right;
+}
+
+
+/* ***************** END : VCR Nav Bar ***************** */
+
+.NEWwokLogo {}
+
+
+/* ********************* BEGIN : UML-specific Interface ************************* */
+
+.NEWumlDataContainer .summary_quickTop,
+.NEWumlDataContainer .summary_quickTopButtons {
+    padding: 0px;
+    margin: 0px;
+}
+
+.BacktoTop {
+    white-space: nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-top: 4px;
+    padding-right: 40px;
+    /* JJN udpated for bottom of Marked List to fix 19473 */
+    padding-bottom: 10px;
+    padding-left: 17px;
+    margin: 0px;
+}
+
+.NEWumlDataContainer .dothorz {
+    HEIGHT: 1px;
+    background-color: #FFFFFF;
+}
+
+.NEWumlDataContainer .summary_recnum {
+    white-space: nowrap;
+    font-size: 13px;
+    padding-top: 4px;
+    padding-left: 8px;
+    vertical-align: top;
+}
+
+.NEWlistToggle {
+    white-space: nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 4px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 17px;
+    margin: 0px;
+}
+
+.NEWlistToggle .NEWpipe {
+    vertical-align: bottom;
+    height: 16px;
+    width: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.NEWlistToggleLabel {
+    color: #333333;
+    /* JJN: Was 4B4B4B */
+    font-weight: bold;
+    padding-right: 10px;
+    font-style: italic;
+}
+
+.umlClearBtn {
+    float: right;
+    margin-top: 4px;
+}
+
+.NEWumlPage .NEWProdListBox {
+    margin: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 12px;
+    padding-left: 0px;
+}
+
+.NEWumlPage .NEWpageTitle {
+    padding-top: 20px;
+    padding-bottom: 4px;
+}
+
+.umlCompoundMarkedListTitle {
+    color: #666;
+}
+
+
+/* JJN added to fix DII header not linked color */
+
+
+/* UML Product Rows */
+
+.umlProdListItem {
+    margin-bottom: 1px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #999999;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #999999;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #999999;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #999999;
+}
+
+.umlProdLink {
+    /* make the border left 1px less than the border left of umlActiveProd */
+    display: block;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 4px;
+    padding-left: 9px;
+    background-color: #F3F3F3;
+    /* JJN fixed per bug 19473 */
+    border-left-width: 7px;
+    border-left-style: solid;
+    border-left-color: #D3D3D3;
+    /* JJN fixed per bug 19473 */
+}
+
+.umlProdListItem A:hover {
+    /* make the border left 1px less than the border left of umlActiveProd */
+    border-left-width: 7px;
+    border-left-style: solid;
+    border-left-color: #FF9201;
+    padding-left: 9px;
+    margin-bottom: 0px;
+}
+
+.umlProdListHelp A:hover {
+    text-decoration: none;
+}
+
+.umlActiveProd .umlProdLink A:hover {
+    /* this is so the A link on the Delete button doesn't force the text to move */
+    border-left-width: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.umlActiveProd {
+    /* the border left is the orange bar */
+    border-bottom-style: none;
+    border-left-width: 8px;
+    border-left-style: solid;
+    border-left-color: #FF9201;
+    margin-bottom: 0px;
+}
+
+.umlActiveProd .umlProdLink {
+    display: block;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 4px;
+    padding-left: 9px;
+    background-color: #E6E6E6;
+    border-left-width: 0px;
+    border-left-style: solid;
+    border-left-color: #FFFFFF;
+}
+
+.umlProdListText {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.umlProdListCount {
+    font-weight: bold;
+}
+
+.umlFrom {
+    font-weight: normal;
+}
+
+.umlProdName {
+    font-style: italic;
+    padding-right: 4px;
+}
+
+
+/* Change color of "from" and product name text in UML VCR nav bar */
+
+.NEWumlPage .NEWvcrContainer .hitCount {
+    color: #333333;
+    /* JJN: Was 4B4B4B */
+    font-weight: bold;
+}
+
+.NEWumlPage .NEWvcrContainer .summary_hit_count,
+.NEWumlPage .NEWvcrContainer .umlProdName {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.NEWumlPage .NEWvcrContainer .umlFrom {
+    font-size: 13px;
+}
+
+.umlProdListNote {
+    font-size: 13px;
+    color: #666666;
+    padding-top: 6px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    /* 	white-space: nowrap; */
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #CCCCCC;
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+}
+
+.ml-management {
+    margin-top: 4px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #CCCCCC;
+    padding: 16px 0px 15px 0px;
+    vertical-align: center;
+}
+
+.ml-management input {
+  /*  padding-right: 10px; */
+}
+
+.umlProdListHelp {
+    font-size: 12px;
+    margin: 0px;
+    color: #666666;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 24px;
+    text-decoration: none;
+}
+
+.umlProdListItem A:hover {
+    text-decoration: none;
+}
+
+.umlProdListItem A:hover .umlProdListText {
+    text-decoration: underline;
+}
+
+
+/* UML Output Box (Note: Quick Output Styles defined in different section) */
+
+.umlProdListOutput {
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #999999;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #999999;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #999999;
+    background-color: #E6E6E6;
+}
+
+.umlOutputRow {
+    margin-bottom: 1px;
+    width: 100%;
+}
+
+.umlProdListRowSpacer {
+    height: 2px;
+    width: 40px;
+}
+
+.umlOutpuRowSpacerTD {
+    width: 40px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #999999;
+}
+
+.umlMoreField {
+    font-size: 13px;
+    color: #333333;
+    padding-right: 35px;
+    padding-bottom: 5px;
+    vertical-align: text-top;
+    margin-left: -20px
+}
+
+.umlProdListOutput .NEWquickOutputBox {
+    background-color: #E6E6E6;
+    margin-bottom: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.umlMoreGap {
+    /*	background-image: url(../images/umlMoreGrad.gif); */
+    background-repeat: repeat-x;
+    height: 10px;
+    background-position: bottom;
+}
+
+.umlMoreBox {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: none;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-color: #BBBBBB;
+    border-bottom-color: #BBBBBB;
+    border-left-color: #BBBBBB;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+
+/* ********************* END : UML-specific Interface ************************* */
+
+.NEWumlDataContainer .summary_AR,
+.NEWumlDataContainer .summary_CitCount {
+    font-size: 12px;
+    text-align: right;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 3px;
+    padding-left: 10px;
+    float: right;
+}
+
+.NEWrefineClosedSpacer {
+    width: 23px;
+    min-width: 23px;
+}
+
+.outputHideLink {
+    padding-left: 20px;
+}
+
+.outputHideLink A {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.outputHideLink img {
+    margin-right: 2px;
+}
+
+
+/* Citation Map Error Page Styles -- these may be pulled from here and put into another CSS file */
+
+.citationMapErrorContainer {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #CCCCCC;
+}
+
+.citationMapErrorText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #333333;
+    BACKGROUND-COLOR: #FFFFCC;
+    border: 1px dashed #666666;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.citationMapErrorText P {
+    margin-right: 4px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.upToText {
+    padding-left: 23px;
+}
+
+
+/* For Cancellation Messages */
+
+.cancellationNoteAllDB,
+.cancellationNoteSearchHistory {
+    font-size: 14px;
+    font-weight: normal;
+    color: #F00;
+    padding-bottom: 15px;
+}
+
+.cancellationNoteSummary {
+    font-size: 14px;
+    font-weight: normal;
+    color: #F00;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+
+.DAISsetsPage .cancellationNoteSummary {
+    padding-left: 30px;
+}
+
+.cancellationNoteSilo {
+    font-size: 14px;
+    font-weight: normal;
+    color: #F00;
+    padding-bottom: 4px;
+    padding-top: 11px;
+}
+
+.cancellationNoteSelect {
+    font-weight: normal;
+    color: #F00;
+    padding-top: 8px;
+    font-size: 13px;
+    padding-left: 20px;
+}
+
+.cancellationTimeSpan {
+    font-size: 14px;
+    font-weight: normal;
+    color: #F00;
+}
+
+.cancellationYear {
+    color: #F00;
+}
+
+
+/* For Search Setting changes */
+
+.searchSettingChanged {
+    color: #F00;
+    font-weight: bold;
+}
+
+.searchSettingsChanged {
+    font-weight: normal;
+    color: #F00;
+    padding-bottom: 2px;
+}
+
+.hitHilite {
+    background-color: #FF0;
+}
+
+.citedRefTableRow1 .hitHilite,
+.citedRefTableRow2 .hitHilite {
+    background-color: transparent;
+}
+
+.bluetext {
+    color: #00C;
+}
+
+
+/* WOK4 UML for Chem Marked Lists */
+
+.moduleContentText TD {
+    font-size: 13px;
+}
+
+.wokErrorMess {
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    BACKGROUND-COLOR: #FFFFCC;
+    TEXT-ALIGN: center;
+    border: 1px dashed #666666;
+    width: 98%;
+    margin-left: 1px;
+    color: #990000;
+    font-size: 13px;
+}
+
+.mobileText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    float: left;
+    padding-top: 4px;
+    padding-left: 14px;
+}
+
+
+/* Forgot Password for Save to RID */
+
+.blueBackDescription {
+    background-color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    font-size: 16px;
+    text-align: left;
+    white-space: nowrap;
+    font-weight: bold;
+    padding-top: 4px;
+    padding-left: 8px;
+    padding-right: 19px;
+}
+
+.blueBack,
+.blueBackHead {
+    background-color: #CFE1EF;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    font-size: 16px;
+    text-align: left;
+    white-space: nowrap;
+    font-weight: bold;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+}
+
+
+/*cw cel message box*/
+
+.TopBoxCEL {
+    background-color: #E6E6E6;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding-top: 4px;
+    padding-right: 6px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    border: 1px dashed #333333;
+}
+
+
+/*cw cel message box text*/
+
+.TopBoxCELtext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.UAbackLink {
+    white-space: nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.nowWith {
+    color: #999999;
+    font-size: 14px;
+}
+
+.enwicon {
+    cursor: pointer;
+}
+
+.h_L1 {
+    padding-left: 3px
+}
+
+.h_L2 {
+    padding-left: 25px
+}
+
+.h_L3 {
+    padding-left: 47px;
+}
+
+.h_L4 {
+    padding-left: 69px;
+}
+
+.h_L5 {
+    padding-left: 91px;
+}
+
+.h_L6 {
+    padding-left: 113px;
+}
+
+.h_L7 {
+    padding-left: 135px;
+}
+
+.h_L8 {
+    padding-left: 157px;
+}
+
+.h_L9 {
+    padding-left: 169px;
+}
+
+.NEWtabBarAF {
+    margin-left: 29px;
+    margin-right: 15px;
+    padding-left: 24px;
+    background-color: #FFFFFF;
+}
+
+.NEWAuthorSearchContainer {
+    background-color: #FFFFFF;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.NEWAuthorSearchtabBar {
+    margin: 0px;
+    padding: 0px;
+}
+
+.ProxyClaimAddToPubListDiv {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ProxyClaimFieldDiv {
+    padding-right: 50px;
+}
+
+.NewProxyClaimAdminRow {
+    background-color: #F2F2F2;
+}
+
+.NewProxyClaimAdminRow td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.NewProxyClaimRowEven {
+    background-color: #FFFFFF;
+}
+
+.NewProxyClaimRowEven td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.NewProxyClaimRowOdd {
+    background-color: #F2F2F2;
+}
+
+.NewProxyClaimRowOdd td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.NewProxyClaimAuSpan {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    color: #4B4B4B;
+}
+
+.NewProxyClaimAuSpan {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    color: #4B4B4B;
+}
+
+.NewProxyClaimRidSpan {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: #333333;
+}
+
+.NewProxyClaimTh {
+    text-align: left;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    color: #333333;
+    border-bottom: 2px #666666 solid;
+}
+
+.NewProxyClaimPageHeader {
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333333;
+}
+
+
+/* ***************** BEGIN : Spell Suggestion ***************** */
+
+.queryTopBoxQuerySpell {
+    background-color: #E6E6E6;
+    margin-bottom: 7px;
+    padding-top: 4px;
+    padding-right: 6px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    border: 1px dashed #333333;
+}
+
+.queryTopBoxQuerySpellText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.SpellLinks {
+    padding-top: 2px;
+    font-size: 13px;
+    padding-bottom: 2px;
+}
+
+.did-you-mean-label {
+    /* JJN: remove this to fix layout issue in 5.13: float: left; */
+    margin-right: 0.5em;
+    color: #333;
+    /* JJN fixed */
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: normal;
+    white-space: nowrap;
+    font-size: 14px;
+    /* JJN added */
+    font-style: italic;
+    /* JJN added */
+}
+
+.did-you-mean-value {
+    /* JJN: remove this to fix layout issue in 5.13: float: left; */
+    font-size: 13px;
+    /* JJN added */
+    font-style: italic;
+    /* JJN added */
+}
+
+
+}
+.l-columns-item-context .did-you-mean-value a {
+    font-weight: normal;
+}
+
+/* JJN added to fix DYM section formatting */
+
+/* ***************** END : Spell Suggestion ***************** */
+
+/* ***************** BEGIN : SQC Drop Down Menu ******************/
+.sqcDropDownMenuItem {
+    border-bottom: 1px solid #CCCCCC !important;
+    color: #3350CD !important;
+    background: #FFFFFF !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    text-indent: 9px;
+}
+.sqcDropDownMenuItem a:hover {
+    color: #A66004 !important;
+    text-decoration: none;
+}
+.sqcDropDownMenuItems {
+    display: none;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: 1px solid #CCCCCC;
+    border-bottom: 0 !important;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 1000;
+    white-space: nowrap;
+}
+.sqcDropDownMenuLink {
+    background: #FDF6D7;
+    border: 1px solid #FEC100;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #A66004 !important;
+}
+.p120 {
+    line-height: 120%;
+}
+.p130 {
+    line-height: 130%;
+}
+.p140 {
+    line-height: 140%;
+}
+.p150 {
+    line-height: 150%;
+}
+.p160 {
+    line-height: 160%;
+}
+.p170 {
+    line-height: 170%;
+}
+.p180 {
+    line-height: 180%;
+}
+.p190 {
+    line-height: 190%;
+}
+.p200 {
+    line-height: 200%;
+}
+.p210 {
+    line-height: 210%;
+}
+.p220 {
+    line-height: 220%;
+}
+
+/* ***************** END : SQC Drop Down Menu ******************/
+
+
+.sml_row_error {
+	color: #ff0000;
+}
+
+.smlConfirmDialogTitle {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+	color: #000000
+}

@@ -1,0 +1,515 @@
+/* ********************   BEGIN : FULL RECORD  (cleaned up)************************* */
+
+.FRleftColumn {
+	PADDING-RIGHT: 25px;
+	PADDING-LEFT: 25px;
+	PADDING-BOTTOM: 6px;
+	PADDING-TOP: 6px;
+	vertical-align: top;
+	width: 72%;
+}
+.FRrightColumn {
+	PADDING-RIGHT: 25px;
+	PADDING-LEFT: 25px;
+	PADDING-BOTTOM: 6px;
+	PADDING-TOP: 6px;
+	vertical-align: top;
+	width: 28%;
+}
+.rightbgblue {
+	PADDING-RIGHT: 15px;
+	PADDING-LEFT: 15px;
+	PADDING-BOTTOM: 0px;
+	PADDING-TOP: 1px;
+	BACKGROUND-COLOR: #DFEFF7;
+	width: 100%;
+	vertical-align: top;
+}
+
+/* VCR Nav Table ************************** */
+.NEWfullRecord .NEWnavBar {
+	margin-top: 0px;
+}
+.FRbackLink {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+.FR_rec_num {
+	PADDING-RIGHT: 10px;
+	PADDING-LEFT: 10px;
+	font-size: 13px;
+	COLOR: 4B4B4B;
+}
+.fr_product_row {
+	font-size: 12px;
+	color: #4F4F4F;
+	text-align: right;
+}
+.fr_product_row .RegMark {
+	font-family: Arial, Helvetica, sans-serif;
+	vertical-align: top;
+	padding-left: 1px;
+	font-size: 16px;
+}
+.fr_product_row .TMMark {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	vertical-align: top;
+}
+/* Links Table ************************** */
+.FR_links_table {
+	margin-bottom: 18px;
+}
+.formBoxesHoldings {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 1px solid #808080;
+	vertical-align: top;
+}
+/* Data Display ************************** */
+
+.FullRecTitle{
+	font-size: 20px;
+	PADDING-BOTTOM: 8px;
+	COLOR: #333333;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	padding-top: 2px;
+	margin: 0px;
+}
+.fr_data_row {
+	font-size: 13px;
+	PADDING-BOTTOM: 2px;
+	PADDING-TOP: 6px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
+	margin: 0px;
+}
+
+.fr_data_row2 {
+	font-size: 13px;
+	PADDING-BOTTOM: 2px;
+	PADDING-TOP: 6px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
+	margin: 0px;
+}
+.fr_data_row_td {
+	font-size: 13px;
+	PADDING-BOTTOM: 2px;
+	PADDING-TOP: 6px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
+	margin: 0px;
+}
+.fr_address_row {
+    color: #333333;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    margin: 0;
+}
+.fr_address_row2 {
+    color: #333333;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    margin: 0;
+}
+.block-record-info table td.fr_address_row2_icon {
+    max-width: 10px;
+    padding: 9px 4px 4px 1px;
+    width: 10px;
+}
+/* ***** Next style added/updated to fix Address links (the "id" one is specifically for CCC which doesn't have table rows for the addreses.) */
+.fr_address_row2 a:hover, .fr_address_row2 a, a[id^="address"], a[id^="address"]:hover {
+	color: #333333;
+	text-decoration:none;
+	cursor: text;
+}
+
+.letwrap {
+	width: 520px;
+	white-space: pre;           /* CSS 2.0 */
+	white-space: pre-wrap;      /* CSS 2.1 */
+	white-space: pre-line;      /* CSS 3.0 */
+	white-space: -pre-wrap;     /* Opera 4-6 */
+	white-space: -o-pre-wrap;   /* Opera 7 */
+	white-space: -moz-pre-wrap; /* Mozilla */
+	white-space: -hp-pre-wrap;  /* HP Printers */
+	word-wrap: break-word;      /* IE 5+ */
+}
+.fr_data_row A:link, .fr_data_row A:active, .fr_data_row A:visited, .fr_data_row A:hover {
+	COLOR: #005A84; TEXT-DECORATION: none; font-weight: normal;
+}
+.fr_data_row A:link, .fr_data_row A:active, .fr_data_row A:visited, .fr_data_row A:hover {
+	COLOR: #005A84; TEXT-DECORATION: none; font-weight: normal;
+}
+.fr_data_row A:hover {
+	TEXT-DECORATION: underline; 
+}
+
+.fr_data_row2 A:link, .fr_data_row2 A:active, .fr_data_row2 A:visited, .fr_data_row2 A:hover {
+	COLOR: #005A84; TEXT-DECORATION: none; font-weight: normal;
+}
+.fr_data_row2 A:hover {
+	TEXT-DECORATION: underline; 
+}
+
+.fr_data_row_td A:link, .fr_data_row_td A:active, .fr_data_row_td A:visited, .fr_data_row_td A:hover {
+	COLOR: #005A84; TEXT-DECORATION: none; font-weight: normal;
+}
+.fr_data_row_td A:hover {
+	TEXT-DECORATION: underline; 
+}
+.FR_label {
+	font-weight: bold;
+	padding-right: 4px;
+}
+.FR_source_label {
+	font-weight: bold;
+	padding-left: 5px;
+}
+/* JJN: New style for EPAM design */
+.FR_label {
+	margin: 0px;
+}
+/* JJN: New style for EPAM design */
+.FR_field {
+	line-height: 22px;
+	margin: 0px;
+	margin-bottom: 2px;
+}
+
+
+/* FR Data Tables ************************** */
+.fr_dataTable {
+	border: 1px solid #CCCCCC;
+}
+.fr_dataTable_head {
+	font-size: 13px;
+	COLOR: #333333;
+	font-weight: bold;
+	padding: 4px;
+	background-color: #EEEEEE;
+	border: 1px solid #CCCCCC;
+	text-align: left;	
+}
+.fr_dataTable_head2 {
+	font-size: 13px;
+	COLOR: #333333;
+	font-weight: bold;
+	padding: 4px;
+	background-color: #EEEEEE;
+	border: 1px solid #CCCCCC;
+	text-align: left;	
+}
+.fr_dataTable_hilite {
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #F9F9F9;
+	padding-top: 2px;
+	padding-right: 4px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+}
+.fr_dataTable_row {
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 2px;
+	padding-right: 4px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	border: 1px solid #CCCCCC;
+	color: #333333;
+}
+.fr_dataTable_row2 {
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 2px;
+	padding-right: 4px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	border: 1px solid #CCCCCC;
+	color: #333333;
+}
+.fr_showFunding {
+	font-size: 13px;
+	PADDING-BOTTOM: 4px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #4B4B4B;
+	margin: 0px;
+	padding-left: 5px;
+}
+/* Full Record Sidebar ************************** */
+.NEWFRsidebar {
+	PADDING-RIGHT: 10px;
+	PADDING-LEFT: 15px;
+	PADDING-BOTTOM: 0px;
+	PADDING-TOP: 1px;
+	BACKGROUND-COLOR: #DFEFF7;
+}
+
+
+.FRrightColumn H2 {
+	margin-top: 15px;
+	margin-bottom: 0px;
+	font-size: 13px;
+	font-weight: bold;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999999;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	color: #333333;
+}
+
+.NEWFRside_instr {
+	color: #333333;
+	font-style: normal;
+	font-weight: normal;
+	padding-top: 3px;
+	font-size: 12px;
+	padding-left: 1px;
+	margin: 0px;
+}
+.NEWFRside_hits {
+	color: #000000;
+	font-style: italic;
+	font-weight: normal;
+	padding-top: 6px;
+	font-size: 13px;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+.NEWFRside_Correction {
+	font-size: 13px;
+	TEXT-ALIGN: left;
+	padding-top: 3px;
+	padding-bottom: 4px;
+	margin: 0px;
+}
+.NEWFRside_View {
+	font-size: 13px;
+	font-weight: bold;
+	color: #333333;
+	padding-top: 6px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	padding-left: 1px;
+	margin: 0px;
+}
+.NEWFRside_rec {
+	padding-top: 7px;
+	padding-bottom: 3px;
+	color: #333333;
+	font-size: 13px;
+	margin: 0px;
+	word-break: break-word;
+}
+.NEWFRsidebar UL {
+	MARGIN-TOP: 0px; PADDING-LEFT: 0px; MARGIN-BOTTOM: 0px; MARGIN-LEFT: 20px
+}
+.NEWFRsidebar LI {
+	padding-bottom: 1px;
+	font-size: 13px;
+	color: #333333;
+}
+.NEWFRsidebar A:link, .NEWFRsidebar A:active, .NEWFRsidebar A:visited, .NEWFRsidebar A:hover {
+	COLOR: #005A84; TEXT-DECORATION: none;
+}
+.NEWFRsidebar A:hover {
+	TEXT-DECORATION: underline
+}
+/* Full Record Address Highlight Color (for superscript number click) */
+.hiliteTarget {
+	background-color: #FF6;
+	font-weight: bold;
+}
+.inWoS {
+	font-size: 13px;
+	font-weight: normal;
+	font-style: normal;
+	padding-left: 8px;
+	color: #4F4F4F;
+	text-align: right;
+}
+/* ********************   END : FULL RECORD  (cleaned up)************************* */
+.viewAbsLinks {
+	font-size: 13px;
+	color: #999999;
+	background-color: #F2F2F2;
+	padding: 3px;
+	text-align: right;
+	margin: 0px;
+}
+/* ***** Next style added to fix Address links *****
+a[name]:hover, a[id]:hover {
+	color:black; text-decoration:none
+} 
+JJN: I fixed this another way... using .fr_address_row2 a:hover, .fr_address_row2 a style  
+*/
+
+
+.relatedRecordsLink {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.relatedRecordsLink A:link, .relatedRecordsLink A:active, .relatedRecordsLink A:visited, .relatedRecordsLink A:hover {
+	COLOR: #005A84; TEXT-DECORATION: none; 
+}
+
+.relatedRecordsLink A:hover {
+	TEXT-DECORATION: underline; 
+}
+.h_L1, .h_L2, .h_L3, .h_L4, .h_L5, .h_L6, .h_L7, .h_L8, .h_L9, .h_L10, .h_L11 {
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 13px;
+}
+
+/* New Author Search Styles */
+.NEWricon {
+	vertical-align:bottom;
+}
+.FRauthorString {
+	white-space:nowrap;
+}
+/*cw cel message box*/
+.TopBoxCEL {
+	background-color: #DFEFF7;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	padding-top: 4px;
+	padding-right: 6px;
+	padding-bottom: 4px;
+	padding-left: 6px;
+	border: 1px dashed #333333;
+}
+/*cw cel message box text*/
+.TopBoxCELtext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+
+/* Chem Styles  for displaying Compounds and Reactions tables */
+.CHEMresultsTableFR {
+	margin-bottom: 7px;
+	margin-top: 9px;
+	border-top: 1px solid #cccccc; /* JJN updated */
+	padding: 20px; /* JJN updated */
+}
+
+.CHEMnavtext {
+	PADDING-RIGHT: 5px;
+	PADDING-LEFT: 5px;
+	font-size: 14px;
+	TEXT-ALIGN: left;
+	font-weight: bold;
+}
+
+.CHEMcompName {
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 3px;
+}
+.CHEMsummDesc {
+	font-size: 14px;
+	text-align: left;
+	padding-left: 23px;
+}
+.CHEMdothorz {
+	margin-top: .5px;
+	margin-bottom: 0.5px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCC;
+	margin-left: 0px;
+}
+.CHEMmlButtons {
+	margin-left: 11px;
+	margin-bottom: 10px;
+}
+.CHEMsummLinks {
+	padding-right: 3px;
+	padding-left: 5px;
+	text-align: left;
+	/* background-color: #FFFFFF; JJN Removed */
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-left: 8px;
+}
+/* JJN added next 2 for 5.13 */
+.CHEMsummLinks TD {padding-left: 5px; padding-right: 5px;}
+.CHEMsummLinks TD.dotvert {padding: 0px; }
+
+.CHEMsummImg {
+	background-color: #FFFFFF;
+	padding-top: 4px;
+	padding-right: 7px;
+	padding-bottom: 7px;
+	padding-left: 7px;
+	text-align: center;
+}
+
+.CHEMsummName {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #FFFFFF;
+	padding-bottom: 7px;
+	padding-right: 7px;
+	padding-left: 7px;
+}
+
+.CHEMsummImg applet { border: 1px #333333 solid; }
+
+.Chrome_head{font-weight:bold;
+	text-align:center;}
+div.ChromePop a {
+	color:#005a84;
+	margin-top:5px!important
+}
+.ChromeHelp_link {
+	padding-top:10px;
+	text-align:center
+}
+.tip_close a {
+	padding-left:10px
+}
+.Chrome_text {
+	clear:both;
+	padding-top:15px;
+	padding-left:10px;
+	line-height:125%
+}
+.Chrome_label {
+	clear:both;
+	padding-top:5px;
+	padding-left:0;
+	line-height:125%
+}
+div.Chrome{position:relative}
+.alum_Chrome{font-weight:bold}
+div.ChromePop {
+	display:none;
+	position:relative;
+	top:0;
+	left:0;
+	width:200px;
+	height:100px;
+-------line-height:20px;
+	padding:10px;
+	font-size:12px;
+	font-weight:normal;
+--------color:#fff;
+	background:#f8f8f8!important;
+	border:1px solid #CCC!important;
+	border-radius:0;
+	text-shadow:rgba(0, 0, 0, 0.1) 1px 1px 1px;
+	box-shadow:rgba(0, 0, 0, 0.3) 5px 5px 5px;
+	font-family:Arial, Helvetica, sans-serif;
+ssssssss font-weight:bold;
+	z-index:10001
+}
