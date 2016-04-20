@@ -1,8 +1,14 @@
 # -*- coding: utf-8 -*-
+
 import csv
+
 import bibtexparser
 from bibtexparser.bparser import BibTexParser
 from bibtexparser.customization import homogeneize_latex_encoding
+
+import os
+from RISparser import readris
+from pprint import pprint
 
 
 def read_acm():
@@ -12,9 +18,11 @@ def read_acm():
 		for row in reader:
 			author = row["author"]
 			title = row["title"]
-			source = row["id"]
+			source = "ACM"
+			url = "http://dl.acm.org/citation.cfm?id=" + row["id"] + "&preflayout=flat"
 			abstract = row["abstract"]
-			new_row = [author, title, source, abstract]
+			new_row = [author, title, source, url, abstract]
+			new_rows.append(new_row)
 			print new_row
 			print "\n\n"
 
@@ -27,29 +35,59 @@ def read_springer():
 		for row in reader:
 			author = row["Authors"]
 			title = row["Item Title"]
-			source = row["URL"]
+			source = "Springer"
+			url = row["URL"]
 			abstract = row["Abstract"]
-			new_row = [author, title, source, abstract]
+			new_row = [author, title, source, url, abstract]
+			new_rows.append(new_row)
 			print new_row
 			print "\n\n"
 
-# read_springer()
 
 def read_wiley():
 	with open('wiley-search-results-all.bib') as bibtex_file:
-		parser = BibTexParser()
-		parser.customization = homogeneize_latex_encoding
-		bib_database = bibtexparser.load(bibtex_file, parser=parser)
+	
+		bib_database = bibtexparser.load(bibtex_file)
 		new_rows = []
 		# print bib_database.entries
 		for entry in bib_database.entries:
-			# author = entry["author"]
-			# title = entry["title"]
-			# source = entry["url"]
-			# abstract = entry["abstract"]
-			# new_row = [author, title, "source", abstract]
-			# print new_row
-			# print "\n\n"
-			print entry
+			if "author" in entry.keys():
+				author = entry["author"].encode("utf-8")
+				title = entry["title"].encode("utf-8")
+				source = "Wiley"
+				abstract = entry["abstract"].encode("utf-8")
+				if "url" in entry.keys():
+					url = entry["url"].encode("utf-8")
+				else:
+					url = ""
+				new_row = [author, title, source, url, abstract]
+				new_rows.append(new_row)
+				print new_row
+				print "\n\n"
 
+
+
+def read_taylor():
+	new_rows = []
+	archivos = os.listdir("Taylor")
+	# archivos = ["results_1-50.csv"]
+	for archivo in archivos:
+		with open('Taylor/' + archivo) as csvfile:
+			reader = csv.DictReader(csvfile)
+			# new_rows = []
+			for row in reader:
+				author = row["Author"]
+				title = row["Title"]
+				source = "Taylor"
+				url = row["URL"]
+				abstract = row["Abstract"]
+				new_row = [author, title, source, url, abstract]
+				new_rows.append(new_row)
+				print new_row
+				print "\n\n"
+
+
+# read_acm()
+# read_springer()
 read_wiley()
+# read_taylor()
