@@ -26,8 +26,9 @@ def read_acm():
 			abstract = row["abstract"]
 			new_row = [author, title, source, url, abstract]
 			new_rows.append(new_row)
-			print new_row
-			print "\n\n"
+			# print new_row
+			# print "\n\n"
+	return new_rows
 
 
 
@@ -43,16 +44,15 @@ def read_springer():
 			abstract = row["Abstract"]
 			new_row = [author, title, source, url, abstract]
 			new_rows.append(new_row)
-			print new_row
-			print "\n\n"
-
+			# print new_row
+			# print "\n\n"
+	return new_rows
 
 def read_wiley():
 	with open('wiley-search-results-all.bib') as bibtex_file:
 	
 		bib_database = bibtexparser.load(bibtex_file)
 		new_rows = []
-		# print bib_database.entries
 		for entry in bib_database.entries:
 			if "author" in entry.keys():
 				author = entry["author"].encode("utf-8")
@@ -62,12 +62,12 @@ def read_wiley():
 				if "url" in entry.keys():
 					url = entry["url"].encode("utf-8")
 				else:
-					url = ""
+					url = "---NO URL FOUND---"
 				new_row = [author, title, source, url, abstract]
 				new_rows.append(new_row)
-				print new_row
-				print "\n\n"
-
+				# print new_row
+				# print "\n\n"
+	return new_rows
 
 
 def read_taylor():
@@ -77,7 +77,6 @@ def read_taylor():
 	for archivo in archivos:
 		with open('Taylor/' + archivo) as csvfile:
 			reader = csv.DictReader(csvfile)
-			# new_rows = []
 			for row in reader:
 				author = row["Author"]
 				title = row["Title"]
@@ -86,26 +85,18 @@ def read_taylor():
 				abstract = row["Abstract"]
 				new_row = [author, title, source, url, abstract]
 				new_rows.append(new_row)
-				print new_row
-				print "\n\n"
-
+				# print new_row
+				# print "\n\n"
+	return new_rows
 
 def read_wos():
 	new_rows = []
-	# files = ["results_1-50", "results_51-100", "results_101-150", "results_151-200", "results_201-250", "results_251-300", "results_301-315"]
-	files = ["results_1-50"]
+	files = ["results_1-50", "results_51-100", "results_101-150", "results_151-200", "results_201-250", "results_251-300", "results_301-315"]
+	# files = ["results_1-50"]
 
 	for file in files:
 		html =  BeautifulSoup(open("Web_of_Science/" + file), "lxml")
-		# Pasamos el contenido HTML de la web a un objeto BeautifulSoup()
-		# html = BeautifulSoup("SAGE_final_results.htm", 'lxml')
-		# Obtenemos todos los divs donde estan las entradas
-		# texto = html.getText()
-		# lineas = texto.split("Record")
-		# for linea in lineas:
-		# 	print linea.encode("utf-8")
-		# 	print "-------------------------------------------------------"
-		# print len(lineas)
+
 		entradas = html.find_all('table')
 		for entrada in entradas:
 			band = 0
@@ -117,33 +108,96 @@ def read_wos():
 					if titulo_campo.string == "Title:":
 						title = campo.getText().replace("Title:", "").replace("\n", "")
 						band = band + 1
-						# print "TITLE= " + title
 					if titulo_campo.string == "By:":
 						authors = campo.getText().replace("By:", "").replace("\n", "")
 						band =  band + 1
-						# print "AUTHORS= " + authors
 					if titulo_campo.string == "Abstract:":
 						abstract = campo.getText().replace("Abstract:", "").replace("\n", "")
 						band = band + 1
-						# print "ABSTRACT= " + abstract
 					
-
-					# print title
-					# print authors
-					# print abstract
 			if band == 3:
-				url = "No se como poner el de Web_of_Science"
+				url = "--NO URL FOUND--"
 				source = "Web_of_Science"
-				print "TITLE= " + title
-				print "AUTHORS= " + authors
-				print "ABSTRACT= " + abstract
+				# print "TITLE= " + title
+				# print "AUTHORS= " + authors
+				# print "ABSTRACT= " + abstract
 				new_rows.append([title, authors, source, url, abstract])
-			print "-------------------------------------------------------------------------------------"
+			# print "-------------------------------------------------------------------------------------"
+	return new_rows
 
-		
+
+def read_ieee():
+	with open('IEEE-unique_results.csv') as csvfile:
+		reader = csv.DictReader(csvfile)
+		new_rows = []
+		for row in reader:
+			author = "--sin autores--"
+			title = row["DocumentTitle"]
+			source = "IEEE"
+			url = row["PDF_Link"]
+			abstract = row["Abstract"]
+			new_row = [author, title, source, url, abstract]
+			new_rows.append(new_row)
+			# print new_row
+			# print "\n\n"
+	return new_rows
+
+def read_emerald():
+	with open('emeraldResults.csv') as csvfile:
+		reader = csv.DictReader(csvfile)
+		new_rows = []
+		for row in reader:
+			author = row['Author']
+			title = row["Title"]
+			source = "Emerald"
+			url = row["URL"]
+			abstract = row["Abstract"]
+			new_row = [author, title, source, url, abstract]
+			new_rows.append(new_row)
+			# print new_row
+			# print "\n\n"
+	return new_rows
+
+def read_sage():
+	html =  BeautifulSoup(open("SAGE_final_results.htm"), "lxml")
+	new_rows = []
+	entradas = html.find_all('li',{'class':'marked-citation-results-cit',})
+	for entrada in entradas:
+		title = entrada.find('span',{'class':'cit-title',}).getText()
+
+		autores_item = entrada.find_all('span',{'class':'cit-auth cit-auth-type-author',})
+		autores_texto = []
+		for autor in autores_item:
+			autores_texto.append(autor.getText())
+		authors = ", ".join(autores_texto)
+		source = "Sage"
+		url = entrada.find('ul',{'class':'cit-views',}).find('li',{'class':'first-item',}).find('a')["href"]
+		try:
+			abstract = entrada.find('div',{'class':'section abstract',}).find('p').getText().replace("\n", "")
+		except:
+			abstract = "NO ABSTRACT FOUND"
+			# print title
+			# print '\n'
+		new_row = [authors, title, source, url, abstract]
+		new_rows.append(new_row)
+		# print new_row
+	return new_rows
+
+
+def unir_results ():
+	# cada elemento de 'results' es una lista con los siguientes elementos 0:autores, 1:titulo, 2:fuente, 3:url, 4:abstract
+	# estoy sumando de a uno nomas porque algunos necesitan se encodeados a unicode y aun no se cual
+	results = read_acm() #+ read_springer()+ read_wiley() + read_taylor() + read_wos() + read_ieee() + read_emerald() + read_sage()
+
+	#aca deberia escribirse el excel
+
 
 # read_acm()
 # read_springer()
 # read_wiley()
 # read_taylor()
-read_wos()
+# read_wos()
+# read_ieee()
+# read_emerald()
+# read_sage()
+unir_results()
