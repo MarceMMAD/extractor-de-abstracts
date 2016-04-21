@@ -7,7 +7,7 @@ from bibtexparser.bparser import BibTexParser
 from bibtexparser.customization import homogeneize_latex_encoding
 
 import os
-from RISparser import readris
+# from RISparser import readris
 from pprint import pprint
 
 
