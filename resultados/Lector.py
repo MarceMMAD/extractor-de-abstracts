@@ -59,8 +59,8 @@ def read_wiley():
 				title = entry["title"].encode("utf-8")
 				source = "Wiley"
 				abstract = entry["abstract"].encode("utf-8")
-				if "url" in entry.keys():
-					url = entry["url"].encode("utf-8")
+				if "link" in entry.keys():
+					url = entry["link"].encode("utf-8")
 				else:
 					url = "---NO URL FOUND---"
 				new_row = [author, title, source, url, abstract]
@@ -183,6 +183,77 @@ def read_sage():
 		# print new_row
 	return new_rows
 
+def read_elsevier_p2():
+	with open('elsevier_parte2.bib') as bibtex_file:
+	
+		bib_database = bibtexparser.load(bibtex_file)
+		new_rows = []
+		for entry in bib_database.entries:
+			if "author" in entry.keys():
+				author = entry["author"].encode("utf-8")
+				title = entry["title"].encode("utf-8")
+				source = "Elsevier"
+				abstract = entry["abstract"].encode("utf-8")
+				if "link" in entry.keys():
+					url = entry["link"].encode("utf-8")
+				else:
+					url = "---NO URL FOUND---"
+				new_row = [author, title, source, url, abstract]
+				new_rows.append(new_row)
+				print new_row
+				print "\n\n"
+	return new_rows
+
+def read_elsevier_p1():
+	new_rows = []
+	f_links = open("Elsevier_links.txt")
+	links = f_links.readlines()
+	f_links.close()
+	# links = ["http://www.sciencedirect.com/science/article/pii/S2095263515000709"]
+	for link in links:
+		print link
+		req = requests.get(link.encode("utf-8").replace("\n", ""))
+		statusCode = req.status_code
+		if statusCode == 200:
+
+			# Pasamos el contenido HTML de la web a un objeto BeautifulSoup()
+			html = BeautifulSoup(req.text, 'lxml')
+			# print(html.prettify())
+			f=open("nuevo.html", "w")
+			f.write(str(html))
+			f.close
+
+			html =  BeautifulSoup(open("nuevo.html"), "lxml")
+
+			title = html.find("h1", {"class" : "svTitle"}).getText()
+			authors = html.find("ul", {"class" : "authorGroup noCollab svAuthor"}).getText()
+			source = "Elsevier"
+			url = link
+			try:
+				abstract = html.find("div", {"class" : "abstract svAbstract "}).getText()
+			except:
+				abstract = "--NO ABSTRACT FOUND--"
+
+			new_row = [authors, title, source, url, abstract]
+			new_rows.append(new_row)
+			print new_row
+			print "\n\n"
+
+		else:
+			print ("Status Code %d") %statusCode
+
+
+def write_html(entries):
+	print """<HTML><HEAD><TITLE>Prueba</TITLE></HEAD><BODY>"""
+	for entry in entries:
+		print "<br><h1>" + entry[1] + "</h1>"
+		print "<br><b>Autores: </b>" + entry[0]
+		print "<br><b>Fuente: </b>" + entry[2]
+		print '<br><b>URL: </b><a href="' + entry[3] + '">' + entry[3] +"</a>"
+		print "<br><b>Abstract: </b>" + entry[4]
+		print 
+
+	print """</BODY></HTML>"""
 
 def unir_results ():
 	# cada elemento de 'results' es una lista con los siguientes elementos 0:autores, 1:titulo, 2:fuente, 3:url, 4:abstract
@@ -200,4 +271,7 @@ def unir_results ():
 # read_ieee()
 # read_emerald()
 # read_sage()
+# read_elsevier_p2()
+# read_elsevier_p1()
+
 unir_results()
