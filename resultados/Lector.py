@@ -17,14 +17,14 @@ import xlrd
 import xlwt
 from xlwt import Workbook, easyxf
 
-import magic
+# import magic
 
 
-def detect_encoding(path):
-	blob = open(path).read()
-	m = magic.Magic(mime_encoding=True)
-	encoding = m.from_buffer(blob)
-	print path + " = " + encoding
+# def detect_encoding(path):
+# 	blob = open(path).read()
+# 	m = magic.Magic(mime_encoding=True)
+# 	encoding = m.from_buffer(blob)
+# 	print path + " = " + encoding
 
 
 def read_acm():
@@ -123,7 +123,7 @@ def read_wos():
 	# files = ["results_1-50"]
 
 	for file in files:
-		html =  BeautifulSoup(open("Web_of_Science/" + file), "lxml")
+		html =  BeautifulSoup(open("Web_of_Science/" + file), "html.parser")
 
 		entradas = html.find_all('table')
 		for entrada in entradas:
@@ -149,7 +149,7 @@ def read_wos():
 				# print "TITLE= " + title
 				# print "AUTHORS= " + authors
 				# print "ABSTRACT= " + abstract
-				new_rows.append([title.encode("utf-8"), authors.encode("utf-8"), source, url, abstract.encode("utf-8")])
+				new_rows.append([authors.encode("utf-8"), title.encode("utf-8"), source, url, abstract.encode("utf-8")])
 			# print "-------------------------------------------------------------------------------------"
 	return new_rows
 
@@ -187,7 +187,7 @@ def read_emerald():
 	return new_rows
 
 def read_sage():
-	html =  BeautifulSoup(open("SAGE_final_results.htm"), "lxml")
+	html =  BeautifulSoup(open("SAGE_final_results.htm"), "html.parser")
 	new_rows = []
 	entradas = html.find_all('li',{'class':'marked-citation-results-cit',})
 	for entrada in entradas:
@@ -245,13 +245,13 @@ def read_elsevier_p1():
 		if statusCode == 200:
 
 			# Pasamos el contenido HTML de la web a un objeto BeautifulSoup()
-			html = BeautifulSoup(req.text, 'lxml')
+			html = BeautifulSoup(req.text, 'html.parser')
 			# print(html.prettify())
 			f=open("nuevo.html", "w")
 			f.write(str(html))
 			f.close
 
-			html =  BeautifulSoup(open("nuevo.html"), "lxml")
+			html =  BeautifulSoup(open("nuevo.html"), "html.parser")
 
 			title = html.find("h1", {"class" : "svTitle"}).getText()
 			authors = html.find("ul", {"class" : "authorGroup noCollab svAuthor"}).getText()
@@ -293,7 +293,7 @@ def write_html(entries):
 def unir_results ():
 	# cada elemento de 'results' es una lista con los siguientes elementos 0:autores, 1:titulo, 2:fuente, 3:url, 4:abstract
 	# estoy sumando de a uno nomas porque algunos necesitan se encodeados a unicode y aun no se cual
-	results = read_acm() + read_wiley() + read_taylor() + read_wos() + read_ieee() + read_emerald() + read_sage()
+	results = read_acm() + read_springer() + read_wiley() + read_taylor() + read_wos() + read_ieee() + read_emerald() + read_sage()
 	#print (results[0][0])
 	#aca deberia escribirse el excel
 
@@ -318,7 +318,7 @@ def unir_results ():
 		sheet.write(i,4,result[4])
 		i = i + 1
 
-	workbook.save('unificado.xls')
+	workbook.save('unificado2.xls')
 	write_html(results)
 
 
@@ -336,4 +336,4 @@ def unir_results ():
 # read_elsevier_p2()
 # read_elsevier_p1()
 
-# unir_results()
+unir_results()
