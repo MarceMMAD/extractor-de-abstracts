@@ -13,6 +13,10 @@ import os
 # from RISparser import readris
 from pprint import pprint
 
+import xlrd
+import xlwt
+from xlwt import Workbook, easyxf
+
 
 def read_acm():
 	with open('acm_final.csv') as csvfile:
@@ -187,9 +191,33 @@ def read_sage():
 def unir_results ():
 	# cada elemento de 'results' es una lista con los siguientes elementos 0:autores, 1:titulo, 2:fuente, 3:url, 4:abstract
 	# estoy sumando de a uno nomas porque algunos necesitan se encodeados a unicode y aun no se cual
-	results = read_acm() #+ read_springer()+ read_wiley() + read_taylor() + read_wos() + read_ieee() + read_emerald() + read_sage()
-
+	results = read_acm() + read_springer() #+ read_wiley() + read_taylor() + read_wos() + read_ieee() + read_emerald() + read_sage()
+	#print (results[0][0])
 	#aca deberia escribirse el excel
+
+	# Creamos un nuevo archivo xls
+	workbook = xlwt.Workbook(encoding='utf-8')
+	# Creamos una hoja
+	sheet = workbook.add_sheet('Sheet_1')
+	# Cargamos la cabecera
+	sheet.write(0,0,"Autor/es",easyxf('font: bold true;'))
+	sheet.write(0,1,"Título",easyxf('font: bold true;'))
+	sheet.write(0,2,"Fuente",easyxf('font: bold true;'))
+	sheet.write(0,3,"URL",easyxf('font: bold true;'))
+	sheet.write(0,4,"Abstract",easyxf('font: bold true;'))
+
+	# Escribimos los resultados de ACM
+	i = 1
+	for result in results:
+		sheet.write(i,0,result[0])
+		sheet.write(i,1,result[1])
+		sheet.write(i,2,result[2])
+		sheet.write(i,3,result[3])
+		sheet.write(i,4,result[4])
+		i = i + 1
+
+	workbook.save('unificado.xls')
+
 
 
 # read_acm()
