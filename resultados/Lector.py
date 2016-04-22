@@ -17,6 +17,15 @@ import xlrd
 import xlwt
 from xlwt import Workbook, easyxf
 
+import magic
+
+
+def detect_encoding(path):
+	blob = open(path).read()
+	m = magic.Magic(mime_encoding=True)
+	encoding = m.from_buffer(blob)
+	print path + " = " + encoding
+
 
 def read_acm():
 	# with open('acm_final.csv') as csvfile:
@@ -36,13 +45,13 @@ def read_acm():
 	book = xlrd.open_workbook("acm_final.xls")
 	sheet = book.sheet_by_index(0)
 	new_rows = []
-	for row_idx in range(0, sheet.nrows):
+	for row_idx in range(1, sheet.nrows):
  		author = sheet.cell(row_idx,2).value
 		title = sheet.cell(row_idx,6).value
 		source = "ACM"
 		url = "http://dl.acm.org/citation.cfm?id=" + str(sheet.cell(row_idx,1).value) + "&preflayout=flat"
 		abstract = sheet.cell(row_idx,27).value
-		new_row = [author, title, source, url, abstract]
+		new_row = [author.encode("utf-8"), title.encode("utf-8"), source, url, abstract.encode("utf-8")]
 		new_rows.append(new_row)
 		# print new_row
 		# print "\n\n"
@@ -51,6 +60,7 @@ def read_acm():
 
 
 def read_springer():
+	
 	with open('Springer_results.csv') as csvfile:
 		reader = csv.DictReader(csvfile)
 		new_rows = []
@@ -139,7 +149,7 @@ def read_wos():
 				# print "TITLE= " + title
 				# print "AUTHORS= " + authors
 				# print "ABSTRACT= " + abstract
-				new_rows.append([title, authors, source, url, abstract])
+				new_rows.append([title.encode("utf-8"), authors.encode("utf-8"), source, url, abstract.encode("utf-8")])
 			# print "-------------------------------------------------------------------------------------"
 	return new_rows
 
@@ -181,17 +191,17 @@ def read_sage():
 	new_rows = []
 	entradas = html.find_all('li',{'class':'marked-citation-results-cit',})
 	for entrada in entradas:
-		title = entrada.find('span',{'class':'cit-title',}).getText()
+		title = entrada.find('span',{'class':'cit-title',}).getText().encode("utf-8")
 
 		autores_item = entrada.find_all('span',{'class':'cit-auth cit-auth-type-author',})
 		autores_texto = []
 		for autor in autores_item:
 			autores_texto.append(autor.getText())
-		authors = ", ".join(autores_texto)
+		authors = ", ".join(autores_texto).encode("utf-8")
 		source = "Sage"
-		url = entrada.find('ul',{'class':'cit-views',}).find('li',{'class':'first-item',}).find('a')["href"]
+		url = entrada.find('ul',{'class':'cit-views',}).find('li',{'class':'first-item',}).find('a')["href"].encode("utf-8")
 		try:
-			abstract = entrada.find('div',{'class':'section abstract',}).find('p').getText().replace("\n", "")
+			abstract = entrada.find('div',{'class':'section abstract',}).find('p').getText().replace("\n", "").encode("utf-8")
 		except:
 			abstract = "NO ABSTRACT FOUND"
 			# print title
@@ -262,21 +272,28 @@ def read_elsevier_p1():
 
 
 def write_html(entries):
-	print """<HTML><HEAD><TITLE>Prueba</TITLE></HEAD><BODY>"""
+	f = open("nuevo.html", "w")
+	f.write( """<!DOCTYPE html><HTML lang="en"><HEAD><meta charset="utf-8"/><TITLE>Prueba</TITLE></HEAD><BODY>""")
 	for entry in entries:
-		print "<br><h1>" + entry[1] + "</h1>"
-		print "<br><b>Autores: </b>" + entry[0]
-		print "<br><b>Fuente: </b>" + entry[2]
-		print '<br><b>URL: </b><a href="' + entry[3] + '">' + entry[3] +"</a>"
-		print "<br><b>Abstract: </b>" + entry[4]
-		print 
+		# try:
+		# 	title = entry[1].encode("utf-8")
+		# except:
+		# 	title = entry[1]
+		# try:
 
-	print """</BODY></HTML>"""
+
+		f.write( "<br><h1>" + entry[1] + "</h1>")
+		f.write( "<br><b>Autores: </b>" + entry[0])
+		f.write( "<br><b>Fuente: </b>" + entry[2])
+		f.write( '<br><b>URL: </b><a href="' + entry[3] + '">' + entry[3] +"</a>")
+		f.write( "<br><b>Abstract: </b>" + entry[4])
+
+	f.write( """</BODY></HTML>""")
 
 def unir_results ():
 	# cada elemento de 'results' es una lista con los siguientes elementos 0:autores, 1:titulo, 2:fuente, 3:url, 4:abstract
 	# estoy sumando de a uno nomas porque algunos necesitan se encodeados a unicode y aun no se cual
-	results = read_acm() #+ read_springer() + read_wiley() + read_taylor() + read_wos() + read_ieee() + read_emerald() + read_sage()
+	results = read_acm() + read_wiley() + read_taylor() + read_wos() + read_ieee() + read_emerald() + read_sage()
 	#print (results[0][0])
 	#aca deberia escribirse el excel
 
@@ -302,18 +319,21 @@ def unir_results ():
 		i = i + 1
 
 	workbook.save('unificado.xls')
+	write_html(results)
 
 
 
-# read_acm()
-# read_springer()
-# read_wiley()
-# read_taylor()
-# read_wos()
-# read_ieee()
-# read_emerald()
-# read_sage()
+## los que tienen caracteres raros son taylo y emerald
+
+# print read_acm()
+# print read_springer()
+# print read_wiley()
+# print read_taylor()
+# print read_wos()
+# print read_ieee()
+# print read_emerald()
+# print read_sage()
 # read_elsevier_p2()
 # read_elsevier_p1()
 
-unir_results()
+# unir_results()
