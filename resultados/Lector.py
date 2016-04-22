@@ -19,19 +19,33 @@ from xlwt import Workbook, easyxf
 
 
 def read_acm():
-	with open('acm_final.csv') as csvfile:
-		reader = csv.DictReader(csvfile)
-		new_rows = []
-		for row in reader:
-			author = row["author"]
-			title = row["title"]
-			source = "ACM"
-			url = "http://dl.acm.org/citation.cfm?id=" + row["id"] + "&preflayout=flat"
-			abstract = row["abstract"]
-			new_row = [author, title, source, url, abstract]
-			new_rows.append(new_row)
-			# print new_row
-			# print "\n\n"
+	# with open('acm_final.csv') as csvfile:
+	# 	reader = csv.DictReader(csvfile)
+	# 	new_rows = []
+	# 	for row in reader:
+	# 		author = row["author"]
+	# 		title = row["title"]
+	# 		source = "ACM"
+	# 		url = "http://dl.acm.org/citation.cfm?id=" + row["id"] + "&preflayout=flat"
+	# 		abstract = row["abstract"]
+	# 		new_row = [author, title, source, url, abstract]
+	# 		new_rows.append(new_row)
+	# 		# print new_row
+	# 		# print "\n\n"
+	# return new_rows
+	book = xlrd.open_workbook("acm_final.xls")
+	sheet = book.sheet_by_index(0)
+	new_rows = []
+	for row_idx in range(0, sheet.nrows):
+ 		author = sheet.cell(row_idx,2).value
+		title = sheet.cell(row_idx,6).value
+		source = "ACM"
+		url = "http://dl.acm.org/citation.cfm?id=" + str(sheet.cell(row_idx,1).value) + "&preflayout=flat"
+		abstract = sheet.cell(row_idx,27).value
+		new_row = [author, title, source, url, abstract]
+		new_rows.append(new_row)
+		# print new_row
+		# print "\n\n"
 	return new_rows
 
 
@@ -262,7 +276,7 @@ def write_html(entries):
 def unir_results ():
 	# cada elemento de 'results' es una lista con los siguientes elementos 0:autores, 1:titulo, 2:fuente, 3:url, 4:abstract
 	# estoy sumando de a uno nomas porque algunos necesitan se encodeados a unicode y aun no se cual
-	results = read_acm() + read_springer() #+ read_wiley() + read_taylor() + read_wos() + read_ieee() + read_emerald() + read_sage()
+	results = read_acm() #+ read_springer() + read_wiley() + read_taylor() + read_wos() + read_ieee() + read_emerald() + read_sage()
 	#print (results[0][0])
 	#aca deberia escribirse el excel
 
