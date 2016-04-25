@@ -250,22 +250,24 @@ def read_elsevier_p1():
 			f=open("nuevo.html", "w")
 			f.write(str(html))
 			f.close
-
-			html =  BeautifulSoup(open("nuevo.html"), "html.parser")
-
-			title = html.find("h1", {"class" : "svTitle"}).getText()
-			authors = html.find("ul", {"class" : "authorGroup noCollab svAuthor"}).getText()
-			source = "Elsevier"
-			url = link
 			try:
-				abstract = html.find("div", {"class" : "abstract svAbstract "}).getText()
-			except:
-				abstract = "--NO ABSTRACT FOUND--"
+				html =  BeautifulSoup(open("nuevo.html"), "html.parser")
 
-			new_row = [authors, title, source, url, abstract]
-			new_rows.append(new_row)
-			print new_row
-			print "\n\n"
+				title = html.find("h1", {"class" : "svTitle"}).getText()
+				authors = html.find("ul", {"class" : "authorGroup noCollab svAuthor"}).getText()
+				source = "Elsevier"
+				url = link
+				try:
+					abstract = html.find("div", {"class" : "abstract svAbstract "}).getText()
+				except:
+					abstract = "--NO ABSTRACT FOUND--"
+
+				new_row = [authors, title, source, url, abstract]
+				new_rows.append(new_row)
+				print new_row
+				print "\n\n"
+			except:
+				print "Este no funca"
 
 		else:
 			print ("Status Code %d") %statusCode
@@ -334,6 +336,6 @@ def unir_results ():
 # print read_emerald()
 # print read_sage()
 # read_elsevier_p2()
-# read_elsevier_p1()
+read_elsevier_p1()
 
-unir_results()
+# unir_results()
