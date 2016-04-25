@@ -237,10 +237,11 @@ def read_elsevier_p1():
 	f_links = open("Elsevier_links.txt")
 	links = f_links.readlines()
 	f_links.close()
+	fallos = 0
 	# links = ["http://www.sciencedirect.com/science/article/pii/S2095263515000709"]
 	for link in links:
 		print link
-		req = requests.get(link.encode("utf-8").replace("\n", ""))
+		req = requests.get(link.encode("utf-8").replace("\n", ""), allow_redirects=False)
 		statusCode = req.status_code
 		if statusCode == 200:
 
@@ -251,14 +252,19 @@ def read_elsevier_p1():
 			f.write(str(html))
 			f.close
 			try:
-				html =  BeautifulSoup(open("nuevo.html"), "html.parser")
+				try:
+					html =  BeautifulSoup(open("nuevo.html"), "html.parser")
+				except:
+					fallos = fallos + 1
+					print fallos
+					print "\n Este tampoco funca"
 
-				title = html.find("h1", {"class" : "svTitle"}).getText()
-				authors = html.find("ul", {"class" : "authorGroup noCollab svAuthor"}).getText()
+				title = html.find("h1", {"class" : "svTitle"}).getText().encode("utf-8")
+				authors = html.find("ul", {"class" : "authorGroup noCollab svAuthor"}).getText().encode("utf-8")
 				source = "Elsevier"
 				url = link
 				try:
-					abstract = html.find("div", {"class" : "abstract svAbstract "}).getText()
+					abstract = html.find("div", {"class" : "abstract svAbstract "}).getText().encode("utf-8")
 				except:
 					abstract = "--NO ABSTRACT FOUND--"
 
@@ -267,10 +273,13 @@ def read_elsevier_p1():
 				print new_row
 				print "\n\n"
 			except:
-				print "Este no funca"
+				fallos = fallos + 1
+				print fallos 
+				print "\n Este no funca"
 
 		else:
 			print ("Status Code %d") %statusCode
+	return new_rows
 
 
 def write_html(entries):
@@ -295,7 +304,8 @@ def write_html(entries):
 def unir_results ():
 	# cada elemento de 'results' es una lista con los siguientes elementos 0:autores, 1:titulo, 2:fuente, 3:url, 4:abstract
 	# estoy sumando de a uno nomas porque algunos necesitan se encodeados a unicode y aun no se cual
-	results = read_acm() + read_springer() + read_wiley() + read_taylor() + read_wos() + read_ieee() + read_emerald() + read_sage()
+	# results = read_acm() + read_springer() + read_wiley() + read_taylor() + read_wos() + read_ieee() + read_emerald() + read_sage()
+	results = read_elsevier_p2() + read_elsevier_p1()
 	#print (results[0][0])
 	#aca deberia escribirse el excel
 
@@ -320,7 +330,7 @@ def unir_results ():
 		sheet.write(i,4,result[4])
 		i = i + 1
 
-	workbook.save('unificado2.xls')
+	workbook.save('unificado3.xls')
 	write_html(results)
 
 
@@ -336,6 +346,6 @@ def unir_results ():
 # print read_emerald()
 # print read_sage()
 # read_elsevier_p2()
-read_elsevier_p1()
+# read_elsevier_p1()
 
-# unir_results()
+unir_results()
